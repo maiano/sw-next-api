@@ -1,5 +1,5 @@
-import type { SpeciesFull } from "@/lib/types/bff";
 import { resolveEntity } from "@/lib/resolver";
+import type { SpeciesFull } from "@/lib/types/bff";
 import { filterDefined } from "@/lib/utils/filterDefined";
 
 export function getSpeciesFull(id: number | string): SpeciesFull | null {

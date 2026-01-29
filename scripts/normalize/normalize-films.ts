@@ -9,26 +9,6 @@ import { slugify } from "@/lib/utils/slugify";
 const RAW_DIR = path.join(process.cwd(), "src/data/raw");
 const OUT_DIR = path.join(process.cwd(), "src/data/normalized");
 
-type NamedResource = {
-  name?: string;
-  title?: string;
-  url: string;
-};
-
-function extractSlugMap(items: NamedResource[]): Map<string, string> {
-  const map = new Map<string, string>();
-
-  items.forEach((item) => {
-    const label = item.name ?? item.title;
-
-    if (!label) return;
-
-    map.set(item.url, slugify(label));
-  });
-
-  return map;
-}
-
 export function normalizeFilms() {
   const films = readJson<SwapiFilmRaw[]>(path.join(RAW_DIR, "films.json"));
 

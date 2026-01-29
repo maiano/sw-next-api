@@ -1,6 +1,6 @@
 import films from "@/data/normalized/films.json";
-import type { EntityId } from "@/lib/types/ids";
 import type { Film } from "@/lib/types/films";
+import type { EntityId } from "@/lib/types/ids";
 
 const list = films as Film[];
 

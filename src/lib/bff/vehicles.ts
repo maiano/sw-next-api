@@ -1,5 +1,5 @@
-import type { VehicleFull } from "@/lib/types/bff";
 import { resolveEntity } from "@/lib/resolver";
+import type { VehicleFull } from "@/lib/types/bff";
 import { filterDefined } from "@/lib/utils/filterDefined";
 
 export function getVehicleFull(id: number | string): VehicleFull | null {
