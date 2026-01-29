@@ -5,11 +5,11 @@ export {
   projectSpeciesMinimal,
   projectStarshipMinimal,
   projectVehicleMinimal,
-} from "./common";
+} from "./common.preview";
 
-export { projectFilmResponse } from "./film";
-export { projectPersonResponse } from "./person";
-export { projectPlanetResponse } from "./planet";
-export { projectSpeciesResponse } from "./species";
-export { projectStarshipResponse } from "./starship";
-export { projectVehicleResponse } from "./vehicle";
+export { projectFilmResponse } from "./film.preview";
+export { projectPersonResponse } from "./person.preview";
+export { projectPlanetResponse } from "./planet.preview";
+export { projectSpeciesResponse } from "./species.preview";
+export { projectStarshipResponse } from "./starship.preview";
+export { projectVehicleResponse } from "./vehicle.preview";

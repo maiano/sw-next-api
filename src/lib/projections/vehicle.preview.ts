@@ -2,7 +2,7 @@ import type { Film } from "@/lib/types/films";
 import type { Person } from "@/lib/types/people";
 import type { VehicleResponse } from "@/lib/types/responses";
 import type { Vehicle } from "@/lib/types/vehicles";
-import { projectFilmMinimal, projectPersonMinimal } from "./common";
+import { projectFilmMinimal, projectPersonMinimal } from "./common.preview";
 
 export function projectVehicleResponse(
   vehicle: Vehicle,

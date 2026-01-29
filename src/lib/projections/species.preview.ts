@@ -7,7 +7,7 @@ import {
   projectFilmMinimal,
   projectPersonMinimal,
   projectPlanetMinimal,
-} from "./common";
+} from "./common.preview";
 
 export function projectSpeciesResponse(
   species: Species,

@@ -2,7 +2,7 @@ import type { Film } from "@/lib/types/films";
 import type { Person } from "@/lib/types/people";
 import type { Planet } from "@/lib/types/planets";
 import type { PlanetResponse } from "@/lib/types/responses";
-import { projectFilmMinimal, projectPersonMinimal } from "./common";
+import { projectFilmMinimal, projectPersonMinimal } from "./common.preview";
 
 export function projectPlanetResponse(
   planet: Planet,

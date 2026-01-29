@@ -11,7 +11,7 @@ import {
   projectSpeciesMinimal,
   projectStarshipMinimal,
   projectVehicleMinimal,
-} from "./common";
+} from "./common.preview";
 
 export function projectFilmResponse(
   film: Film,

@@ -1,7 +1,7 @@
 import type { Film } from "@/lib/types/films";
 import type { StarshipResponse } from "@/lib/types/responses";
 import type { Starship } from "@/lib/types/starships";
-import { projectFilmMinimal } from "./common";
+import { projectFilmMinimal } from "./common.preview";
 
 export function projectStarshipResponse(
   starship: Starship,
