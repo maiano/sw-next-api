@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "cr90-corvette",
+    "name": "CR90 corvette",
+    "model": "CR90 corvette",
+    "manufacturer": [
+      "Corellian Engineering Corporation"
+    ],
+    "class": "corvette",
+    "cost_credits": 3500000,
+    "length_m": 150,
+    "crew": {
+      "min": 30,
+      "max": 165
+    },
+    "passengers": 600,
+    "cargo_capacity": 3000000,
+    "consumables_days": 365,
+    "hyperdrive_rating": 2,
+    "mglt": 60,
+    "films": [
+      "a-new-hope",
+      "return-of-the-jedi",
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "rebels"
+    }
+  },
+  {
+    "id": "star-destroyer",
+    "name": "Star Destroyer",
+    "model": "Imperial I-class Star Destroyer",
+    "manufacturer": [
+      "Kuat Drive Yards"
+    ],
+    "class": "Star Destroyer",
+    "cost_credits": 150000000,
+    "length_m": 1600,
+    "crew": {
+      "min": 47060,
+      "max": 47060
+    },
+    "passengers": null,
+    "cargo_capacity": 36000000,
+    "consumables_days": 730,
+    "hyperdrive_rating": 2,
+    "mglt": 60,
+    "films": [
+      "a-new-hope",
+      "the-empire-strikes-back",
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "empire"
+    }
+  },
+  {
+    "id": "sentinel-class-landing-craft",
+    "name": "Sentinel-class landing craft",
+    "model": "Sentinel-class landing craft",
+    "manufacturer": [
+      "Sienar Fleet Systems",
+      "Cygnus Spaceworks"
+    ],
+    "class": "landing craft",
+    "cost_credits": 240000,
+    "length_m": 38,
+    "crew": {
+      "min": 5,
+      "max": 5
+    },
+    "passengers": 75,
+    "cargo_capacity": 180000,
+    "consumables_days": 30,
+    "hyperdrive_rating": 1,
+    "mglt": 70,
+    "films": [
+      "a-new-hope"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "empire"
+    }
+  },
+  {
+    "id": "death-star",
+    "name": "Death Star",
+    "model": "DS-1 Orbital Battle Station",
+    "manufacturer": [
+      "Imperial Department of Military Research",
+      "Sienar Fleet Systems"
+    ],
+    "class": "Deep Space Mobile Battlestation",
+    "cost_credits": 1000000000000,
+    "length_m": 120000,
+    "crew": {
+      "min": 342953,
+      "max": 342953
+    },
+    "passengers": 843342,
+    "cargo_capacity": 1000000000000,
+    "consumables_days": 1095,
+    "hyperdrive_rating": 4,
+    "mglt": 10,
+    "films": [
+      "a-new-hope"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "empire"
+    }
+  },
+  {
+    "id": "millennium-falcon",
+    "name": "Millennium Falcon",
+    "model": "YT-1300 light freighter",
+    "manufacturer": [
+      "Corellian Engineering Corporation"
+    ],
+    "class": "Light freighter",
+    "cost_credits": 100000,
+    "length_m": 34.37,
+    "crew": {
+      "min": 4,
+      "max": 4
+    },
+    "passengers": 6,
+    "cargo_capacity": 100000,
+    "consumables_days": 60,
+    "hyperdrive_rating": 0.5,
+    "mglt": 75,
+    "films": [
+      "a-new-hope",
+      "the-empire-strikes-back",
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "civilian"
+    }
+  },
+  {
+    "id": "y-wing",
+    "name": "Y-wing",
+    "model": "BTL Y-wing",
+    "manufacturer": [
+      "Koensayr Manufacturing"
+    ],
+    "class": "assault starfighter",
+    "cost_credits": 134999,
+    "length_m": 14,
+    "crew": {
+      "min": 2,
+      "max": 2
+    },
+    "passengers": 0,
+    "cargo_capacity": 110,
+    "consumables_days": null,
+    "hyperdrive_rating": 1,
+    "mglt": 80,
+    "films": [
+      "a-new-hope",
+      "the-empire-strikes-back",
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "rebels"
+    }
+  },
+  {
+    "id": "x-wing",
+    "name": "X-wing",
+    "model": "T-65 X-wing",
+    "manufacturer": [
+      "Incom Corporation"
+    ],
+    "class": "Starfighter",
+    "cost_credits": 149999,
+    "length_m": 12.5,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 0,
+    "cargo_capacity": 110,
+    "consumables_days": null,
+    "hyperdrive_rating": 1,
+    "mglt": 100,
+    "films": [
+      "a-new-hope",
+      "the-empire-strikes-back",
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "rebels"
+    }
+  },
+  {
+    "id": "tie-advanced-x1",
+    "name": "TIE Advanced x1",
+    "model": "Twin Ion Engine Advanced x1",
+    "manufacturer": [
+      "Sienar Fleet Systems"
+    ],
+    "class": "Starfighter",
+    "cost_credits": null,
+    "length_m": 9.2,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 0,
+    "cargo_capacity": 150,
+    "consumables_days": 5,
+    "hyperdrive_rating": 1,
+    "mglt": 105,
+    "films": [
+      "a-new-hope"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "empire"
+    }
+  },
+  {
+    "id": "executor",
+    "name": "Executor",
+    "model": "Executor-class star dreadnought",
+    "manufacturer": [
+      "Kuat Drive Yards",
+      "Fondor Shipyards"
+    ],
+    "class": "Star dreadnought",
+    "cost_credits": 1143350000,
+    "length_m": 19000,
+    "crew": {
+      "min": 279144,
+      "max": 279144
+    },
+    "passengers": 38000,
+    "cargo_capacity": 250000000,
+    "consumables_days": 2190,
+    "hyperdrive_rating": 2,
+    "mglt": 40,
+    "films": [
+      "the-empire-strikes-back",
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "empire"
+    }
+  },
+  {
+    "id": "rebel-transport",
+    "name": "Rebel transport",
+    "model": "GR-75 medium transport",
+    "manufacturer": [
+      "Gallofree Yards",
+      "Inc."
+    ],
+    "class": "Medium transport",
+    "cost_credits": null,
+    "length_m": 90,
+    "crew": {
+      "min": 6,
+      "max": 6
+    },
+    "passengers": 90,
+    "cargo_capacity": 19000000,
+    "consumables_days": 180,
+    "hyperdrive_rating": 4,
+    "mglt": 20,
+    "films": [
+      "the-empire-strikes-back",
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "rebels"
+    }
+  },
+  {
+    "id": "slave-1",
+    "name": "Slave 1",
+    "model": "Firespray-31-class patrol and attack",
+    "manufacturer": [
+      "Kuat Systems Engineering"
+    ],
+    "class": "Patrol craft",
+    "cost_credits": null,
+    "length_m": 21.5,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 6,
+    "cargo_capacity": 70000,
+    "consumables_days": 30,
+    "hyperdrive_rating": 3,
+    "mglt": 70,
+    "films": [
+      "the-empire-strikes-back",
+      "attack-of-the-clones"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "civilian"
+    }
+  },
+  {
+    "id": "imperial-shuttle",
+    "name": "Imperial shuttle",
+    "model": "Lambda-class T-4a shuttle",
+    "manufacturer": [
+      "Sienar Fleet Systems"
+    ],
+    "class": "Armed government transport",
+    "cost_credits": 240000,
+    "length_m": 20,
+    "crew": {
+      "min": 6,
+      "max": 6
+    },
+    "passengers": 20,
+    "cargo_capacity": 80000,
+    "consumables_days": 60,
+    "hyperdrive_rating": 1,
+    "mglt": 50,
+    "films": [
+      "the-empire-strikes-back",
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "empire"
+    }
+  },
+  {
+    "id": "ef76-nebulon-b-escort-frigate",
+    "name": "EF76 Nebulon-B escort frigate",
+    "model": "EF76 Nebulon-B escort frigate",
+    "manufacturer": [
+      "Kuat Drive Yards"
+    ],
+    "class": "Escort ship",
+    "cost_credits": 8500000,
+    "length_m": 300,
+    "crew": {
+      "min": 854,
+      "max": 854
+    },
+    "passengers": 75,
+    "cargo_capacity": 6000000,
+    "consumables_days": 730,
+    "hyperdrive_rating": 2,
+    "mglt": 40,
+    "films": [
+      "the-empire-strikes-back",
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "rebels"
+    }
+  },
+  {
+    "id": "calamari-cruiser",
+    "name": "Calamari Cruiser",
+    "model": "MC80 Liberty type Star Cruiser",
+    "manufacturer": [
+      "Mon Calamari shipyards"
+    ],
+    "class": "Star Cruiser",
+    "cost_credits": 104000000,
+    "length_m": 1200,
+    "crew": {
+      "min": 5400,
+      "max": 5400
+    },
+    "passengers": 1200,
+    "cargo_capacity": null,
+    "consumables_days": 730,
+    "hyperdrive_rating": 1,
+    "mglt": 60,
+    "films": [
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "rebels"
+    }
+  },
+  {
+    "id": "a-wing",
+    "name": "A-wing",
+    "model": "RZ-1 A-wing Interceptor",
+    "manufacturer": [
+      "Alliance Underground Engineering",
+      "Incom Corporation"
+    ],
+    "class": "Starfighter",
+    "cost_credits": 175000,
+    "length_m": 9.6,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 0,
+    "cargo_capacity": 40,
+    "consumables_days": null,
+    "hyperdrive_rating": 1,
+    "mglt": 120,
+    "films": [
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "rebels"
+    }
+  },
+  {
+    "id": "b-wing",
+    "name": "B-wing",
+    "model": "A/SF-01 B-wing starfighter",
+    "manufacturer": [
+      "Slayn & Korpil"
+    ],
+    "class": "Assault Starfighter",
+    "cost_credits": 220000,
+    "length_m": 16.9,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 0,
+    "cargo_capacity": 45,
+    "consumables_days": null,
+    "hyperdrive_rating": 2,
+    "mglt": 91,
+    "films": [
+      "return-of-the-jedi"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "rebels"
+    }
+  },
+  {
+    "id": "republic-cruiser",
+    "name": "Republic Cruiser",
+    "model": "Consular-class cruiser",
+    "manufacturer": [
+      "Corellian Engineering Corporation"
+    ],
+    "class": "Space cruiser",
+    "cost_credits": null,
+    "length_m": 115,
+    "crew": {
+      "min": 9,
+      "max": 9
+    },
+    "passengers": 16,
+    "cargo_capacity": null,
+    "consumables_days": null,
+    "hyperdrive_rating": 2,
+    "mglt": null,
+    "films": [
+      "the-phantom-menace"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "republic"
+    }
+  },
+  {
+    "id": "droid-control-ship",
+    "name": "Droid control ship",
+    "model": "Lucrehulk-class Droid Control Ship",
+    "manufacturer": [
+      "Hoersch-Kessel Drive",
+      "Inc."
+    ],
+    "class": "Droid control ship",
+    "cost_credits": null,
+    "length_m": 3170,
+    "crew": {
+      "min": 175,
+      "max": 175
+    },
+    "passengers": 139000,
+    "cargo_capacity": 4000000000,
+    "consumables_days": 500,
+    "hyperdrive_rating": 2,
+    "mglt": null,
+    "films": [
+      "the-phantom-menace",
+      "attack-of-the-clones",
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "separatists"
+    }
+  },
+  {
+    "id": "naboo-fighter",
+    "name": "Naboo fighter",
+    "model": "N-1 starfighter",
+    "manufacturer": [
+      "Theed Palace Space Vessel Engineering Corps"
+    ],
+    "class": "Starfighter",
+    "cost_credits": 200000,
+    "length_m": 11,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 0,
+    "cargo_capacity": 65,
+    "consumables_days": 7,
+    "hyperdrive_rating": 1,
+    "mglt": null,
+    "films": [
+      "the-phantom-menace",
+      "attack-of-the-clones"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "republic"
+    }
+  },
+  {
+    "id": "naboo-royal-starship",
+    "name": "Naboo Royal Starship",
+    "model": "J-type 327 Nubian royal starship",
+    "manufacturer": [
+      "Theed Palace Space Vessel Engineering Corps",
+      "Nubia Star Drives"
+    ],
+    "class": "yacht",
+    "cost_credits": null,
+    "length_m": 76,
+    "crew": {
+      "min": 8,
+      "max": 8
+    },
+    "passengers": null,
+    "cargo_capacity": null,
+    "consumables_days": null,
+    "hyperdrive_rating": 1.8,
+    "mglt": null,
+    "films": [
+      "the-phantom-menace"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "civilian"
+    }
+  },
+  {
+    "id": "scimitar",
+    "name": "Scimitar",
+    "model": "Star Courier",
+    "manufacturer": [
+      "Republic Sienar Systems"
+    ],
+    "class": "Space Transport",
+    "cost_credits": 55000000,
+    "length_m": 26.5,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 6,
+    "cargo_capacity": 2500000,
+    "consumables_days": 30,
+    "hyperdrive_rating": 1.5,
+    "mglt": null,
+    "films": [
+      "the-phantom-menace"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "civilian"
+    }
+  },
+  {
+    "id": "j-type-diplomatic-barge",
+    "name": "J-type diplomatic barge",
+    "model": "J-type diplomatic barge",
+    "manufacturer": [
+      "Theed Palace Space Vessel Engineering Corps",
+      "Nubia Star Drives"
+    ],
+    "class": "Diplomatic barge",
+    "cost_credits": 2000000,
+    "length_m": 39,
+    "crew": {
+      "min": 5,
+      "max": 5
+    },
+    "passengers": 10,
+    "cargo_capacity": null,
+    "consumables_days": 365,
+    "hyperdrive_rating": 0.7,
+    "mglt": null,
+    "films": [
+      "attack-of-the-clones"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "civilian"
+    }
+  },
+  {
+    "id": "aa-9-coruscant-freighter",
+    "name": "AA-9 Coruscant freighter",
+    "model": "Botajef AA-9 Freighter-Liner",
+    "manufacturer": [
+      "Botajef Shipyards"
+    ],
+    "class": "freighter",
+    "cost_credits": null,
+    "length_m": 390,
+    "crew": null,
+    "passengers": 30000,
+    "cargo_capacity": null,
+    "consumables_days": null,
+    "hyperdrive_rating": null,
+    "mglt": null,
+    "films": [
+      "attack-of-the-clones"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "civilian"
+    }
+  },
+  {
+    "id": "jedi-starfighter",
+    "name": "Jedi starfighter",
+    "model": "Delta-7 Aethersprite-class interceptor",
+    "manufacturer": [
+      "Kuat Systems Engineering"
+    ],
+    "class": "Starfighter",
+    "cost_credits": 180000,
+    "length_m": 8,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 0,
+    "cargo_capacity": 60,
+    "consumables_days": 7,
+    "hyperdrive_rating": 1,
+    "mglt": null,
+    "films": [
+      "attack-of-the-clones",
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "republic"
+    }
+  },
+  {
+    "id": "h-type-nubian-yacht",
+    "name": "H-type Nubian yacht",
+    "model": "H-type Nubian yacht",
+    "manufacturer": [
+      "Theed Palace Space Vessel Engineering Corps"
+    ],
+    "class": "yacht",
+    "cost_credits": null,
+    "length_m": 47.9,
+    "crew": {
+      "min": 4,
+      "max": 4
+    },
+    "passengers": null,
+    "cargo_capacity": null,
+    "consumables_days": null,
+    "hyperdrive_rating": 0.9,
+    "mglt": null,
+    "films": [
+      "attack-of-the-clones"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "civilian"
+    }
+  },
+  {
+    "id": "republic-assault-ship",
+    "name": "Republic Assault ship",
+    "model": "Acclamator I-class assault ship",
+    "manufacturer": [
+      "Rothana Heavy Engineering"
+    ],
+    "class": "assault ship",
+    "cost_credits": null,
+    "length_m": 752,
+    "crew": {
+      "min": 700,
+      "max": 700
+    },
+    "passengers": 16000,
+    "cargo_capacity": 11250000,
+    "consumables_days": 730,
+    "hyperdrive_rating": 0.6,
+    "mglt": null,
+    "films": [
+      "attack-of-the-clones"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "republic"
+    }
+  },
+  {
+    "id": "solar-sailer",
+    "name": "Solar Sailer",
+    "model": "Punworcca 116-class interstellar sloop",
+    "manufacturer": [
+      "Huppla Pasa Tisc Shipwrights Collective"
+    ],
+    "class": "yacht",
+    "cost_credits": 35700,
+    "length_m": 15.2,
+    "crew": {
+      "min": 3,
+      "max": 3
+    },
+    "passengers": 11,
+    "cargo_capacity": 240,
+    "consumables_days": 7,
+    "hyperdrive_rating": 1.5,
+    "mglt": null,
+    "films": [
+      "attack-of-the-clones"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "civilian"
+    }
+  },
+  {
+    "id": "trade-federation-cruiser",
+    "name": "Trade Federation cruiser",
+    "model": "Providence-class carrier/destroyer",
+    "manufacturer": [
+      "Rendili StarDrive",
+      "Free Dac Volunteers Engineering corps."
+    ],
+    "class": "capital ship",
+    "cost_credits": 125000000,
+    "length_m": 1088,
+    "crew": {
+      "min": 600,
+      "max": 600
+    },
+    "passengers": 48247,
+    "cargo_capacity": 50000000,
+    "consumables_days": 1460,
+    "hyperdrive_rating": 1.5,
+    "mglt": null,
+    "films": [
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "separatists"
+    }
+  },
+  {
+    "id": "theta-class-t-2c-shuttle",
+    "name": "Theta-class T-2c shuttle",
+    "model": "Theta-class T-2c shuttle",
+    "manufacturer": [
+      "Cygnus Spaceworks"
+    ],
+    "class": "transport",
+    "cost_credits": 1000000,
+    "length_m": 18.5,
+    "crew": {
+      "min": 5,
+      "max": 5
+    },
+    "passengers": 16,
+    "cargo_capacity": 50000,
+    "consumables_days": 56,
+    "hyperdrive_rating": 1,
+    "mglt": null,
+    "films": [
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "republic"
+    }
+  },
+  {
+    "id": "republic-attack-cruiser",
+    "name": "Republic attack cruiser",
+    "model": "Senator-class Star Destroyer",
+    "manufacturer": [
+      "Kuat Drive Yards",
+      "Allanteen Six shipyards"
+    ],
+    "class": "star destroyer",
+    "cost_credits": 59000000,
+    "length_m": 1137,
+    "crew": {
+      "min": 7400,
+      "max": 7400
+    },
+    "passengers": 2000,
+    "cargo_capacity": 20000000,
+    "consumables_days": 730,
+    "hyperdrive_rating": 1,
+    "mglt": null,
+    "films": [
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "republic"
+    }
+  },
+  {
+    "id": "naboo-star-skiff",
+    "name": "Naboo star skiff",
+    "model": "J-type star skiff",
+    "manufacturer": [
+      "Theed Palace Space Vessel Engineering Corps/Nubia Star Drives",
+      "Incorporated"
+    ],
+    "class": "yacht",
+    "cost_credits": null,
+    "length_m": 29.2,
+    "crew": {
+      "min": 3,
+      "max": 3
+    },
+    "passengers": 3,
+    "cargo_capacity": null,
+    "consumables_days": null,
+    "hyperdrive_rating": 0.5,
+    "mglt": null,
+    "films": [
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "civilian"
+    }
+  },
+  {
+    "id": "jedi-interceptor",
+    "name": "Jedi Interceptor",
+    "model": "Eta-2 Actis-class light interceptor",
+    "manufacturer": [
+      "Kuat Systems Engineering"
+    ],
+    "class": "starfighter",
+    "cost_credits": 320000,
+    "length_m": 5.47,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 0,
+    "cargo_capacity": 60,
+    "consumables_days": 2,
+    "hyperdrive_rating": 1,
+    "mglt": null,
+    "films": [
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "republic"
+    }
+  },
+  {
+    "id": "arc-170",
+    "name": "arc-170",
+    "model": "Aggressive Reconnaissance-170 starfighte",
+    "manufacturer": [
+      "Incom Corporation",
+      "Subpro Corporation"
+    ],
+    "class": "starfighter",
+    "cost_credits": 155000,
+    "length_m": 14.5,
+    "crew": {
+      "min": 3,
+      "max": 3
+    },
+    "passengers": 0,
+    "cargo_capacity": 110,
+    "consumables_days": 5,
+    "hyperdrive_rating": 1,
+    "mglt": 100,
+    "films": [
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "republic"
+    }
+  },
+  {
+    "id": "banking-clan-frigte",
+    "name": "Banking clan frigte",
+    "model": "Munificent-class star frigate",
+    "manufacturer": [
+      "Hoersch-Kessel Drive",
+      "Inc",
+      "Gwori Revolutionary Industries"
+    ],
+    "class": "cruiser",
+    "cost_credits": 57000000,
+    "length_m": 825,
+    "crew": {
+      "min": 200,
+      "max": 200
+    },
+    "passengers": null,
+    "cargo_capacity": 40000000,
+    "consumables_days": 730,
+    "hyperdrive_rating": 1,
+    "mglt": null,
+    "films": [
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": "belbullab-22-starfighter",
+    "name": "Belbullab-22 starfighter",
+    "model": "Belbullab-22 starfighter",
+    "manufacturer": [
+      "Feethan Ottraw Scalable Assemblies"
+    ],
+    "class": "starfighter",
+    "cost_credits": 168000,
+    "length_m": 6.71,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 0,
+    "cargo_capacity": 140,
+    "consumables_days": 7,
+    "hyperdrive_rating": 6,
+    "mglt": null,
+    "films": [
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "separatists"
+    }
+  },
+  {
+    "id": "v-wing",
+    "name": "V-wing",
+    "model": "Alpha-3 Nimbus-class V-wing starfighter",
+    "manufacturer": [
+      "Kuat Systems Engineering"
+    ],
+    "class": "starfighter",
+    "cost_credits": 102500,
+    "length_m": 7.9,
+    "crew": {
+      "min": 1,
+      "max": 1
+    },
+    "passengers": 0,
+    "cargo_capacity": 60,
+    "consumables_days": null,
+    "hyperdrive_rating": 1,
+    "mglt": null,
+    "films": [
+      "revenge-of-the-sith"
+    ],
+    "meta": {
+      "is_military": true,
+      "faction": "republic"
+    }
+  }
+]

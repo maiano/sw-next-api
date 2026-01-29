@@ -1,0 +1,2059 @@
+[
+  {
+    "id": 1,
+    "slug": "luke-skywalker",
+    "name": "Luke Skywalker",
+    "heightCm": 172,
+    "massKg": 77,
+    "birthYearBBY": -19,
+    "gender": "male",
+    "homeworldId": 1,
+    "filmIds": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [
+      14,
+      30
+    ],
+    "starshipIds": [
+      12,
+      22
+    ],
+    "meta": {
+      "isForceUser": true,
+      "isJedi": true,
+      "isSith": false,
+      "faction": "rebels"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "c-3po",
+    "name": "C-3PO",
+    "heightCm": 167,
+    "massKg": 75,
+    "birthYearBBY": -112,
+    "gender": "n/a",
+    "homeworldId": 1,
+    "filmIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [
+      2
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 3,
+    "slug": "r2-d2",
+    "name": "R2-D2",
+    "heightCm": 96,
+    "massKg": 32,
+    "birthYearBBY": -33,
+    "gender": "n/a",
+    "homeworldId": 8,
+    "filmIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [
+      2
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 4,
+    "slug": "darth-vader",
+    "name": "Darth Vader",
+    "heightCm": 202,
+    "massKg": 136,
+    "birthYearBBY": -41.9,
+    "gender": "male",
+    "homeworldId": 1,
+    "filmIds": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [
+      13
+    ],
+    "meta": {
+      "isForceUser": true,
+      "isJedi": false,
+      "isSith": true,
+      "faction": "empire"
+    }
+  },
+  {
+    "id": 5,
+    "slug": "leia-organa",
+    "name": "Leia Organa",
+    "heightCm": 150,
+    "massKg": 49,
+    "birthYearBBY": -19,
+    "gender": "female",
+    "homeworldId": 2,
+    "filmIds": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [
+      30
+    ],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 6,
+    "slug": "owen-lars",
+    "name": "Owen Lars",
+    "heightCm": 178,
+    "massKg": 120,
+    "birthYearBBY": -52,
+    "gender": "male",
+    "homeworldId": 1,
+    "filmIds": [
+      1,
+      5,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 7,
+    "slug": "beru-whitesun-lars",
+    "name": "Beru Whitesun lars",
+    "heightCm": 165,
+    "massKg": 75,
+    "birthYearBBY": -47,
+    "gender": "female",
+    "homeworldId": 1,
+    "filmIds": [
+      1,
+      5,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 8,
+    "slug": "r5-d4",
+    "name": "R5-D4",
+    "heightCm": 97,
+    "massKg": 32,
+    "birthYearBBY": null,
+    "gender": "n/a",
+    "homeworldId": 1,
+    "filmIds": [
+      1
+    ],
+    "speciesIds": [
+      2
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 9,
+    "slug": "biggs-darklighter",
+    "name": "Biggs Darklighter",
+    "heightCm": 183,
+    "massKg": 84,
+    "birthYearBBY": -24,
+    "gender": "male",
+    "homeworldId": 1,
+    "filmIds": [
+      1
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [
+      12
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 10,
+    "slug": "obi-wan-kenobi",
+    "name": "Obi-Wan Kenobi",
+    "heightCm": 182,
+    "massKg": 77,
+    "birthYearBBY": -57,
+    "gender": "male",
+    "homeworldId": 20,
+    "filmIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [
+      38
+    ],
+    "starshipIds": [
+      48,
+      59,
+      64,
+      65,
+      74
+    ],
+    "meta": {
+      "isForceUser": true,
+      "isJedi": true,
+      "isSith": false,
+      "faction": "republic"
+    }
+  },
+  {
+    "id": 11,
+    "slug": "anakin-skywalker",
+    "name": "Anakin Skywalker",
+    "heightCm": 188,
+    "massKg": 84,
+    "birthYearBBY": -41.9,
+    "gender": "male",
+    "homeworldId": 1,
+    "filmIds": [
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [
+      44,
+      46
+    ],
+    "starshipIds": [
+      39,
+      59,
+      65
+    ],
+    "meta": {
+      "isForceUser": true,
+      "isJedi": true,
+      "isSith": true,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 12,
+    "slug": "wilhuff-tarkin",
+    "name": "Wilhuff Tarkin",
+    "heightCm": 180,
+    "massKg": null,
+    "birthYearBBY": -64,
+    "gender": "male",
+    "homeworldId": 21,
+    "filmIds": [
+      1,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 13,
+    "slug": "chewbacca",
+    "name": "Chewbacca",
+    "heightCm": 228,
+    "massKg": 112,
+    "birthYearBBY": -200,
+    "gender": "male",
+    "homeworldId": 14,
+    "filmIds": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "speciesIds": [
+      3
+    ],
+    "vehicleIds": [
+      19
+    ],
+    "starshipIds": [
+      10,
+      22
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 14,
+    "slug": "han-solo",
+    "name": "Han Solo",
+    "heightCm": 180,
+    "massKg": 80,
+    "birthYearBBY": -29,
+    "gender": "male",
+    "homeworldId": 22,
+    "filmIds": [
+      1,
+      2,
+      3
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [
+      10,
+      22
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 15,
+    "slug": "greedo",
+    "name": "Greedo",
+    "heightCm": 173,
+    "massKg": 74,
+    "birthYearBBY": -44,
+    "gender": "male",
+    "homeworldId": 23,
+    "filmIds": [
+      1
+    ],
+    "speciesIds": [
+      4
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 16,
+    "slug": "jabba-desilijic-tiure",
+    "name": "Jabba Desilijic Tiure",
+    "heightCm": 175,
+    "massKg": 1358,
+    "birthYearBBY": -600,
+    "gender": "hermaphrodite",
+    "homeworldId": 24,
+    "filmIds": [
+      1,
+      3,
+      4
+    ],
+    "speciesIds": [
+      5
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 18,
+    "slug": "wedge-antilles",
+    "name": "Wedge Antilles",
+    "heightCm": 170,
+    "massKg": 77,
+    "birthYearBBY": -21,
+    "gender": "male",
+    "homeworldId": 22,
+    "filmIds": [
+      1,
+      2,
+      3
+    ],
+    "speciesIds": [],
+    "vehicleIds": [
+      14
+    ],
+    "starshipIds": [
+      12
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 19,
+    "slug": "jek-tono-porkins",
+    "name": "Jek Tono Porkins",
+    "heightCm": 180,
+    "massKg": 110,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 26,
+    "filmIds": [
+      1
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [
+      12
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 20,
+    "slug": "yoda",
+    "name": "Yoda",
+    "heightCm": 66,
+    "massKg": 17,
+    "birthYearBBY": -896,
+    "gender": "male",
+    "homeworldId": 28,
+    "filmIds": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [
+      6
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": true,
+      "isJedi": true,
+      "isSith": false,
+      "faction": "republic"
+    }
+  },
+  {
+    "id": 21,
+    "slug": "palpatine",
+    "name": "Palpatine",
+    "heightCm": 170,
+    "massKg": 75,
+    "birthYearBBY": -82,
+    "gender": "male",
+    "homeworldId": 8,
+    "filmIds": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": true,
+      "isJedi": false,
+      "isSith": true,
+      "faction": "empire"
+    }
+  },
+  {
+    "id": 22,
+    "slug": "boba-fett",
+    "name": "Boba Fett",
+    "heightCm": 183,
+    "massKg": 78.2,
+    "birthYearBBY": -31.5,
+    "gender": "male",
+    "homeworldId": 10,
+    "filmIds": [
+      2,
+      3,
+      5
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [
+      21
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 23,
+    "slug": "ig-88",
+    "name": "IG-88",
+    "heightCm": 200,
+    "massKg": 140,
+    "birthYearBBY": -15,
+    "gender": "none",
+    "homeworldId": 28,
+    "filmIds": [
+      2
+    ],
+    "speciesIds": [
+      2
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 24,
+    "slug": "bossk",
+    "name": "Bossk",
+    "heightCm": 190,
+    "massKg": 113,
+    "birthYearBBY": -53,
+    "gender": "male",
+    "homeworldId": 29,
+    "filmIds": [
+      2
+    ],
+    "speciesIds": [
+      7
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 25,
+    "slug": "lando-calrissian",
+    "name": "Lando Calrissian",
+    "heightCm": 177,
+    "massKg": 79,
+    "birthYearBBY": -31,
+    "gender": "male",
+    "homeworldId": 30,
+    "filmIds": [
+      2,
+      3
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [
+      10
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 26,
+    "slug": "lobot",
+    "name": "Lobot",
+    "heightCm": 175,
+    "massKg": 79,
+    "birthYearBBY": -37,
+    "gender": "male",
+    "homeworldId": 6,
+    "filmIds": [
+      2
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 27,
+    "slug": "ackbar",
+    "name": "Ackbar",
+    "heightCm": 180,
+    "massKg": 83,
+    "birthYearBBY": -41,
+    "gender": "male",
+    "homeworldId": 31,
+    "filmIds": [
+      3
+    ],
+    "speciesIds": [
+      8
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 28,
+    "slug": "mon-mothma",
+    "name": "Mon Mothma",
+    "heightCm": 150,
+    "massKg": null,
+    "birthYearBBY": -48,
+    "gender": "female",
+    "homeworldId": 32,
+    "filmIds": [
+      3
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 29,
+    "slug": "arvel-crynyd",
+    "name": "Arvel Crynyd",
+    "heightCm": null,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 28,
+    "filmIds": [
+      3
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [
+      28
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 30,
+    "slug": "wicket-systri-warrick",
+    "name": "Wicket Systri Warrick",
+    "heightCm": 88,
+    "massKg": 20,
+    "birthYearBBY": -8,
+    "gender": "male",
+    "homeworldId": 7,
+    "filmIds": [
+      3
+    ],
+    "speciesIds": [
+      9
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 31,
+    "slug": "nien-nunb",
+    "name": "Nien Nunb",
+    "heightCm": 160,
+    "massKg": 68,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 33,
+    "filmIds": [
+      3
+    ],
+    "speciesIds": [
+      10
+    ],
+    "vehicleIds": [],
+    "starshipIds": [
+      10
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 32,
+    "slug": "qui-gon-jinn",
+    "name": "Qui-Gon Jinn",
+    "heightCm": 193,
+    "massKg": 89,
+    "birthYearBBY": -92,
+    "gender": "male",
+    "homeworldId": 28,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [],
+    "vehicleIds": [
+      38
+    ],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 33,
+    "slug": "nute-gunray",
+    "name": "Nute Gunray",
+    "heightCm": 191,
+    "massKg": 90,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 18,
+    "filmIds": [
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [
+      11
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 34,
+    "slug": "finis-valorum",
+    "name": "Finis Valorum",
+    "heightCm": 170,
+    "massKg": null,
+    "birthYearBBY": -91,
+    "gender": "male",
+    "homeworldId": 9,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 35,
+    "slug": "padm-amidala",
+    "name": "Padmé Amidala",
+    "heightCm": 185,
+    "massKg": 45,
+    "birthYearBBY": -46,
+    "gender": "female",
+    "homeworldId": 8,
+    "filmIds": [
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [
+      39,
+      49,
+      64
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 36,
+    "slug": "jar-jar-binks",
+    "name": "Jar Jar Binks",
+    "heightCm": 196,
+    "massKg": 66,
+    "birthYearBBY": -52,
+    "gender": "male",
+    "homeworldId": 8,
+    "filmIds": [
+      4,
+      5
+    ],
+    "speciesIds": [
+      12
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 37,
+    "slug": "roos-tarpals",
+    "name": "Roos Tarpals",
+    "heightCm": 224,
+    "massKg": 82,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 8,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [
+      12
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 38,
+    "slug": "rugor-nass",
+    "name": "Rugor Nass",
+    "heightCm": 206,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 8,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [
+      12
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 39,
+    "slug": "ric-oli",
+    "name": "Ric Olié",
+    "heightCm": 183,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 8,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [
+      40
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 40,
+    "slug": "watto",
+    "name": "Watto",
+    "heightCm": 137,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 34,
+    "filmIds": [
+      4,
+      5
+    ],
+    "speciesIds": [
+      13
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 41,
+    "slug": "sebulba",
+    "name": "Sebulba",
+    "heightCm": 112,
+    "massKg": 40,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 35,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [
+      14
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 42,
+    "slug": "quarsh-panaka",
+    "name": "Quarsh Panaka",
+    "heightCm": 183,
+    "massKg": null,
+    "birthYearBBY": -62,
+    "gender": "male",
+    "homeworldId": 8,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 43,
+    "slug": "shmi-skywalker",
+    "name": "Shmi Skywalker",
+    "heightCm": 163,
+    "massKg": null,
+    "birthYearBBY": -72,
+    "gender": "female",
+    "homeworldId": 1,
+    "filmIds": [
+      4,
+      5
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 44,
+    "slug": "darth-maul",
+    "name": "Darth Maul",
+    "heightCm": 175,
+    "massKg": 80,
+    "birthYearBBY": -54,
+    "gender": "male",
+    "homeworldId": 36,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [
+      22
+    ],
+    "vehicleIds": [
+      42
+    ],
+    "starshipIds": [
+      41
+    ],
+    "meta": {
+      "isForceUser": true,
+      "isJedi": false,
+      "isSith": true,
+      "faction": "separatists"
+    }
+  },
+  {
+    "id": 45,
+    "slug": "bib-fortuna",
+    "name": "Bib Fortuna",
+    "heightCm": 180,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 37,
+    "filmIds": [
+      3
+    ],
+    "speciesIds": [
+      15
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 46,
+    "slug": "ayla-secura",
+    "name": "Ayla Secura",
+    "heightCm": 178,
+    "massKg": 55,
+    "birthYearBBY": -48,
+    "gender": "female",
+    "homeworldId": 37,
+    "filmIds": [
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [
+      15
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 47,
+    "slug": "ratts-tyerel",
+    "name": "Ratts Tyerel",
+    "heightCm": 79,
+    "massKg": 15,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 38,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [
+      16
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 48,
+    "slug": "dud-bolt",
+    "name": "Dud Bolt",
+    "heightCm": 94,
+    "massKg": 45,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 39,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [
+      17
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 49,
+    "slug": "gasgano",
+    "name": "Gasgano",
+    "heightCm": 122,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 40,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [
+      18
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 50,
+    "slug": "ben-quadinaros",
+    "name": "Ben Quadinaros",
+    "heightCm": 163,
+    "massKg": 65,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 41,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [
+      19
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 51,
+    "slug": "mace-windu",
+    "name": "Mace Windu",
+    "heightCm": 188,
+    "massKg": 84,
+    "birthYearBBY": -72,
+    "gender": "male",
+    "homeworldId": 42,
+    "filmIds": [
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 52,
+    "slug": "ki-adi-mundi",
+    "name": "Ki-Adi-Mundi",
+    "heightCm": 198,
+    "massKg": 82,
+    "birthYearBBY": -92,
+    "gender": "male",
+    "homeworldId": 43,
+    "filmIds": [
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [
+      20
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 53,
+    "slug": "kit-fisto",
+    "name": "Kit Fisto",
+    "heightCm": 196,
+    "massKg": 87,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 44,
+    "filmIds": [
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [
+      21
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 54,
+    "slug": "eeth-koth",
+    "name": "Eeth Koth",
+    "heightCm": 171,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 45,
+    "filmIds": [
+      4,
+      6
+    ],
+    "speciesIds": [
+      22
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 55,
+    "slug": "adi-gallia",
+    "name": "Adi Gallia",
+    "heightCm": 184,
+    "massKg": 50,
+    "birthYearBBY": null,
+    "gender": "female",
+    "homeworldId": 9,
+    "filmIds": [
+      4,
+      6
+    ],
+    "speciesIds": [
+      23
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 56,
+    "slug": "saesee-tiin",
+    "name": "Saesee Tiin",
+    "heightCm": 188,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 47,
+    "filmIds": [
+      4,
+      6
+    ],
+    "speciesIds": [
+      24
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 57,
+    "slug": "yarael-poof",
+    "name": "Yarael Poof",
+    "heightCm": 264,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 48,
+    "filmIds": [
+      4
+    ],
+    "speciesIds": [
+      25
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 58,
+    "slug": "plo-koon",
+    "name": "Plo Koon",
+    "heightCm": 188,
+    "massKg": 80,
+    "birthYearBBY": -22,
+    "gender": "male",
+    "homeworldId": 49,
+    "filmIds": [
+      4,
+      5,
+      6
+    ],
+    "speciesIds": [
+      26
+    ],
+    "vehicleIds": [],
+    "starshipIds": [
+      48
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 59,
+    "slug": "mas-amedda",
+    "name": "Mas Amedda",
+    "heightCm": 196,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 50,
+    "filmIds": [
+      4,
+      5
+    ],
+    "speciesIds": [
+      27
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 60,
+    "slug": "gregar-typho",
+    "name": "Gregar Typho",
+    "heightCm": 185,
+    "massKg": 85,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 8,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [
+      39
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 61,
+    "slug": "cord",
+    "name": "Cordé",
+    "heightCm": 157,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "female",
+    "homeworldId": 8,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 62,
+    "slug": "cliegg-lars",
+    "name": "Cliegg Lars",
+    "heightCm": 183,
+    "massKg": null,
+    "birthYearBBY": -82,
+    "gender": "male",
+    "homeworldId": 1,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 63,
+    "slug": "poggle-the-lesser",
+    "name": "Poggle the Lesser",
+    "heightCm": 183,
+    "massKg": 80,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 11,
+    "filmIds": [
+      5,
+      6
+    ],
+    "speciesIds": [
+      28
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 64,
+    "slug": "luminara-unduli",
+    "name": "Luminara Unduli",
+    "heightCm": 170,
+    "massKg": 56.2,
+    "birthYearBBY": -58,
+    "gender": "female",
+    "homeworldId": 51,
+    "filmIds": [
+      5,
+      6
+    ],
+    "speciesIds": [
+      29
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 65,
+    "slug": "barriss-offee",
+    "name": "Barriss Offee",
+    "heightCm": 166,
+    "massKg": 50,
+    "birthYearBBY": -40,
+    "gender": "female",
+    "homeworldId": 51,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [
+      29
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 66,
+    "slug": "dorm",
+    "name": "Dormé",
+    "heightCm": 165,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "female",
+    "homeworldId": 8,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [
+      1
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 67,
+    "slug": "dooku",
+    "name": "Dooku",
+    "heightCm": 193,
+    "massKg": 80,
+    "birthYearBBY": -102,
+    "gender": "male",
+    "homeworldId": 52,
+    "filmIds": [
+      5,
+      6
+    ],
+    "speciesIds": [
+      1
+    ],
+    "vehicleIds": [
+      55
+    ],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 68,
+    "slug": "bail-prestor-organa",
+    "name": "Bail Prestor Organa",
+    "heightCm": 191,
+    "massKg": null,
+    "birthYearBBY": -67,
+    "gender": "male",
+    "homeworldId": 2,
+    "filmIds": [
+      5,
+      6
+    ],
+    "speciesIds": [
+      1
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 69,
+    "slug": "jango-fett",
+    "name": "Jango Fett",
+    "heightCm": 183,
+    "massKg": 79,
+    "birthYearBBY": -66,
+    "gender": "male",
+    "homeworldId": 53,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 70,
+    "slug": "zam-wesell",
+    "name": "Zam Wesell",
+    "heightCm": 168,
+    "massKg": 55,
+    "birthYearBBY": null,
+    "gender": "female",
+    "homeworldId": 54,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [
+      30
+    ],
+    "vehicleIds": [
+      45
+    ],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 71,
+    "slug": "dexter-jettster",
+    "name": "Dexter Jettster",
+    "heightCm": 198,
+    "massKg": 102,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 55,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [
+      31
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 72,
+    "slug": "lama-su",
+    "name": "Lama Su",
+    "heightCm": 229,
+    "massKg": 88,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 10,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [
+      32
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 73,
+    "slug": "taun-we",
+    "name": "Taun We",
+    "heightCm": 213,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "female",
+    "homeworldId": 10,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [
+      32
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 74,
+    "slug": "jocasta-nu",
+    "name": "Jocasta Nu",
+    "heightCm": 167,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "female",
+    "homeworldId": 9,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [
+      1
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 75,
+    "slug": "r4-p17",
+    "name": "R4-P17",
+    "heightCm": 96,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "female",
+    "homeworldId": 28,
+    "filmIds": [
+      5,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 76,
+    "slug": "wat-tambor",
+    "name": "Wat Tambor",
+    "heightCm": 193,
+    "massKg": 48,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 56,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [
+      33
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 77,
+    "slug": "san-hill",
+    "name": "San Hill",
+    "heightCm": 191,
+    "massKg": null,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 57,
+    "filmIds": [
+      5
+    ],
+    "speciesIds": [
+      34
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 78,
+    "slug": "shaak-ti",
+    "name": "Shaak Ti",
+    "heightCm": 178,
+    "massKg": 57,
+    "birthYearBBY": null,
+    "gender": "female",
+    "homeworldId": 58,
+    "filmIds": [
+      5,
+      6
+    ],
+    "speciesIds": [
+      35
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 79,
+    "slug": "grievous",
+    "name": "Grievous",
+    "heightCm": 216,
+    "massKg": 159,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 59,
+    "filmIds": [
+      6
+    ],
+    "speciesIds": [
+      36
+    ],
+    "vehicleIds": [
+      60
+    ],
+    "starshipIds": [
+      74
+    ],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 80,
+    "slug": "tarfful",
+    "name": "Tarfful",
+    "heightCm": 234,
+    "massKg": 136,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 14,
+    "filmIds": [
+      6
+    ],
+    "speciesIds": [
+      3
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 81,
+    "slug": "raymus-antilles",
+    "name": "Raymus Antilles",
+    "heightCm": 188,
+    "massKg": 79,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 2,
+    "filmIds": [
+      1,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 82,
+    "slug": "sly-moore",
+    "name": "Sly Moore",
+    "heightCm": 178,
+    "massKg": 48,
+    "birthYearBBY": null,
+    "gender": "female",
+    "homeworldId": 60,
+    "filmIds": [
+      5,
+      6
+    ],
+    "speciesIds": [],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  },
+  {
+    "id": 83,
+    "slug": "tion-medon",
+    "name": "Tion Medon",
+    "heightCm": 206,
+    "massKg": 80,
+    "birthYearBBY": null,
+    "gender": "male",
+    "homeworldId": 12,
+    "filmIds": [
+      6
+    ],
+    "speciesIds": [
+      37
+    ],
+    "vehicleIds": [],
+    "starshipIds": [],
+    "meta": {
+      "isForceUser": false,
+      "isJedi": false,
+      "isSith": false,
+      "faction": "unknown"
+    }
+  }
+]
