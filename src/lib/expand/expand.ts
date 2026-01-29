@@ -4,6 +4,15 @@ import { getPlanetFull } from "@/lib/bff/planets";
 import { getSpeciesFull } from "@/lib/bff/species";
 import { getStarshipFull } from "@/lib/bff/starships";
 import { getVehicleFull } from "@/lib/bff/vehicles";
+import {
+  projectFilmMinimal,
+  projectPersonMinimal,
+  projectPlanetMinimal,
+  projectSpeciesMinimal,
+  projectStarshipMinimal,
+  projectVehicleMinimal,
+} from "@/lib/projections";
+import { resolveEntity } from "@/lib/resolver";
 import type { EntityType } from "@/lib/resolver/registry";
 import { expandConfig } from "./expand-config";
 import type { ExpandTree } from "./parseExpand";
@@ -83,6 +92,26 @@ function expandMinimalEntity(
 
   const entityType = typeMap[field];
   if (!entityType) return null;
+
+  if (depth >= 2) {
+    const entity = resolveEntity(entityType, entityId);
+    if (!entity) return null;
+
+    switch (entityType) {
+      case "film":
+        return projectFilmMinimal(entity as never);
+      case "person":
+        return projectPersonMinimal(entity as never);
+      case "planet":
+        return projectPlanetMinimal(entity as never);
+      case "species":
+        return projectSpeciesMinimal(entity as never);
+      case "starship":
+        return projectStarshipMinimal(entity as never);
+      case "vehicle":
+        return projectVehicleMinimal(entity as never);
+    }
+  }
 
   let response: ResponseEntity | null = null;
 
