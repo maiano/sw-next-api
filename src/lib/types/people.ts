@@ -9,8 +9,8 @@ export type PersonMeta = {
 };
 
 export type Person = {
-  id: EntityId;
-  slug: string;
+  entityId: EntityId;
+  id: string; // slug
   name: string;
 
   heightCm: number | null;

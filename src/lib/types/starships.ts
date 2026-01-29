@@ -1,4 +1,5 @@
 import type { Faction } from "./faction";
+import type { EntityId } from "./ids";
 
 export type StarshipMeta = {
   is_military: boolean;
@@ -6,7 +7,8 @@ export type StarshipMeta = {
 };
 
 export type Starship = {
-  id: string;
+  entityId: EntityId;
+  id: string; // slug
   name: string;
   model: string;
 
@@ -30,7 +32,7 @@ export type Starship = {
 
   mglt: number | null;
 
-  films: string[];
+  filmIds: EntityId[];
 
   meta: StarshipMeta;
 };

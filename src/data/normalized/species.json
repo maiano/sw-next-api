@@ -1,7 +1,7 @@
 [
   {
-    "id": 1,
-    "slug": "human",
+    "entityId": 1,
+    "id": "human",
     "name": "Human",
     "classification": "mammal",
     "designation": "sentient",
@@ -45,8 +45,8 @@
     ]
   },
   {
-    "id": 2,
-    "slug": "droid",
+    "entityId": 2,
+    "id": "droid",
     "name": "Droid",
     "classification": "artificial",
     "designation": "sentient",
@@ -79,8 +79,8 @@
     ]
   },
   {
-    "id": 3,
-    "slug": "wookie",
+    "entityId": 3,
+    "id": "wookie",
     "name": "Wookie",
     "classification": "mammal",
     "designation": "sentient",
@@ -115,8 +115,8 @@
     ]
   },
   {
-    "id": 4,
-    "slug": "rodian",
+    "entityId": 4,
+    "id": "rodian",
     "name": "Rodian",
     "classification": "sentient",
     "designation": "reptilian",
@@ -142,8 +142,8 @@
     ]
   },
   {
-    "id": 5,
-    "slug": "hutt",
+    "entityId": 5,
+    "id": "hutt",
     "name": "Hutt",
     "classification": "gastropod",
     "designation": "sentient",
@@ -172,8 +172,8 @@
     ]
   },
   {
-    "id": 6,
-    "slug": "yodas-species",
+    "entityId": 6,
+    "id": "yodas-species",
     "name": "Yoda's species",
     "classification": "mammal",
     "designation": "sentient",
@@ -206,8 +206,8 @@
     ]
   },
   {
-    "id": 7,
-    "slug": "trandoshan",
+    "entityId": 7,
+    "id": "trandoshan",
     "name": "Trandoshan",
     "classification": "reptile",
     "designation": "sentient",
@@ -234,8 +234,8 @@
     ]
   },
   {
-    "id": 8,
-    "slug": "mon-calamari",
+    "entityId": 8,
+    "id": "mon-calamari",
     "name": "Mon Calamari",
     "classification": "amphibian",
     "designation": "sentient",
@@ -263,8 +263,8 @@
     ]
   },
   {
-    "id": 9,
-    "slug": "ewok",
+    "entityId": 9,
+    "id": "ewok",
     "name": "Ewok",
     "classification": "mammal",
     "designation": "sentient",
@@ -292,8 +292,8 @@
     ]
   },
   {
-    "id": 10,
-    "slug": "sullustan",
+    "entityId": 10,
+    "id": "sullustan",
     "name": "Sullustan",
     "classification": "mammal",
     "designation": "sentient",
@@ -318,8 +318,8 @@
     ]
   },
   {
-    "id": 11,
-    "slug": "neimodian",
+    "entityId": 11,
+    "id": "neimodian",
     "name": "Neimodian",
     "classification": "unknown",
     "designation": "sentient",
@@ -346,8 +346,8 @@
     ]
   },
   {
-    "id": 12,
-    "slug": "gungan",
+    "entityId": 12,
+    "id": "gungan",
     "name": "Gungan",
     "classification": "amphibian",
     "designation": "sentient",
@@ -376,8 +376,8 @@
     ]
   },
   {
-    "id": 13,
-    "slug": "toydarian",
+    "entityId": 13,
+    "id": "toydarian",
     "name": "Toydarian",
     "classification": "mammal",
     "designation": "sentient",
@@ -405,8 +405,8 @@
     ]
   },
   {
-    "id": 14,
-    "slug": "dug",
+    "entityId": 14,
+    "id": "dug",
     "name": "Dug",
     "classification": "mammal",
     "designation": "sentient",
@@ -435,8 +435,8 @@
     ]
   },
   {
-    "id": 15,
-    "slug": "twilek",
+    "entityId": 15,
+    "id": "twilek",
     "name": "Twi'lek",
     "classification": "mammals",
     "designation": "sentient",
@@ -474,8 +474,8 @@
     ]
   },
   {
-    "id": 16,
-    "slug": "aleena",
+    "entityId": 16,
+    "id": "aleena",
     "name": "Aleena",
     "classification": "reptile",
     "designation": "sentient",
@@ -501,8 +501,8 @@
     ]
   },
   {
-    "id": 17,
-    "slug": "vulptereen",
+    "entityId": 17,
+    "id": "vulptereen",
     "name": "Vulptereen",
     "classification": "unknown",
     "designation": "sentient",
@@ -527,8 +527,8 @@
     ]
   },
   {
-    "id": 18,
-    "slug": "xexto",
+    "entityId": 18,
+    "id": "xexto",
     "name": "Xexto",
     "classification": "unknown",
     "designation": "sentient",
@@ -555,8 +555,8 @@
     ]
   },
   {
-    "id": 19,
-    "slug": "toong",
+    "entityId": 19,
+    "id": "toong",
     "name": "Toong",
     "classification": "unknown",
     "designation": "sentient",
@@ -584,8 +584,8 @@
     ]
   },
   {
-    "id": 20,
-    "slug": "cerean",
+    "entityId": 20,
+    "id": "cerean",
     "name": "Cerean",
     "classification": "mammal",
     "designation": "sentient",
@@ -614,8 +614,8 @@
     ]
   },
   {
-    "id": 21,
-    "slug": "nautolan",
+    "entityId": 21,
+    "id": "nautolan",
     "name": "Nautolan",
     "classification": "amphibian",
     "designation": "sentient",
@@ -643,8 +643,8 @@
     ]
   },
   {
-    "id": 22,
-    "slug": "zabrak",
+    "entityId": 22,
+    "id": "zabrak",
     "name": "Zabrak",
     "classification": "mammal",
     "designation": "sentient",
@@ -675,8 +675,8 @@
     ]
   },
   {
-    "id": 23,
-    "slug": "tholothian",
+    "entityId": 23,
+    "id": "tholothian",
     "name": "Tholothian",
     "classification": "mammal",
     "designation": "sentient",
@@ -703,8 +703,8 @@
     ]
   },
   {
-    "id": 24,
-    "slug": "iktotchi",
+    "entityId": 24,
+    "id": "iktotchi",
     "name": "Iktotchi",
     "classification": "unknown",
     "designation": "sentient",
@@ -730,8 +730,8 @@
     ]
   },
   {
-    "id": 25,
-    "slug": "quermian",
+    "entityId": 25,
+    "id": "quermian",
     "name": "Quermian",
     "classification": "mammal",
     "designation": "sentient",
@@ -757,8 +757,8 @@
     ]
   },
   {
-    "id": 26,
-    "slug": "kel-dor",
+    "entityId": 26,
+    "id": "kel-dor",
     "name": "Kel Dor",
     "classification": "unknown",
     "designation": "sentient",
@@ -787,8 +787,8 @@
     ]
   },
   {
-    "id": 27,
-    "slug": "chagrian",
+    "entityId": 27,
+    "id": "chagrian",
     "name": "Chagrian",
     "classification": "amphibian",
     "designation": "sentient",
@@ -814,8 +814,8 @@
     ]
   },
   {
-    "id": 28,
-    "slug": "geonosian",
+    "entityId": 28,
+    "id": "geonosian",
     "name": "Geonosian",
     "classification": "insectoid",
     "designation": "sentient",
@@ -843,8 +843,8 @@
     ]
   },
   {
-    "id": 29,
-    "slug": "mirialan",
+    "entityId": 29,
+    "id": "mirialan",
     "name": "Mirialan",
     "classification": "mammal",
     "designation": "sentient",
@@ -878,8 +878,8 @@
     ]
   },
   {
-    "id": 30,
-    "slug": "clawdite",
+    "entityId": 30,
+    "id": "clawdite",
     "name": "Clawdite",
     "classification": "reptilian",
     "designation": "sentient",
@@ -906,8 +906,8 @@
     ]
   },
   {
-    "id": 31,
-    "slug": "besalisk",
+    "entityId": 31,
+    "id": "besalisk",
     "name": "Besalisk",
     "classification": "amphibian",
     "designation": "sentient",
@@ -932,8 +932,8 @@
     ]
   },
   {
-    "id": 32,
-    "slug": "kaminoan",
+    "entityId": 32,
+    "id": "kaminoan",
     "name": "Kaminoan",
     "classification": "amphibian",
     "designation": "sentient",
@@ -960,8 +960,8 @@
     ]
   },
   {
-    "id": 33,
-    "slug": "skakoan",
+    "entityId": 33,
+    "id": "skakoan",
     "name": "Skakoan",
     "classification": "mammal",
     "designation": "sentient",
@@ -988,8 +988,8 @@
     ]
   },
   {
-    "id": 34,
-    "slug": "muun",
+    "entityId": 34,
+    "id": "muun",
     "name": "Muun",
     "classification": "mammal",
     "designation": "sentient",
@@ -1016,8 +1016,8 @@
     ]
   },
   {
-    "id": 35,
-    "slug": "togruta",
+    "entityId": 35,
+    "id": "togruta",
     "name": "Togruta",
     "classification": "mammal",
     "designation": "sentient",
@@ -1053,8 +1053,8 @@
     ]
   },
   {
-    "id": 36,
-    "slug": "kaleesh",
+    "entityId": 36,
+    "id": "kaleesh",
     "name": "Kaleesh",
     "classification": "reptile",
     "designation": "sentient",
@@ -1081,8 +1081,8 @@
     ]
   },
   {
-    "id": 37,
-    "slug": "pauan",
+    "entityId": 37,
+    "id": "pauan",
     "name": "Pau'an",
     "classification": "mammal",
     "designation": "sentient",

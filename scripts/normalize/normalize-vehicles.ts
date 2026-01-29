@@ -14,15 +14,15 @@ export function normalizeVehicles() {
   const vehicles = readJson<SwapiVehicleRaw[]>(path.join(RAW_DIR, "vehicles.json"));
 
   const normalized = vehicles.map((vehicle): Vehicle => {
-    const id = extractId(vehicle.url);
+    const entityId = extractId(vehicle.url);
 
-    if (!id) {
-      throw new Error(`Vehicle without id: ${vehicle.name}`);
+    if (!entityId) {
+      throw new Error(`Vehicle without entityId: ${vehicle.name}`);
     }
 
     return {
-      id,
-      slug: slugify(vehicle.name),
+      entityId,
+      id: slugify(vehicle.name),
       name: vehicle.name,
 
       model: vehicle.model || "unknown",

@@ -1,7 +1,7 @@
 [
   {
-    "id": 1,
-    "slug": "tatooine",
+    "entityId": 1,
+    "id": "tatooine",
     "name": "Tatooine",
     "rotationPeriod": 23,
     "orbitalPeriod": 304,
@@ -32,8 +32,8 @@
     ]
   },
   {
-    "id": 2,
-    "slug": "alderaan",
+    "entityId": 2,
+    "id": "alderaan",
     "name": "Alderaan",
     "rotationPeriod": 24,
     "orbitalPeriod": 364,
@@ -54,8 +54,8 @@
     ]
   },
   {
-    "id": 3,
-    "slug": "yavin-iv",
+    "entityId": 3,
+    "id": "yavin-iv",
     "name": "Yavin IV",
     "rotationPeriod": 24,
     "orbitalPeriod": 4818,
@@ -71,8 +71,8 @@
     ]
   },
   {
-    "id": 4,
-    "slug": "hoth",
+    "entityId": 4,
+    "id": "hoth",
     "name": "Hoth",
     "rotationPeriod": 23,
     "orbitalPeriod": 549,
@@ -88,8 +88,8 @@
     ]
   },
   {
-    "id": 5,
-    "slug": "dagobah",
+    "entityId": 5,
+    "id": "dagobah",
     "name": "Dagobah",
     "rotationPeriod": 23,
     "orbitalPeriod": 341,
@@ -107,8 +107,8 @@
     ]
   },
   {
-    "id": 6,
-    "slug": "bespin",
+    "entityId": 6,
+    "id": "bespin",
     "name": "Bespin",
     "rotationPeriod": 12,
     "orbitalPeriod": 5110,
@@ -126,8 +126,8 @@
     ]
   },
   {
-    "id": 7,
-    "slug": "endor",
+    "entityId": 7,
+    "id": "endor",
     "name": "Endor",
     "rotationPeriod": 18,
     "orbitalPeriod": 402,
@@ -145,8 +145,8 @@
     ]
   },
   {
-    "id": 8,
-    "slug": "naboo",
+    "entityId": 8,
+    "id": "naboo",
     "name": "Naboo",
     "rotationPeriod": 26,
     "orbitalPeriod": 312,
@@ -177,8 +177,8 @@
     ]
   },
   {
-    "id": 9,
-    "slug": "coruscant",
+    "entityId": 9,
+    "id": "coruscant",
     "name": "Coruscant",
     "rotationPeriod": 24,
     "orbitalPeriod": 368,
@@ -201,8 +201,8 @@
     ]
   },
   {
-    "id": 10,
-    "slug": "kamino",
+    "entityId": 10,
+    "id": "kamino",
     "name": "Kamino",
     "rotationPeriod": 27,
     "orbitalPeriod": 463,
@@ -222,8 +222,8 @@
     ]
   },
   {
-    "id": 11,
-    "slug": "geonosis",
+    "entityId": 11,
+    "id": "geonosis",
     "name": "Geonosis",
     "rotationPeriod": 30,
     "orbitalPeriod": 256,
@@ -241,8 +241,8 @@
     ]
   },
   {
-    "id": 12,
-    "slug": "utapau",
+    "entityId": 12,
+    "id": "utapau",
     "name": "Utapau",
     "rotationPeriod": 27,
     "orbitalPeriod": 351,
@@ -260,8 +260,8 @@
     ]
   },
   {
-    "id": 13,
-    "slug": "mustafar",
+    "entityId": 13,
+    "id": "mustafar",
     "name": "Mustafar",
     "rotationPeriod": 36,
     "orbitalPeriod": 412,
@@ -277,8 +277,8 @@
     ]
   },
   {
-    "id": 14,
-    "slug": "kashyyyk",
+    "entityId": 14,
+    "id": "kashyyyk",
     "name": "Kashyyyk",
     "rotationPeriod": 26,
     "orbitalPeriod": 381,
@@ -297,8 +297,8 @@
     ]
   },
   {
-    "id": 15,
-    "slug": "polis-massa",
+    "entityId": 15,
+    "id": "polis-massa",
     "name": "Polis Massa",
     "rotationPeriod": 24,
     "orbitalPeriod": 590,
@@ -314,8 +314,8 @@
     ]
   },
   {
-    "id": 16,
-    "slug": "mygeeto",
+    "entityId": 16,
+    "id": "mygeeto",
     "name": "Mygeeto",
     "rotationPeriod": 12,
     "orbitalPeriod": 167,
@@ -331,8 +331,8 @@
     ]
   },
   {
-    "id": 17,
-    "slug": "felucia",
+    "entityId": 17,
+    "id": "felucia",
     "name": "Felucia",
     "rotationPeriod": 34,
     "orbitalPeriod": 231,
@@ -348,8 +348,8 @@
     ]
   },
   {
-    "id": 18,
-    "slug": "cato-neimoidia",
+    "entityId": 18,
+    "id": "cato-neimoidia",
     "name": "Cato Neimoidia",
     "rotationPeriod": 25,
     "orbitalPeriod": 278,
@@ -367,8 +367,8 @@
     ]
   },
   {
-    "id": 19,
-    "slug": "saleucami",
+    "entityId": 19,
+    "id": "saleucami",
     "name": "Saleucami",
     "rotationPeriod": 26,
     "orbitalPeriod": 392,
@@ -384,8 +384,8 @@
     ]
   },
   {
-    "id": 20,
-    "slug": "stewjon",
+    "entityId": 20,
+    "id": "stewjon",
     "name": "Stewjon",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -401,8 +401,8 @@
     "filmIds": []
   },
   {
-    "id": 21,
-    "slug": "eriadu",
+    "entityId": 21,
+    "id": "eriadu",
     "name": "Eriadu",
     "rotationPeriod": 24,
     "orbitalPeriod": 360,
@@ -418,8 +418,8 @@
     "filmIds": []
   },
   {
-    "id": 22,
-    "slug": "corellia",
+    "entityId": 22,
+    "id": "corellia",
     "name": "Corellia",
     "rotationPeriod": 25,
     "orbitalPeriod": 329,
@@ -436,8 +436,8 @@
     "filmIds": []
   },
   {
-    "id": 23,
-    "slug": "rodia",
+    "entityId": 23,
+    "id": "rodia",
     "name": "Rodia",
     "rotationPeriod": 29,
     "orbitalPeriod": 305,
@@ -453,8 +453,8 @@
     "filmIds": []
   },
   {
-    "id": 24,
-    "slug": "nal-hutta",
+    "entityId": 24,
+    "id": "nal-hutta",
     "name": "Nal Hutta",
     "rotationPeriod": 87,
     "orbitalPeriod": 413,
@@ -470,8 +470,8 @@
     "filmIds": []
   },
   {
-    "id": 25,
-    "slug": "dantooine",
+    "entityId": 25,
+    "id": "dantooine",
     "name": "Dantooine",
     "rotationPeriod": 25,
     "orbitalPeriod": 378,
@@ -485,8 +485,8 @@
     "filmIds": []
   },
   {
-    "id": 26,
-    "slug": "bestine-iv",
+    "entityId": 26,
+    "id": "bestine-iv",
     "name": "Bestine IV",
     "rotationPeriod": 26,
     "orbitalPeriod": 680,
@@ -502,8 +502,8 @@
     "filmIds": []
   },
   {
-    "id": 27,
-    "slug": "ord-mantell",
+    "entityId": 27,
+    "id": "ord-mantell",
     "name": "Ord Mantell",
     "rotationPeriod": 26,
     "orbitalPeriod": 334,
@@ -519,8 +519,8 @@
     ]
   },
   {
-    "id": 28,
-    "slug": "unknown",
+    "entityId": 28,
+    "id": "unknown",
     "name": "unknown",
     "rotationPeriod": 0,
     "orbitalPeriod": 0,
@@ -540,8 +540,8 @@
     "filmIds": []
   },
   {
-    "id": 29,
-    "slug": "trandosha",
+    "entityId": 29,
+    "id": "trandosha",
     "name": "Trandosha",
     "rotationPeriod": 25,
     "orbitalPeriod": 371,
@@ -557,8 +557,8 @@
     "filmIds": []
   },
   {
-    "id": 30,
-    "slug": "socorro",
+    "entityId": 30,
+    "id": "socorro",
     "name": "Socorro",
     "rotationPeriod": 20,
     "orbitalPeriod": 326,
@@ -574,8 +574,8 @@
     "filmIds": []
   },
   {
-    "id": 31,
-    "slug": "mon-cala",
+    "entityId": 31,
+    "id": "mon-cala",
     "name": "Mon Cala",
     "rotationPeriod": 21,
     "orbitalPeriod": 398,
@@ -591,8 +591,8 @@
     "filmIds": []
   },
   {
-    "id": 32,
-    "slug": "chandrila",
+    "entityId": 32,
+    "id": "chandrila",
     "name": "Chandrila",
     "rotationPeriod": 20,
     "orbitalPeriod": 368,
@@ -608,8 +608,8 @@
     "filmIds": []
   },
   {
-    "id": 33,
-    "slug": "sullust",
+    "entityId": 33,
+    "id": "sullust",
     "name": "Sullust",
     "rotationPeriod": 20,
     "orbitalPeriod": 263,
@@ -625,8 +625,8 @@
     "filmIds": []
   },
   {
-    "id": 34,
-    "slug": "toydaria",
+    "entityId": 34,
+    "id": "toydaria",
     "name": "Toydaria",
     "rotationPeriod": 21,
     "orbitalPeriod": 184,
@@ -642,8 +642,8 @@
     "filmIds": []
   },
   {
-    "id": 35,
-    "slug": "malastare",
+    "entityId": 35,
+    "id": "malastare",
     "name": "Malastare",
     "rotationPeriod": 26,
     "orbitalPeriod": 201,
@@ -659,8 +659,8 @@
     "filmIds": []
   },
   {
-    "id": 36,
-    "slug": "dathomir",
+    "entityId": 36,
+    "id": "dathomir",
     "name": "Dathomir",
     "rotationPeriod": 24,
     "orbitalPeriod": 491,
@@ -676,8 +676,8 @@
     "filmIds": []
   },
   {
-    "id": 37,
-    "slug": "ryloth",
+    "entityId": 37,
+    "id": "ryloth",
     "name": "Ryloth",
     "rotationPeriod": 30,
     "orbitalPeriod": 305,
@@ -694,8 +694,8 @@
     "filmIds": []
   },
   {
-    "id": 38,
-    "slug": "aleen-minor",
+    "entityId": 38,
+    "id": "aleen-minor",
     "name": "Aleen Minor",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -711,8 +711,8 @@
     "filmIds": []
   },
   {
-    "id": 39,
-    "slug": "vulpter",
+    "entityId": 39,
+    "id": "vulpter",
     "name": "Vulpter",
     "rotationPeriod": 22,
     "orbitalPeriod": 391,
@@ -728,8 +728,8 @@
     "filmIds": []
   },
   {
-    "id": 40,
-    "slug": "troiken",
+    "entityId": 40,
+    "id": "troiken",
     "name": "Troiken",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -745,8 +745,8 @@
     "filmIds": []
   },
   {
-    "id": 41,
-    "slug": "tund",
+    "entityId": 41,
+    "id": "tund",
     "name": "Tund",
     "rotationPeriod": 48,
     "orbitalPeriod": 1770,
@@ -762,8 +762,8 @@
     "filmIds": []
   },
   {
-    "id": 42,
-    "slug": "haruun-kal",
+    "entityId": 42,
+    "id": "haruun-kal",
     "name": "Haruun Kal",
     "rotationPeriod": 25,
     "orbitalPeriod": 383,
@@ -779,8 +779,8 @@
     "filmIds": []
   },
   {
-    "id": 43,
-    "slug": "cerea",
+    "entityId": 43,
+    "id": "cerea",
     "name": "Cerea",
     "rotationPeriod": 27,
     "orbitalPeriod": 386,
@@ -796,8 +796,8 @@
     "filmIds": []
   },
   {
-    "id": 44,
-    "slug": "glee-anselm",
+    "entityId": 44,
+    "id": "glee-anselm",
     "name": "Glee Anselm",
     "rotationPeriod": 33,
     "orbitalPeriod": 206,
@@ -813,8 +813,8 @@
     "filmIds": []
   },
   {
-    "id": 45,
-    "slug": "iridonia",
+    "entityId": 45,
+    "id": "iridonia",
     "name": "Iridonia",
     "rotationPeriod": 29,
     "orbitalPeriod": 413,
@@ -830,8 +830,8 @@
     "filmIds": []
   },
   {
-    "id": 46,
-    "slug": "tholoth",
+    "entityId": 46,
+    "id": "tholoth",
     "name": "Tholoth",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -845,8 +845,8 @@
     "filmIds": []
   },
   {
-    "id": 47,
-    "slug": "iktotch",
+    "entityId": 47,
+    "id": "iktotch",
     "name": "Iktotch",
     "rotationPeriod": 22,
     "orbitalPeriod": 481,
@@ -862,8 +862,8 @@
     "filmIds": []
   },
   {
-    "id": 48,
-    "slug": "quermia",
+    "entityId": 48,
+    "id": "quermia",
     "name": "Quermia",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -879,8 +879,8 @@
     "filmIds": []
   },
   {
-    "id": 49,
-    "slug": "dorin",
+    "entityId": 49,
+    "id": "dorin",
     "name": "Dorin",
     "rotationPeriod": 22,
     "orbitalPeriod": 409,
@@ -896,8 +896,8 @@
     "filmIds": []
   },
   {
-    "id": 50,
-    "slug": "champala",
+    "entityId": 50,
+    "id": "champala",
     "name": "Champala",
     "rotationPeriod": 27,
     "orbitalPeriod": 318,
@@ -913,8 +913,8 @@
     "filmIds": []
   },
   {
-    "id": 51,
-    "slug": "mirial",
+    "entityId": 51,
+    "id": "mirial",
     "name": "Mirial",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -931,8 +931,8 @@
     "filmIds": []
   },
   {
-    "id": 52,
-    "slug": "serenno",
+    "entityId": 52,
+    "id": "serenno",
     "name": "Serenno",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -948,8 +948,8 @@
     "filmIds": []
   },
   {
-    "id": 53,
-    "slug": "concord-dawn",
+    "entityId": 53,
+    "id": "concord-dawn",
     "name": "Concord Dawn",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -965,8 +965,8 @@
     "filmIds": []
   },
   {
-    "id": 54,
-    "slug": "zolan",
+    "entityId": 54,
+    "id": "zolan",
     "name": "Zolan",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -982,8 +982,8 @@
     "filmIds": []
   },
   {
-    "id": 55,
-    "slug": "ojom",
+    "entityId": 55,
+    "id": "ojom",
     "name": "Ojom",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -999,8 +999,8 @@
     "filmIds": []
   },
   {
-    "id": 56,
-    "slug": "skako",
+    "entityId": 56,
+    "id": "skako",
     "name": "Skako",
     "rotationPeriod": 27,
     "orbitalPeriod": 384,
@@ -1016,8 +1016,8 @@
     "filmIds": []
   },
   {
-    "id": 57,
-    "slug": "muunilinst",
+    "entityId": 57,
+    "id": "muunilinst",
     "name": "Muunilinst",
     "rotationPeriod": 28,
     "orbitalPeriod": 412,
@@ -1033,8 +1033,8 @@
     "filmIds": []
   },
   {
-    "id": 58,
-    "slug": "shili",
+    "entityId": 58,
+    "id": "shili",
     "name": "Shili",
     "rotationPeriod": null,
     "orbitalPeriod": null,
@@ -1050,8 +1050,8 @@
     "filmIds": []
   },
   {
-    "id": 59,
-    "slug": "kalee",
+    "entityId": 59,
+    "id": "kalee",
     "name": "Kalee",
     "rotationPeriod": 23,
     "orbitalPeriod": 378,
@@ -1067,8 +1067,8 @@
     "filmIds": []
   },
   {
-    "id": 60,
-    "slug": "umbara",
+    "entityId": 60,
+    "id": "umbara",
     "name": "Umbara",
     "rotationPeriod": null,
     "orbitalPeriod": null,

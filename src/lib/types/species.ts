@@ -1,8 +1,8 @@
 import type { EntityId } from "./ids";
 
 export type Species = {
-  id: EntityId;
-  slug: string;
+  entityId: EntityId;
+  id: string; // slug
   name: string;
 
   classification: string;

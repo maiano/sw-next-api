@@ -1,7 +1,7 @@
 [
   {
-    "id": 4,
-    "slug": "sand-crawler",
+    "entityId": 4,
+    "id": "sand-crawler",
     "name": "Sand Crawler",
     "model": "Digger Crawler",
     "manufacturer": "Corellia Mining Corporation",
@@ -20,8 +20,8 @@
     ]
   },
   {
-    "id": 6,
-    "slug": "t-16-skyhopper",
+    "entityId": 6,
+    "id": "t-16-skyhopper",
     "name": "T-16 skyhopper",
     "model": "T-16 skyhopper",
     "manufacturer": "Incom Corporation",
@@ -39,8 +39,8 @@
     ]
   },
   {
-    "id": 7,
-    "slug": "x-34-landspeeder",
+    "entityId": 7,
+    "id": "x-34-landspeeder",
     "name": "X-34 landspeeder",
     "model": "X-34 landspeeder",
     "manufacturer": "SoroSuub Corporation",
@@ -58,8 +58,8 @@
     ]
   },
   {
-    "id": 8,
-    "slug": "tie-ln-starfighter",
+    "entityId": 8,
+    "id": "tie-ln-starfighter",
     "name": "TIE/LN starfighter",
     "model": "Twin Ion Engine/Ln Starfighter",
     "manufacturer": "Sienar Fleet Systems",
@@ -79,8 +79,8 @@
     ]
   },
   {
-    "id": 14,
-    "slug": "snowspeeder",
+    "entityId": 14,
+    "id": "snowspeeder",
     "name": "Snowspeeder",
     "model": "t-47 airspeeder",
     "manufacturer": "Incom corporation",
@@ -101,8 +101,8 @@
     ]
   },
   {
-    "id": 16,
-    "slug": "tie-bomber",
+    "entityId": 16,
+    "id": "tie-bomber",
     "name": "TIE bomber",
     "model": "TIE/sa bomber",
     "manufacturer": "Sienar Fleet Systems",
@@ -121,8 +121,8 @@
     ]
   },
   {
-    "id": 18,
-    "slug": "at-at",
+    "entityId": 18,
+    "id": "at-at",
     "name": "AT-AT",
     "model": "All Terrain Armored Transport",
     "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
@@ -141,8 +141,8 @@
     ]
   },
   {
-    "id": 19,
-    "slug": "at-st",
+    "entityId": 19,
+    "id": "at-st",
     "name": "AT-ST",
     "model": "All Terrain Scout Transport",
     "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
@@ -163,8 +163,8 @@
     ]
   },
   {
-    "id": 20,
-    "slug": "storm-iv-twin-pod-cloud-car",
+    "entityId": 20,
+    "id": "storm-iv-twin-pod-cloud-car",
     "name": "Storm IV Twin-Pod cloud car",
     "model": "Storm IV Twin-Pod",
     "manufacturer": "Bespin Motors",
@@ -182,8 +182,8 @@
     ]
   },
   {
-    "id": 24,
-    "slug": "sail-barge",
+    "entityId": 24,
+    "id": "sail-barge",
     "name": "Sail barge",
     "model": "Modified Luxury Sail Barge",
     "manufacturer": "Ubrikkian Industries Custom Vehicle Division",
@@ -201,8 +201,8 @@
     ]
   },
   {
-    "id": 25,
-    "slug": "bantha-ii-cargo-skiff",
+    "entityId": 25,
+    "id": "bantha-ii-cargo-skiff",
     "name": "Bantha-II cargo skiff",
     "model": "Bantha-II",
     "manufacturer": "Ubrikkian Industries",
@@ -220,8 +220,8 @@
     ]
   },
   {
-    "id": 26,
-    "slug": "tie-in-interceptor",
+    "entityId": 26,
+    "id": "tie-in-interceptor",
     "name": "TIE/IN interceptor",
     "model": "Twin Ion Engine Interceptor",
     "manufacturer": "Sienar Fleet Systems",
@@ -239,8 +239,8 @@
     ]
   },
   {
-    "id": 30,
-    "slug": "imperial-speeder-bike",
+    "entityId": 30,
+    "id": "imperial-speeder-bike",
     "name": "Imperial Speeder Bike",
     "model": "74-Z speeder bike",
     "manufacturer": "Aratech Repulsor Company",
@@ -261,8 +261,8 @@
     ]
   },
   {
-    "id": 33,
-    "slug": "vulture-droid",
+    "entityId": 33,
+    "id": "vulture-droid",
     "name": "Vulture Droid",
     "model": "Vulture-class droid starfighter",
     "manufacturer": "Haor Chall Engineering, Baktoid Armor Workshop",
@@ -281,8 +281,8 @@
     ]
   },
   {
-    "id": 34,
-    "slug": "multi-troop-transport",
+    "entityId": 34,
+    "id": "multi-troop-transport",
     "name": "Multi-Troop Transport",
     "model": "Multi-Troop Transport",
     "manufacturer": "Baktoid Armor Workshop",
@@ -300,8 +300,8 @@
     ]
   },
   {
-    "id": 35,
-    "slug": "armored-assault-tank",
+    "entityId": 35,
+    "id": "armored-assault-tank",
     "name": "Armored Assault Tank",
     "model": "Armoured Assault Tank",
     "manufacturer": "Baktoid Armor Workshop",
@@ -319,8 +319,8 @@
     ]
   },
   {
-    "id": 36,
-    "slug": "single-trooper-aerial-platform",
+    "entityId": 36,
+    "id": "single-trooper-aerial-platform",
     "name": "Single Trooper Aerial Platform",
     "model": "Single Trooper Aerial Platform",
     "manufacturer": "Baktoid Armor Workshop",
@@ -338,8 +338,8 @@
     ]
   },
   {
-    "id": 37,
-    "slug": "c-9979-landing-craft",
+    "entityId": 37,
+    "id": "c-9979-landing-craft",
     "name": "C-9979 landing craft",
     "model": "C-9979 landing craft",
     "manufacturer": "Haor Chall Engineering",
@@ -357,8 +357,8 @@
     ]
   },
   {
-    "id": 38,
-    "slug": "tribubble-bongo",
+    "entityId": 38,
+    "id": "tribubble-bongo",
     "name": "Tribubble bongo",
     "model": "Tribubble bongo",
     "manufacturer": "Otoh Gunga Bongameken Cooperative",
@@ -379,8 +379,8 @@
     ]
   },
   {
-    "id": 42,
-    "slug": "sith-speeder",
+    "entityId": 42,
+    "id": "sith-speeder",
     "name": "Sith speeder",
     "model": "FC-20 speeder bike",
     "manufacturer": "Razalon",
@@ -400,8 +400,8 @@
     ]
   },
   {
-    "id": 44,
-    "slug": "zephyr-g-swoop-bike",
+    "entityId": 44,
+    "id": "zephyr-g-swoop-bike",
     "name": "Zephyr-G swoop bike",
     "model": "Zephyr-G swoop bike",
     "manufacturer": "Mobquet Swoops and Speeders",
@@ -421,8 +421,8 @@
     ]
   },
   {
-    "id": 45,
-    "slug": "koro-2-exodrive-airspeeder",
+    "entityId": 45,
+    "id": "koro-2-exodrive-airspeeder",
     "name": "Koro-2 Exodrive airspeeder",
     "model": "Koro-2 Exodrive airspeeder",
     "manufacturer": "Desler Gizh Outworld Mobility Corporation",
@@ -442,8 +442,8 @@
     ]
   },
   {
-    "id": 46,
-    "slug": "xj-6-airspeeder",
+    "entityId": 46,
+    "id": "xj-6-airspeeder",
     "name": "XJ-6 airspeeder",
     "model": "XJ-6 airspeeder",
     "manufacturer": "Narglatch AirTech prefabricated kit",
@@ -463,8 +463,8 @@
     ]
   },
   {
-    "id": 50,
-    "slug": "laat-i",
+    "entityId": 50,
+    "id": "laat-i",
     "name": "LAAT/i",
     "model": "Low Altitude Assault Transport/infrantry",
     "manufacturer": "Rothana Heavy Engineering",
@@ -483,8 +483,8 @@
     ]
   },
   {
-    "id": 51,
-    "slug": "laat-c",
+    "entityId": 51,
+    "id": "laat-c",
     "name": "LAAT/c",
     "model": "Low Altitude Assault Transport/carrier",
     "manufacturer": "Rothana Heavy Engineering",
@@ -502,8 +502,8 @@
     ]
   },
   {
-    "id": 53,
-    "slug": "at-te",
+    "entityId": 53,
+    "id": "at-te",
     "name": "AT-TE",
     "model": "All Terrain Tactical Enforcer",
     "manufacturer": "Rothana Heavy Engineering, Kuat Drive Yards",
@@ -522,8 +522,8 @@
     ]
   },
   {
-    "id": 54,
-    "slug": "spha",
+    "entityId": 54,
+    "id": "spha",
     "name": "SPHA",
     "model": "Self-Propelled Heavy Artillery",
     "manufacturer": "Rothana Heavy Engineering",
@@ -541,8 +541,8 @@
     ]
   },
   {
-    "id": 55,
-    "slug": "flitknot-speeder",
+    "entityId": 55,
+    "id": "flitknot-speeder",
     "name": "Flitknot speeder",
     "model": "Flitknot speeder",
     "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
@@ -562,8 +562,8 @@
     ]
   },
   {
-    "id": 56,
-    "slug": "neimoidian-shuttle",
+    "entityId": 56,
+    "id": "neimoidian-shuttle",
     "name": "Neimoidian shuttle",
     "model": "Sheathipede-class transport shuttle",
     "manufacturer": "Haor Chall Engineering",
@@ -582,8 +582,8 @@
     ]
   },
   {
-    "id": 57,
-    "slug": "geonosian-starfighter",
+    "entityId": 57,
+    "id": "geonosian-starfighter",
     "name": "Geonosian starfighter",
     "model": "Nantex-class territorial defense",
     "manufacturer": "Huppla Pasa Tisc Shipwrights Collective",
@@ -601,8 +601,8 @@
     ]
   },
   {
-    "id": 60,
-    "slug": "tsmeu-6-personal-wheel-bike",
+    "entityId": 60,
+    "id": "tsmeu-6-personal-wheel-bike",
     "name": "Tsmeu-6 personal wheel bike",
     "model": "Tsmeu-6 personal wheel bike",
     "manufacturer": "Z-Gomot Ternbuell Guppat Corporation",
@@ -622,8 +622,8 @@
     ]
   },
   {
-    "id": 62,
-    "slug": "emergency-firespeeder",
+    "entityId": 62,
+    "id": "emergency-firespeeder",
     "name": "Emergency Firespeeder",
     "model": "Fire suppression speeder",
     "manufacturer": "unknown",
@@ -641,8 +641,8 @@
     ]
   },
   {
-    "id": 67,
-    "slug": "droid-tri-fighter",
+    "entityId": 67,
+    "id": "droid-tri-fighter",
     "name": "Droid tri-fighter",
     "model": "tri-fighter",
     "manufacturer": "Colla Designs, Phlac-Arphocc Automata Industries",
@@ -660,8 +660,8 @@
     ]
   },
   {
-    "id": 69,
-    "slug": "oevvaor-jet-catamaran",
+    "entityId": 69,
+    "id": "oevvaor-jet-catamaran",
     "name": "Oevvaor jet catamaran",
     "model": "Oevvaor jet catamaran",
     "manufacturer": "Appazanna Engineering Works",
@@ -679,8 +679,8 @@
     ]
   },
   {
-    "id": 70,
-    "slug": "raddaugh-gnasp-fluttercraft",
+    "entityId": 70,
+    "id": "raddaugh-gnasp-fluttercraft",
     "name": "Raddaugh Gnasp fluttercraft",
     "model": "Raddaugh Gnasp fluttercraft",
     "manufacturer": "Appazanna Engineering Works",
@@ -698,8 +698,8 @@
     ]
   },
   {
-    "id": 71,
-    "slug": "clone-turbo-tank",
+    "entityId": 71,
+    "id": "clone-turbo-tank",
     "name": "Clone turbo tank",
     "model": "HAVw A6 Juggernaut",
     "manufacturer": "Kuat Drive Yards",
@@ -717,8 +717,8 @@
     ]
   },
   {
-    "id": 72,
-    "slug": "corporate-alliance-tank-droid",
+    "entityId": 72,
+    "id": "corporate-alliance-tank-droid",
     "name": "Corporate Alliance tank droid",
     "model": "NR-N99 Persuader-class droid enforcer",
     "manufacturer": "Techno Union",
@@ -736,8 +736,8 @@
     ]
   },
   {
-    "id": 73,
-    "slug": "droid-gunship",
+    "entityId": 73,
+    "id": "droid-gunship",
     "name": "Droid gunship",
     "model": "HMP droid gunship",
     "manufacturer": "Baktoid Fleet Ordnance, Haor Chall Engineering",
@@ -755,8 +755,8 @@
     ]
   },
   {
-    "id": 76,
-    "slug": "at-rt",
+    "entityId": 76,
+    "id": "at-rt",
     "name": "AT-RT",
     "model": "All Terrain Recon Transport",
     "manufacturer": "Kuat Drive Yards",

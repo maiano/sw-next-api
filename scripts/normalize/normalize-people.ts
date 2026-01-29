@@ -11,14 +11,14 @@ import { parseYear } from "@/lib/utils/parseYear";
 import { slugify } from "@/lib/utils/slugify";
 
 function normalizePerson(raw: SwapiPersonRaw): Person {
-  const id = extractId(raw.url);
-  if (!id) throw new Error(`Invalid person url: ${raw.url}`);
+  const entityId = extractId(raw.url);
+  if (!entityId) throw new Error(`Invalid person url: ${raw.url}`);
 
-  const metaOverride = PEOPLE_META[id] ?? {};
+  const metaOverride = PEOPLE_META[entityId] ?? {};
 
   return {
-    id,
-    slug: slugify(raw.name),
+    entityId,
+    id: slugify(raw.name),
     name: raw.name,
 
     heightCm: parseNumber(raw.height),

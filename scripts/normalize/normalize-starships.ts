@@ -1,7 +1,8 @@
 import path from "node:path";
 import { STARSHIP_META } from "@/data/meta/starships.meta";
 import type { Starship } from "@/lib/types/starships";
-import type { SwapiFilmRaw, SwapiStarshipRaw } from "@/lib/types/swapi";
+import type { SwapiStarshipRaw } from "@/lib/types/swapi";
+import { extractId } from "@/lib/utils/extractId";
 import { filterDefined } from "@/lib/utils/filterDefined";
 import { parseDuration } from "@/lib/utils/parseDuration";
 import { parseNumber } from "@/lib/utils/parseNumber";
@@ -17,15 +18,10 @@ export function normalizeStarships() {
     path.join(RAW_DIR, "starships.json"),
   );
 
-  const films = readJson<SwapiFilmRaw[]>(path.join(RAW_DIR, "films.json"));
-
-  const filmIdMap = new Map<string, string>();
-
-  films.forEach((film) => {
-    filmIdMap.set(film.url, slugify(film.title));
-  });
-
   const normalized = starships.map((ship): Starship => {
+    const entityId = extractId(ship.url);
+    if (!entityId) throw new Error(`Starship without entityId: ${ship.name}`);
+
     const id = slugify(ship.name);
 
     const meta = STARSHIP_META[id] ?? {
@@ -34,6 +30,7 @@ export function normalizeStarships() {
     };
 
     return {
+      entityId,
       id,
       name: ship.name,
       model: ship.model,
@@ -58,7 +55,7 @@ export function normalizeStarships() {
 
       mglt: parseNumber(ship.MGLT),
 
-      films: filterDefined(ship.films.map((url) => filmIdMap.get(url))),
+      filmIds: filterDefined(ship.films.map(extractId)),
 
       meta,
     };

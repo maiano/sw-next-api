@@ -1,5 +1,6 @@
 [
   {
+    "entityId": 2,
     "id": "cr90-corvette",
     "name": "CR90 corvette",
     "model": "CR90 corvette",
@@ -18,10 +19,10 @@
     "consumables_days": 365,
     "hyperdrive_rating": 2,
     "mglt": 60,
-    "films": [
-      "a-new-hope",
-      "return-of-the-jedi",
-      "revenge-of-the-sith"
+    "filmIds": [
+      1,
+      3,
+      6
     ],
     "meta": {
       "is_military": true,
@@ -29,6 +30,7 @@
     }
   },
   {
+    "entityId": 3,
     "id": "star-destroyer",
     "name": "Star Destroyer",
     "model": "Imperial I-class Star Destroyer",
@@ -47,10 +49,10 @@
     "consumables_days": 730,
     "hyperdrive_rating": 2,
     "mglt": 60,
-    "films": [
-      "a-new-hope",
-      "the-empire-strikes-back",
-      "return-of-the-jedi"
+    "filmIds": [
+      1,
+      2,
+      3
     ],
     "meta": {
       "is_military": true,
@@ -58,6 +60,7 @@
     }
   },
   {
+    "entityId": 5,
     "id": "sentinel-class-landing-craft",
     "name": "Sentinel-class landing craft",
     "model": "Sentinel-class landing craft",
@@ -77,8 +80,8 @@
     "consumables_days": 30,
     "hyperdrive_rating": 1,
     "mglt": 70,
-    "films": [
-      "a-new-hope"
+    "filmIds": [
+      1
     ],
     "meta": {
       "is_military": true,
@@ -86,6 +89,7 @@
     }
   },
   {
+    "entityId": 9,
     "id": "death-star",
     "name": "Death Star",
     "model": "DS-1 Orbital Battle Station",
@@ -105,8 +109,8 @@
     "consumables_days": 1095,
     "hyperdrive_rating": 4,
     "mglt": 10,
-    "films": [
-      "a-new-hope"
+    "filmIds": [
+      1
     ],
     "meta": {
       "is_military": true,
@@ -114,6 +118,7 @@
     }
   },
   {
+    "entityId": 10,
     "id": "millennium-falcon",
     "name": "Millennium Falcon",
     "model": "YT-1300 light freighter",
@@ -132,10 +137,10 @@
     "consumables_days": 60,
     "hyperdrive_rating": 0.5,
     "mglt": 75,
-    "films": [
-      "a-new-hope",
-      "the-empire-strikes-back",
-      "return-of-the-jedi"
+    "filmIds": [
+      1,
+      2,
+      3
     ],
     "meta": {
       "is_military": false,
@@ -143,6 +148,7 @@
     }
   },
   {
+    "entityId": 11,
     "id": "y-wing",
     "name": "Y-wing",
     "model": "BTL Y-wing",
@@ -161,10 +167,10 @@
     "consumables_days": null,
     "hyperdrive_rating": 1,
     "mglt": 80,
-    "films": [
-      "a-new-hope",
-      "the-empire-strikes-back",
-      "return-of-the-jedi"
+    "filmIds": [
+      1,
+      2,
+      3
     ],
     "meta": {
       "is_military": true,
@@ -172,6 +178,7 @@
     }
   },
   {
+    "entityId": 12,
     "id": "x-wing",
     "name": "X-wing",
     "model": "T-65 X-wing",
@@ -190,10 +197,10 @@
     "consumables_days": null,
     "hyperdrive_rating": 1,
     "mglt": 100,
-    "films": [
-      "a-new-hope",
-      "the-empire-strikes-back",
-      "return-of-the-jedi"
+    "filmIds": [
+      1,
+      2,
+      3
     ],
     "meta": {
       "is_military": true,
@@ -201,6 +208,7 @@
     }
   },
   {
+    "entityId": 13,
     "id": "tie-advanced-x1",
     "name": "TIE Advanced x1",
     "model": "Twin Ion Engine Advanced x1",
@@ -219,8 +227,8 @@
     "consumables_days": 5,
     "hyperdrive_rating": 1,
     "mglt": 105,
-    "films": [
-      "a-new-hope"
+    "filmIds": [
+      1
     ],
     "meta": {
       "is_military": true,
@@ -228,6 +236,7 @@
     }
   },
   {
+    "entityId": 15,
     "id": "executor",
     "name": "Executor",
     "model": "Executor-class star dreadnought",
@@ -247,9 +256,9 @@
     "consumables_days": 2190,
     "hyperdrive_rating": 2,
     "mglt": 40,
-    "films": [
-      "the-empire-strikes-back",
-      "return-of-the-jedi"
+    "filmIds": [
+      2,
+      3
     ],
     "meta": {
       "is_military": true,
@@ -257,6 +266,7 @@
     }
   },
   {
+    "entityId": 17,
     "id": "rebel-transport",
     "name": "Rebel transport",
     "model": "GR-75 medium transport",
@@ -276,9 +286,9 @@
     "consumables_days": 180,
     "hyperdrive_rating": 4,
     "mglt": 20,
-    "films": [
-      "the-empire-strikes-back",
-      "return-of-the-jedi"
+    "filmIds": [
+      2,
+      3
     ],
     "meta": {
       "is_military": false,
@@ -286,6 +296,7 @@
     }
   },
   {
+    "entityId": 21,
     "id": "slave-1",
     "name": "Slave 1",
     "model": "Firespray-31-class patrol and attack",
@@ -304,9 +315,9 @@
     "consumables_days": 30,
     "hyperdrive_rating": 3,
     "mglt": 70,
-    "films": [
-      "the-empire-strikes-back",
-      "attack-of-the-clones"
+    "filmIds": [
+      2,
+      5
     ],
     "meta": {
       "is_military": true,
@@ -314,6 +325,7 @@
     }
   },
   {
+    "entityId": 22,
     "id": "imperial-shuttle",
     "name": "Imperial shuttle",
     "model": "Lambda-class T-4a shuttle",
@@ -332,9 +344,9 @@
     "consumables_days": 60,
     "hyperdrive_rating": 1,
     "mglt": 50,
-    "films": [
-      "the-empire-strikes-back",
-      "return-of-the-jedi"
+    "filmIds": [
+      2,
+      3
     ],
     "meta": {
       "is_military": false,
@@ -342,6 +354,7 @@
     }
   },
   {
+    "entityId": 23,
     "id": "ef76-nebulon-b-escort-frigate",
     "name": "EF76 Nebulon-B escort frigate",
     "model": "EF76 Nebulon-B escort frigate",
@@ -360,9 +373,9 @@
     "consumables_days": 730,
     "hyperdrive_rating": 2,
     "mglt": 40,
-    "films": [
-      "the-empire-strikes-back",
-      "return-of-the-jedi"
+    "filmIds": [
+      2,
+      3
     ],
     "meta": {
       "is_military": true,
@@ -370,6 +383,7 @@
     }
   },
   {
+    "entityId": 27,
     "id": "calamari-cruiser",
     "name": "Calamari Cruiser",
     "model": "MC80 Liberty type Star Cruiser",
@@ -388,8 +402,8 @@
     "consumables_days": 730,
     "hyperdrive_rating": 1,
     "mglt": 60,
-    "films": [
-      "return-of-the-jedi"
+    "filmIds": [
+      3
     ],
     "meta": {
       "is_military": true,
@@ -397,6 +411,7 @@
     }
   },
   {
+    "entityId": 28,
     "id": "a-wing",
     "name": "A-wing",
     "model": "RZ-1 A-wing Interceptor",
@@ -416,8 +431,8 @@
     "consumables_days": null,
     "hyperdrive_rating": 1,
     "mglt": 120,
-    "films": [
-      "return-of-the-jedi"
+    "filmIds": [
+      3
     ],
     "meta": {
       "is_military": true,
@@ -425,6 +440,7 @@
     }
   },
   {
+    "entityId": 29,
     "id": "b-wing",
     "name": "B-wing",
     "model": "A/SF-01 B-wing starfighter",
@@ -443,8 +459,8 @@
     "consumables_days": null,
     "hyperdrive_rating": 2,
     "mglt": 91,
-    "films": [
-      "return-of-the-jedi"
+    "filmIds": [
+      3
     ],
     "meta": {
       "is_military": true,
@@ -452,6 +468,7 @@
     }
   },
   {
+    "entityId": 31,
     "id": "republic-cruiser",
     "name": "Republic Cruiser",
     "model": "Consular-class cruiser",
@@ -470,8 +487,8 @@
     "consumables_days": null,
     "hyperdrive_rating": 2,
     "mglt": null,
-    "films": [
-      "the-phantom-menace"
+    "filmIds": [
+      4
     ],
     "meta": {
       "is_military": true,
@@ -479,6 +496,7 @@
     }
   },
   {
+    "entityId": 32,
     "id": "droid-control-ship",
     "name": "Droid control ship",
     "model": "Lucrehulk-class Droid Control Ship",
@@ -498,10 +516,10 @@
     "consumables_days": 500,
     "hyperdrive_rating": 2,
     "mglt": null,
-    "films": [
-      "the-phantom-menace",
-      "attack-of-the-clones",
-      "revenge-of-the-sith"
+    "filmIds": [
+      4,
+      5,
+      6
     ],
     "meta": {
       "is_military": true,
@@ -509,6 +527,7 @@
     }
   },
   {
+    "entityId": 39,
     "id": "naboo-fighter",
     "name": "Naboo fighter",
     "model": "N-1 starfighter",
@@ -527,9 +546,9 @@
     "consumables_days": 7,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "films": [
-      "the-phantom-menace",
-      "attack-of-the-clones"
+    "filmIds": [
+      4,
+      5
     ],
     "meta": {
       "is_military": true,
@@ -537,6 +556,7 @@
     }
   },
   {
+    "entityId": 40,
     "id": "naboo-royal-starship",
     "name": "Naboo Royal Starship",
     "model": "J-type 327 Nubian royal starship",
@@ -556,8 +576,8 @@
     "consumables_days": null,
     "hyperdrive_rating": 1.8,
     "mglt": null,
-    "films": [
-      "the-phantom-menace"
+    "filmIds": [
+      4
     ],
     "meta": {
       "is_military": false,
@@ -565,6 +585,7 @@
     }
   },
   {
+    "entityId": 41,
     "id": "scimitar",
     "name": "Scimitar",
     "model": "Star Courier",
@@ -583,8 +604,8 @@
     "consumables_days": 30,
     "hyperdrive_rating": 1.5,
     "mglt": null,
-    "films": [
-      "the-phantom-menace"
+    "filmIds": [
+      4
     ],
     "meta": {
       "is_military": true,
@@ -592,6 +613,7 @@
     }
   },
   {
+    "entityId": 43,
     "id": "j-type-diplomatic-barge",
     "name": "J-type diplomatic barge",
     "model": "J-type diplomatic barge",
@@ -611,8 +633,8 @@
     "consumables_days": 365,
     "hyperdrive_rating": 0.7,
     "mglt": null,
-    "films": [
-      "attack-of-the-clones"
+    "filmIds": [
+      5
     ],
     "meta": {
       "is_military": false,
@@ -620,6 +642,7 @@
     }
   },
   {
+    "entityId": 47,
     "id": "aa-9-coruscant-freighter",
     "name": "AA-9 Coruscant freighter",
     "model": "Botajef AA-9 Freighter-Liner",
@@ -635,8 +658,8 @@
     "consumables_days": null,
     "hyperdrive_rating": null,
     "mglt": null,
-    "films": [
-      "attack-of-the-clones"
+    "filmIds": [
+      5
     ],
     "meta": {
       "is_military": false,
@@ -644,6 +667,7 @@
     }
   },
   {
+    "entityId": 48,
     "id": "jedi-starfighter",
     "name": "Jedi starfighter",
     "model": "Delta-7 Aethersprite-class interceptor",
@@ -662,9 +686,9 @@
     "consumables_days": 7,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "films": [
-      "attack-of-the-clones",
-      "revenge-of-the-sith"
+    "filmIds": [
+      5,
+      6
     ],
     "meta": {
       "is_military": true,
@@ -672,6 +696,7 @@
     }
   },
   {
+    "entityId": 49,
     "id": "h-type-nubian-yacht",
     "name": "H-type Nubian yacht",
     "model": "H-type Nubian yacht",
@@ -690,8 +715,8 @@
     "consumables_days": null,
     "hyperdrive_rating": 0.9,
     "mglt": null,
-    "films": [
-      "attack-of-the-clones"
+    "filmIds": [
+      5
     ],
     "meta": {
       "is_military": false,
@@ -699,6 +724,7 @@
     }
   },
   {
+    "entityId": 52,
     "id": "republic-assault-ship",
     "name": "Republic Assault ship",
     "model": "Acclamator I-class assault ship",
@@ -717,8 +743,8 @@
     "consumables_days": 730,
     "hyperdrive_rating": 0.6,
     "mglt": null,
-    "films": [
-      "attack-of-the-clones"
+    "filmIds": [
+      5
     ],
     "meta": {
       "is_military": true,
@@ -726,6 +752,7 @@
     }
   },
   {
+    "entityId": 58,
     "id": "solar-sailer",
     "name": "Solar Sailer",
     "model": "Punworcca 116-class interstellar sloop",
@@ -744,8 +771,8 @@
     "consumables_days": 7,
     "hyperdrive_rating": 1.5,
     "mglt": null,
-    "films": [
-      "attack-of-the-clones"
+    "filmIds": [
+      5
     ],
     "meta": {
       "is_military": false,
@@ -753,6 +780,7 @@
     }
   },
   {
+    "entityId": 59,
     "id": "trade-federation-cruiser",
     "name": "Trade Federation cruiser",
     "model": "Providence-class carrier/destroyer",
@@ -772,8 +800,8 @@
     "consumables_days": 1460,
     "hyperdrive_rating": 1.5,
     "mglt": null,
-    "films": [
-      "revenge-of-the-sith"
+    "filmIds": [
+      6
     ],
     "meta": {
       "is_military": true,
@@ -781,6 +809,7 @@
     }
   },
   {
+    "entityId": 61,
     "id": "theta-class-t-2c-shuttle",
     "name": "Theta-class T-2c shuttle",
     "model": "Theta-class T-2c shuttle",
@@ -799,8 +828,8 @@
     "consumables_days": 56,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "films": [
-      "revenge-of-the-sith"
+    "filmIds": [
+      6
     ],
     "meta": {
       "is_military": false,
@@ -808,6 +837,7 @@
     }
   },
   {
+    "entityId": 63,
     "id": "republic-attack-cruiser",
     "name": "Republic attack cruiser",
     "model": "Senator-class Star Destroyer",
@@ -827,8 +857,8 @@
     "consumables_days": 730,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "films": [
-      "revenge-of-the-sith"
+    "filmIds": [
+      6
     ],
     "meta": {
       "is_military": true,
@@ -836,6 +866,7 @@
     }
   },
   {
+    "entityId": 64,
     "id": "naboo-star-skiff",
     "name": "Naboo star skiff",
     "model": "J-type star skiff",
@@ -855,8 +886,8 @@
     "consumables_days": null,
     "hyperdrive_rating": 0.5,
     "mglt": null,
-    "films": [
-      "revenge-of-the-sith"
+    "filmIds": [
+      6
     ],
     "meta": {
       "is_military": false,
@@ -864,6 +895,7 @@
     }
   },
   {
+    "entityId": 65,
     "id": "jedi-interceptor",
     "name": "Jedi Interceptor",
     "model": "Eta-2 Actis-class light interceptor",
@@ -882,8 +914,8 @@
     "consumables_days": 2,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "films": [
-      "revenge-of-the-sith"
+    "filmIds": [
+      6
     ],
     "meta": {
       "is_military": true,
@@ -891,6 +923,7 @@
     }
   },
   {
+    "entityId": 66,
     "id": "arc-170",
     "name": "arc-170",
     "model": "Aggressive Reconnaissance-170 starfighte",
@@ -910,8 +943,8 @@
     "consumables_days": 5,
     "hyperdrive_rating": 1,
     "mglt": 100,
-    "films": [
-      "revenge-of-the-sith"
+    "filmIds": [
+      6
     ],
     "meta": {
       "is_military": true,
@@ -919,6 +952,7 @@
     }
   },
   {
+    "entityId": 68,
     "id": "banking-clan-frigte",
     "name": "Banking clan frigte",
     "model": "Munificent-class star frigate",
@@ -939,8 +973,8 @@
     "consumables_days": 730,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "films": [
-      "revenge-of-the-sith"
+    "filmIds": [
+      6
     ],
     "meta": {
       "is_military": false,
@@ -948,6 +982,7 @@
     }
   },
   {
+    "entityId": 74,
     "id": "belbullab-22-starfighter",
     "name": "Belbullab-22 starfighter",
     "model": "Belbullab-22 starfighter",
@@ -966,8 +1001,8 @@
     "consumables_days": 7,
     "hyperdrive_rating": 6,
     "mglt": null,
-    "films": [
-      "revenge-of-the-sith"
+    "filmIds": [
+      6
     ],
     "meta": {
       "is_military": true,
@@ -975,6 +1010,7 @@
     }
   },
   {
+    "entityId": 75,
     "id": "v-wing",
     "name": "V-wing",
     "model": "Alpha-3 Nimbus-class V-wing starfighter",
@@ -993,8 +1029,8 @@
     "consumables_days": null,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "films": [
-      "revenge-of-the-sith"
+    "filmIds": [
+      6
     ],
     "meta": {
       "is_military": true,

@@ -14,15 +14,15 @@ export function normalizeSpecies() {
   const species = readJson<SwapiSpeciesRaw[]>(path.join(RAW_DIR, "species.json"));
 
   const normalized = species.map((s): Species => {
-    const id = extractId(s.url);
+    const entityId = extractId(s.url);
 
-    if (!id) {
-      throw new Error(`Species without id: ${s.name}`);
+    if (!entityId) {
+      throw new Error(`Species without entityId: ${s.name}`);
     }
 
     return {
-      id,
-      slug: slugify(s.name),
+      entityId,
+      id: slugify(s.name),
       name: s.name,
 
       classification: s.classification || "unknown",

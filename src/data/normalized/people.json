@@ -1,7 +1,7 @@
 [
   {
-    "id": 1,
-    "slug": "luke-skywalker",
+    "entityId": 1,
+    "id": "luke-skywalker",
     "name": "Luke Skywalker",
     "heightCm": 172,
     "massKg": 77,
@@ -31,8 +31,8 @@
     }
   },
   {
-    "id": 2,
-    "slug": "c-3po",
+    "entityId": 2,
+    "id": "c-3po",
     "name": "C-3PO",
     "heightCm": 167,
     "massKg": 75,
@@ -60,8 +60,8 @@
     }
   },
   {
-    "id": 3,
-    "slug": "r2-d2",
+    "entityId": 3,
+    "id": "r2-d2",
     "name": "R2-D2",
     "heightCm": 96,
     "massKg": 32,
@@ -89,8 +89,8 @@
     }
   },
   {
-    "id": 4,
-    "slug": "darth-vader",
+    "entityId": 4,
+    "id": "darth-vader",
     "name": "Darth Vader",
     "heightCm": 202,
     "massKg": 136,
@@ -116,8 +116,8 @@
     }
   },
   {
-    "id": 5,
-    "slug": "leia-organa",
+    "entityId": 5,
+    "id": "leia-organa",
     "name": "Leia Organa",
     "heightCm": 150,
     "massKg": 49,
@@ -143,8 +143,8 @@
     }
   },
   {
-    "id": 6,
-    "slug": "owen-lars",
+    "entityId": 6,
+    "id": "owen-lars",
     "name": "Owen Lars",
     "heightCm": 178,
     "massKg": 120,
@@ -167,8 +167,8 @@
     }
   },
   {
-    "id": 7,
-    "slug": "beru-whitesun-lars",
+    "entityId": 7,
+    "id": "beru-whitesun-lars",
     "name": "Beru Whitesun lars",
     "heightCm": 165,
     "massKg": 75,
@@ -191,8 +191,8 @@
     }
   },
   {
-    "id": 8,
-    "slug": "r5-d4",
+    "entityId": 8,
+    "id": "r5-d4",
     "name": "R5-D4",
     "heightCm": 97,
     "massKg": 32,
@@ -215,8 +215,8 @@
     }
   },
   {
-    "id": 9,
-    "slug": "biggs-darklighter",
+    "entityId": 9,
+    "id": "biggs-darklighter",
     "name": "Biggs Darklighter",
     "heightCm": 183,
     "massKg": 84,
@@ -239,8 +239,8 @@
     }
   },
   {
-    "id": 10,
-    "slug": "obi-wan-kenobi",
+    "entityId": 10,
+    "id": "obi-wan-kenobi",
     "name": "Obi-Wan Kenobi",
     "heightCm": 182,
     "massKg": 77,
@@ -274,8 +274,8 @@
     }
   },
   {
-    "id": 11,
-    "slug": "anakin-skywalker",
+    "entityId": 11,
+    "id": "anakin-skywalker",
     "name": "Anakin Skywalker",
     "heightCm": 188,
     "massKg": 84,
@@ -305,8 +305,8 @@
     }
   },
   {
-    "id": 12,
-    "slug": "wilhuff-tarkin",
+    "entityId": 12,
+    "id": "wilhuff-tarkin",
     "name": "Wilhuff Tarkin",
     "heightCm": 180,
     "massKg": null,
@@ -328,8 +328,8 @@
     }
   },
   {
-    "id": 13,
-    "slug": "chewbacca",
+    "entityId": 13,
+    "id": "chewbacca",
     "name": "Chewbacca",
     "heightCm": 228,
     "massKg": 112,
@@ -360,8 +360,8 @@
     }
   },
   {
-    "id": 14,
-    "slug": "han-solo",
+    "entityId": 14,
+    "id": "han-solo",
     "name": "Han Solo",
     "heightCm": 180,
     "massKg": 80,
@@ -387,8 +387,8 @@
     }
   },
   {
-    "id": 15,
-    "slug": "greedo",
+    "entityId": 15,
+    "id": "greedo",
     "name": "Greedo",
     "heightCm": 173,
     "massKg": 74,
@@ -411,8 +411,8 @@
     }
   },
   {
-    "id": 16,
-    "slug": "jabba-desilijic-tiure",
+    "entityId": 16,
+    "id": "jabba-desilijic-tiure",
     "name": "Jabba Desilijic Tiure",
     "heightCm": 175,
     "massKg": 1358,
@@ -437,8 +437,8 @@
     }
   },
   {
-    "id": 18,
-    "slug": "wedge-antilles",
+    "entityId": 18,
+    "id": "wedge-antilles",
     "name": "Wedge Antilles",
     "heightCm": 170,
     "massKg": 77,
@@ -465,8 +465,8 @@
     }
   },
   {
-    "id": 19,
-    "slug": "jek-tono-porkins",
+    "entityId": 19,
+    "id": "jek-tono-porkins",
     "name": "Jek Tono Porkins",
     "heightCm": 180,
     "massKg": 110,
@@ -489,8 +489,8 @@
     }
   },
   {
-    "id": 20,
-    "slug": "yoda",
+    "entityId": 20,
+    "id": "yoda",
     "name": "Yoda",
     "heightCm": 66,
     "massKg": 17,
@@ -517,8 +517,8 @@
     }
   },
   {
-    "id": 21,
-    "slug": "palpatine",
+    "entityId": 21,
+    "id": "palpatine",
     "name": "Palpatine",
     "heightCm": 170,
     "massKg": 75,
@@ -543,8 +543,8 @@
     }
   },
   {
-    "id": 22,
-    "slug": "boba-fett",
+    "entityId": 22,
+    "id": "boba-fett",
     "name": "Boba Fett",
     "heightCm": 183,
     "massKg": 78.2,
@@ -569,8 +569,8 @@
     }
   },
   {
-    "id": 23,
-    "slug": "ig-88",
+    "entityId": 23,
+    "id": "ig-88",
     "name": "IG-88",
     "heightCm": 200,
     "massKg": 140,
@@ -593,8 +593,8 @@
     }
   },
   {
-    "id": 24,
-    "slug": "bossk",
+    "entityId": 24,
+    "id": "bossk",
     "name": "Bossk",
     "heightCm": 190,
     "massKg": 113,
@@ -617,8 +617,8 @@
     }
   },
   {
-    "id": 25,
-    "slug": "lando-calrissian",
+    "entityId": 25,
+    "id": "lando-calrissian",
     "name": "Lando Calrissian",
     "heightCm": 177,
     "massKg": 79,
@@ -642,8 +642,8 @@
     }
   },
   {
-    "id": 26,
-    "slug": "lobot",
+    "entityId": 26,
+    "id": "lobot",
     "name": "Lobot",
     "heightCm": 175,
     "massKg": 79,
@@ -664,8 +664,8 @@
     }
   },
   {
-    "id": 27,
-    "slug": "ackbar",
+    "entityId": 27,
+    "id": "ackbar",
     "name": "Ackbar",
     "heightCm": 180,
     "massKg": 83,
@@ -688,8 +688,8 @@
     }
   },
   {
-    "id": 28,
-    "slug": "mon-mothma",
+    "entityId": 28,
+    "id": "mon-mothma",
     "name": "Mon Mothma",
     "heightCm": 150,
     "massKg": null,
@@ -710,8 +710,8 @@
     }
   },
   {
-    "id": 29,
-    "slug": "arvel-crynyd",
+    "entityId": 29,
+    "id": "arvel-crynyd",
     "name": "Arvel Crynyd",
     "heightCm": null,
     "massKg": null,
@@ -734,8 +734,8 @@
     }
   },
   {
-    "id": 30,
-    "slug": "wicket-systri-warrick",
+    "entityId": 30,
+    "id": "wicket-systri-warrick",
     "name": "Wicket Systri Warrick",
     "heightCm": 88,
     "massKg": 20,
@@ -758,8 +758,8 @@
     }
   },
   {
-    "id": 31,
-    "slug": "nien-nunb",
+    "entityId": 31,
+    "id": "nien-nunb",
     "name": "Nien Nunb",
     "heightCm": 160,
     "massKg": 68,
@@ -784,8 +784,8 @@
     }
   },
   {
-    "id": 32,
-    "slug": "qui-gon-jinn",
+    "entityId": 32,
+    "id": "qui-gon-jinn",
     "name": "Qui-Gon Jinn",
     "heightCm": 193,
     "massKg": 89,
@@ -808,8 +808,8 @@
     }
   },
   {
-    "id": 33,
-    "slug": "nute-gunray",
+    "entityId": 33,
+    "id": "nute-gunray",
     "name": "Nute Gunray",
     "heightCm": 191,
     "massKg": 90,
@@ -834,8 +834,8 @@
     }
   },
   {
-    "id": 34,
-    "slug": "finis-valorum",
+    "entityId": 34,
+    "id": "finis-valorum",
     "name": "Finis Valorum",
     "heightCm": 170,
     "massKg": null,
@@ -856,8 +856,8 @@
     }
   },
   {
-    "id": 35,
-    "slug": "padm-amidala",
+    "entityId": 35,
+    "id": "padm-amidala",
     "name": "Padmé Amidala",
     "heightCm": 185,
     "massKg": 45,
@@ -884,8 +884,8 @@
     }
   },
   {
-    "id": 36,
-    "slug": "jar-jar-binks",
+    "entityId": 36,
+    "id": "jar-jar-binks",
     "name": "Jar Jar Binks",
     "heightCm": 196,
     "massKg": 66,
@@ -909,8 +909,8 @@
     }
   },
   {
-    "id": 37,
-    "slug": "roos-tarpals",
+    "entityId": 37,
+    "id": "roos-tarpals",
     "name": "Roos Tarpals",
     "heightCm": 224,
     "massKg": 82,
@@ -933,8 +933,8 @@
     }
   },
   {
-    "id": 38,
-    "slug": "rugor-nass",
+    "entityId": 38,
+    "id": "rugor-nass",
     "name": "Rugor Nass",
     "heightCm": 206,
     "massKg": null,
@@ -957,8 +957,8 @@
     }
   },
   {
-    "id": 39,
-    "slug": "ric-oli",
+    "entityId": 39,
+    "id": "ric-oli",
     "name": "Ric Olié",
     "heightCm": 183,
     "massKg": null,
@@ -981,8 +981,8 @@
     }
   },
   {
-    "id": 40,
-    "slug": "watto",
+    "entityId": 40,
+    "id": "watto",
     "name": "Watto",
     "heightCm": 137,
     "massKg": null,
@@ -1006,8 +1006,8 @@
     }
   },
   {
-    "id": 41,
-    "slug": "sebulba",
+    "entityId": 41,
+    "id": "sebulba",
     "name": "Sebulba",
     "heightCm": 112,
     "massKg": 40,
@@ -1030,8 +1030,8 @@
     }
   },
   {
-    "id": 42,
-    "slug": "quarsh-panaka",
+    "entityId": 42,
+    "id": "quarsh-panaka",
     "name": "Quarsh Panaka",
     "heightCm": 183,
     "massKg": null,
@@ -1052,8 +1052,8 @@
     }
   },
   {
-    "id": 43,
-    "slug": "shmi-skywalker",
+    "entityId": 43,
+    "id": "shmi-skywalker",
     "name": "Shmi Skywalker",
     "heightCm": 163,
     "massKg": null,
@@ -1075,8 +1075,8 @@
     }
   },
   {
-    "id": 44,
-    "slug": "darth-maul",
+    "entityId": 44,
+    "id": "darth-maul",
     "name": "Darth Maul",
     "heightCm": 175,
     "massKg": 80,
@@ -1103,8 +1103,8 @@
     }
   },
   {
-    "id": 45,
-    "slug": "bib-fortuna",
+    "entityId": 45,
+    "id": "bib-fortuna",
     "name": "Bib Fortuna",
     "heightCm": 180,
     "massKg": null,
@@ -1127,8 +1127,8 @@
     }
   },
   {
-    "id": 46,
-    "slug": "ayla-secura",
+    "entityId": 46,
+    "id": "ayla-secura",
     "name": "Ayla Secura",
     "heightCm": 178,
     "massKg": 55,
@@ -1153,8 +1153,8 @@
     }
   },
   {
-    "id": 47,
-    "slug": "ratts-tyerel",
+    "entityId": 47,
+    "id": "ratts-tyerel",
     "name": "Ratts Tyerel",
     "heightCm": 79,
     "massKg": 15,
@@ -1177,8 +1177,8 @@
     }
   },
   {
-    "id": 48,
-    "slug": "dud-bolt",
+    "entityId": 48,
+    "id": "dud-bolt",
     "name": "Dud Bolt",
     "heightCm": 94,
     "massKg": 45,
@@ -1201,8 +1201,8 @@
     }
   },
   {
-    "id": 49,
-    "slug": "gasgano",
+    "entityId": 49,
+    "id": "gasgano",
     "name": "Gasgano",
     "heightCm": 122,
     "massKg": null,
@@ -1225,8 +1225,8 @@
     }
   },
   {
-    "id": 50,
-    "slug": "ben-quadinaros",
+    "entityId": 50,
+    "id": "ben-quadinaros",
     "name": "Ben Quadinaros",
     "heightCm": 163,
     "massKg": 65,
@@ -1249,8 +1249,8 @@
     }
   },
   {
-    "id": 51,
-    "slug": "mace-windu",
+    "entityId": 51,
+    "id": "mace-windu",
     "name": "Mace Windu",
     "heightCm": 188,
     "massKg": 84,
@@ -1273,8 +1273,8 @@
     }
   },
   {
-    "id": 52,
-    "slug": "ki-adi-mundi",
+    "entityId": 52,
+    "id": "ki-adi-mundi",
     "name": "Ki-Adi-Mundi",
     "heightCm": 198,
     "massKg": 82,
@@ -1299,8 +1299,8 @@
     }
   },
   {
-    "id": 53,
-    "slug": "kit-fisto",
+    "entityId": 53,
+    "id": "kit-fisto",
     "name": "Kit Fisto",
     "heightCm": 196,
     "massKg": 87,
@@ -1325,8 +1325,8 @@
     }
   },
   {
-    "id": 54,
-    "slug": "eeth-koth",
+    "entityId": 54,
+    "id": "eeth-koth",
     "name": "Eeth Koth",
     "heightCm": 171,
     "massKg": null,
@@ -1350,8 +1350,8 @@
     }
   },
   {
-    "id": 55,
-    "slug": "adi-gallia",
+    "entityId": 55,
+    "id": "adi-gallia",
     "name": "Adi Gallia",
     "heightCm": 184,
     "massKg": 50,
@@ -1375,8 +1375,8 @@
     }
   },
   {
-    "id": 56,
-    "slug": "saesee-tiin",
+    "entityId": 56,
+    "id": "saesee-tiin",
     "name": "Saesee Tiin",
     "heightCm": 188,
     "massKg": null,
@@ -1400,8 +1400,8 @@
     }
   },
   {
-    "id": 57,
-    "slug": "yarael-poof",
+    "entityId": 57,
+    "id": "yarael-poof",
     "name": "Yarael Poof",
     "heightCm": 264,
     "massKg": null,
@@ -1424,8 +1424,8 @@
     }
   },
   {
-    "id": 58,
-    "slug": "plo-koon",
+    "entityId": 58,
+    "id": "plo-koon",
     "name": "Plo Koon",
     "heightCm": 188,
     "massKg": 80,
@@ -1452,8 +1452,8 @@
     }
   },
   {
-    "id": 59,
-    "slug": "mas-amedda",
+    "entityId": 59,
+    "id": "mas-amedda",
     "name": "Mas Amedda",
     "heightCm": 196,
     "massKg": null,
@@ -1477,8 +1477,8 @@
     }
   },
   {
-    "id": 60,
-    "slug": "gregar-typho",
+    "entityId": 60,
+    "id": "gregar-typho",
     "name": "Gregar Typho",
     "heightCm": 185,
     "massKg": 85,
@@ -1501,8 +1501,8 @@
     }
   },
   {
-    "id": 61,
-    "slug": "cord",
+    "entityId": 61,
+    "id": "cord",
     "name": "Cordé",
     "heightCm": 157,
     "massKg": null,
@@ -1523,8 +1523,8 @@
     }
   },
   {
-    "id": 62,
-    "slug": "cliegg-lars",
+    "entityId": 62,
+    "id": "cliegg-lars",
     "name": "Cliegg Lars",
     "heightCm": 183,
     "massKg": null,
@@ -1545,8 +1545,8 @@
     }
   },
   {
-    "id": 63,
-    "slug": "poggle-the-lesser",
+    "entityId": 63,
+    "id": "poggle-the-lesser",
     "name": "Poggle the Lesser",
     "heightCm": 183,
     "massKg": 80,
@@ -1570,8 +1570,8 @@
     }
   },
   {
-    "id": 64,
-    "slug": "luminara-unduli",
+    "entityId": 64,
+    "id": "luminara-unduli",
     "name": "Luminara Unduli",
     "heightCm": 170,
     "massKg": 56.2,
@@ -1595,8 +1595,8 @@
     }
   },
   {
-    "id": 65,
-    "slug": "barriss-offee",
+    "entityId": 65,
+    "id": "barriss-offee",
     "name": "Barriss Offee",
     "heightCm": 166,
     "massKg": 50,
@@ -1619,8 +1619,8 @@
     }
   },
   {
-    "id": 66,
-    "slug": "dorm",
+    "entityId": 66,
+    "id": "dorm",
     "name": "Dormé",
     "heightCm": 165,
     "massKg": null,
@@ -1643,8 +1643,8 @@
     }
   },
   {
-    "id": 67,
-    "slug": "dooku",
+    "entityId": 67,
+    "id": "dooku",
     "name": "Dooku",
     "heightCm": 193,
     "massKg": 80,
@@ -1670,8 +1670,8 @@
     }
   },
   {
-    "id": 68,
-    "slug": "bail-prestor-organa",
+    "entityId": 68,
+    "id": "bail-prestor-organa",
     "name": "Bail Prestor Organa",
     "heightCm": 191,
     "massKg": null,
@@ -1695,8 +1695,8 @@
     }
   },
   {
-    "id": 69,
-    "slug": "jango-fett",
+    "entityId": 69,
+    "id": "jango-fett",
     "name": "Jango Fett",
     "heightCm": 183,
     "massKg": 79,
@@ -1717,8 +1717,8 @@
     }
   },
   {
-    "id": 70,
-    "slug": "zam-wesell",
+    "entityId": 70,
+    "id": "zam-wesell",
     "name": "Zam Wesell",
     "heightCm": 168,
     "massKg": 55,
@@ -1743,8 +1743,8 @@
     }
   },
   {
-    "id": 71,
-    "slug": "dexter-jettster",
+    "entityId": 71,
+    "id": "dexter-jettster",
     "name": "Dexter Jettster",
     "heightCm": 198,
     "massKg": 102,
@@ -1767,8 +1767,8 @@
     }
   },
   {
-    "id": 72,
-    "slug": "lama-su",
+    "entityId": 72,
+    "id": "lama-su",
     "name": "Lama Su",
     "heightCm": 229,
     "massKg": 88,
@@ -1791,8 +1791,8 @@
     }
   },
   {
-    "id": 73,
-    "slug": "taun-we",
+    "entityId": 73,
+    "id": "taun-we",
     "name": "Taun We",
     "heightCm": 213,
     "massKg": null,
@@ -1815,8 +1815,8 @@
     }
   },
   {
-    "id": 74,
-    "slug": "jocasta-nu",
+    "entityId": 74,
+    "id": "jocasta-nu",
     "name": "Jocasta Nu",
     "heightCm": 167,
     "massKg": null,
@@ -1839,8 +1839,8 @@
     }
   },
   {
-    "id": 75,
-    "slug": "r4-p17",
+    "entityId": 75,
+    "id": "r4-p17",
     "name": "R4-P17",
     "heightCm": 96,
     "massKg": null,
@@ -1862,8 +1862,8 @@
     }
   },
   {
-    "id": 76,
-    "slug": "wat-tambor",
+    "entityId": 76,
+    "id": "wat-tambor",
     "name": "Wat Tambor",
     "heightCm": 193,
     "massKg": 48,
@@ -1886,8 +1886,8 @@
     }
   },
   {
-    "id": 77,
-    "slug": "san-hill",
+    "entityId": 77,
+    "id": "san-hill",
     "name": "San Hill",
     "heightCm": 191,
     "massKg": null,
@@ -1910,8 +1910,8 @@
     }
   },
   {
-    "id": 78,
-    "slug": "shaak-ti",
+    "entityId": 78,
+    "id": "shaak-ti",
     "name": "Shaak Ti",
     "heightCm": 178,
     "massKg": 57,
@@ -1935,8 +1935,8 @@
     }
   },
   {
-    "id": 79,
-    "slug": "grievous",
+    "entityId": 79,
+    "id": "grievous",
     "name": "Grievous",
     "heightCm": 216,
     "massKg": 159,
@@ -1963,8 +1963,8 @@
     }
   },
   {
-    "id": 80,
-    "slug": "tarfful",
+    "entityId": 80,
+    "id": "tarfful",
     "name": "Tarfful",
     "heightCm": 234,
     "massKg": 136,
@@ -1987,8 +1987,8 @@
     }
   },
   {
-    "id": 81,
-    "slug": "raymus-antilles",
+    "entityId": 81,
+    "id": "raymus-antilles",
     "name": "Raymus Antilles",
     "heightCm": 188,
     "massKg": 79,
@@ -2010,8 +2010,8 @@
     }
   },
   {
-    "id": 82,
-    "slug": "sly-moore",
+    "entityId": 82,
+    "id": "sly-moore",
     "name": "Sly Moore",
     "heightCm": 178,
     "massKg": 48,
@@ -2033,8 +2033,8 @@
     }
   },
   {
-    "id": 83,
-    "slug": "tion-medon",
+    "entityId": 83,
+    "id": "tion-medon",
     "name": "Tion Medon",
     "heightCm": 206,
     "massKg": 80,

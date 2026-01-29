@@ -1,8 +1,8 @@
 import type { EntityId } from "./ids";
 
 export type Planet = {
-  id: EntityId;
-  slug: string;
+  entityId: EntityId;
+  id: string; // slug
   name: string;
 
   rotationPeriod: number | null;

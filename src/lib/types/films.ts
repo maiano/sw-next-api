@@ -1,5 +1,8 @@
+import type { EntityId } from "./ids";
+
 export type Film = {
-  id: string;
+  entityId: EntityId;
+  id: string; // slug
 
   title: string;
   episode: number;
@@ -12,9 +15,9 @@ export type Film = {
   release_date: string;
   release_year: number;
 
-  characters: string[];
-  planets: string[];
-  starships: string[];
-  vehicles: string[];
-  species: string[];
+  characterIds: EntityId[];
+  planetIds: EntityId[];
+  starshipIds: EntityId[];
+  vehicleIds: EntityId[];
+  speciesIds: EntityId[];
 };

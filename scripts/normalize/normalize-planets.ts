@@ -14,15 +14,15 @@ export function normalizePlanets() {
   const planets = readJson<SwapiPlanetRaw[]>(path.join(RAW_DIR, "planets.json"));
 
   const normalized = planets.map((planet): Planet => {
-    const id = extractId(planet.url);
+    const entityId = extractId(planet.url);
 
-    if (!id) {
-      throw new Error(`Planet without id: ${planet.name}`);
+    if (!entityId) {
+      throw new Error(`Planet without entityId: ${planet.name}`);
     }
 
     return {
-      id,
-      slug: slugify(planet.name),
+      entityId,
+      id: slugify(planet.name),
       name: planet.name,
 
       rotationPeriod: parseNumber(planet.rotation_period),
