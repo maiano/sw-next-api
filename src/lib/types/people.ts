@@ -1,4 +1,5 @@
-import type { Faction } from "@/lib/types/faction";
+import type { Faction } from "./faction";
+import type { EntityId } from "./ids";
 
 export type PersonMeta = {
   isForceUser: boolean;
@@ -8,7 +9,7 @@ export type PersonMeta = {
 };
 
 export type Person = {
-  id: number;
+  id: EntityId;
   slug: string;
   name: string;
 
@@ -19,12 +20,12 @@ export type Person = {
 
   gender: string;
 
-  homeworldId: number | null;
+  homeworldId: EntityId | null;
 
-  filmIds: number[];
-  speciesIds: number[];
-  vehicleIds: number[];
-  starshipIds: number[];
+  filmIds: EntityId[];
+  speciesIds: EntityId[];
+  vehicleIds: EntityId[];
+  starshipIds: EntityId[];
 
   meta: PersonMeta;
 };

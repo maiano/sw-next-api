@@ -1,0 +1,1109 @@
+[
+  {
+    "id": 1,
+    "slug": "human",
+    "name": "Human",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 180,
+    "averageLifespan": 120,
+    "skinColors": [
+      "caucasian",
+      "black",
+      "asian",
+      "hispanic"
+    ],
+    "hairColors": [
+      "blonde",
+      "brown",
+      "black",
+      "red"
+    ],
+    "eyeColors": [
+      "brown",
+      "blue",
+      "green",
+      "hazel",
+      "grey",
+      "amber"
+    ],
+    "language": "Galactic Basic",
+    "homeworldId": 9,
+    "peopleIds": [
+      66,
+      67,
+      68,
+      74
+    ],
+    "filmIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "droid",
+    "name": "Droid",
+    "classification": "artificial",
+    "designation": "sentient",
+    "averageHeight": null,
+    "averageLifespan": null,
+    "skinColors": [
+      "n/a"
+    ],
+    "hairColors": [
+      "n/a"
+    ],
+    "eyeColors": [
+      "n/a"
+    ],
+    "language": "n/a",
+    "homeworldId": null,
+    "peopleIds": [
+      2,
+      3,
+      8,
+      23
+    ],
+    "filmIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "wookie",
+    "name": "Wookie",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 210,
+    "averageLifespan": 400,
+    "skinColors": [
+      "gray"
+    ],
+    "hairColors": [
+      "black",
+      "brown"
+    ],
+    "eyeColors": [
+      "blue",
+      "green",
+      "yellow",
+      "brown",
+      "golden",
+      "red"
+    ],
+    "language": "Shyriiwook",
+    "homeworldId": 14,
+    "peopleIds": [
+      13,
+      80
+    ],
+    "filmIds": [
+      1,
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "rodian",
+    "name": "Rodian",
+    "classification": "sentient",
+    "designation": "reptilian",
+    "averageHeight": 170,
+    "averageLifespan": null,
+    "skinColors": [
+      "green",
+      "blue"
+    ],
+    "hairColors": [
+      "n/a"
+    ],
+    "eyeColors": [
+      "black"
+    ],
+    "language": "Galatic Basic",
+    "homeworldId": 23,
+    "peopleIds": [
+      15
+    ],
+    "filmIds": [
+      1
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "hutt",
+    "name": "Hutt",
+    "classification": "gastropod",
+    "designation": "sentient",
+    "averageHeight": 300,
+    "averageLifespan": 1000,
+    "skinColors": [
+      "green",
+      "brown",
+      "tan"
+    ],
+    "hairColors": [
+      "n/a"
+    ],
+    "eyeColors": [
+      "yellow",
+      "red"
+    ],
+    "language": "Huttese",
+    "homeworldId": 24,
+    "peopleIds": [
+      16
+    ],
+    "filmIds": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "yodas-species",
+    "name": "Yoda's species",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 66,
+    "averageLifespan": 900,
+    "skinColors": [
+      "green",
+      "yellow"
+    ],
+    "hairColors": [
+      "brown",
+      "white"
+    ],
+    "eyeColors": [
+      "brown",
+      "green",
+      "yellow"
+    ],
+    "language": "Galactic basic",
+    "homeworldId": 28,
+    "peopleIds": [
+      20
+    ],
+    "filmIds": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "trandoshan",
+    "name": "Trandoshan",
+    "classification": "reptile",
+    "designation": "sentient",
+    "averageHeight": 200,
+    "averageLifespan": null,
+    "skinColors": [
+      "brown",
+      "green"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "yellow",
+      "orange"
+    ],
+    "language": "Dosh",
+    "homeworldId": 29,
+    "peopleIds": [
+      24
+    ],
+    "filmIds": [
+      2
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "mon-calamari",
+    "name": "Mon Calamari",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeight": 160,
+    "averageLifespan": null,
+    "skinColors": [
+      "red",
+      "blue",
+      "brown",
+      "magenta"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "yellow"
+    ],
+    "language": "Mon Calamarian",
+    "homeworldId": 31,
+    "peopleIds": [
+      27
+    ],
+    "filmIds": [
+      3
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "ewok",
+    "name": "Ewok",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 100,
+    "averageLifespan": null,
+    "skinColors": [
+      "brown"
+    ],
+    "hairColors": [
+      "white",
+      "brown",
+      "black"
+    ],
+    "eyeColors": [
+      "orange",
+      "brown"
+    ],
+    "language": "Ewokese",
+    "homeworldId": 7,
+    "peopleIds": [
+      30
+    ],
+    "filmIds": [
+      3
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "sullustan",
+    "name": "Sullustan",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 180,
+    "averageLifespan": null,
+    "skinColors": [
+      "pale"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "black"
+    ],
+    "language": "Sullutese",
+    "homeworldId": 33,
+    "peopleIds": [
+      31
+    ],
+    "filmIds": [
+      3
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "neimodian",
+    "name": "Neimodian",
+    "classification": "unknown",
+    "designation": "sentient",
+    "averageHeight": 180,
+    "averageLifespan": null,
+    "skinColors": [
+      "grey",
+      "green"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "red",
+      "pink"
+    ],
+    "language": "Neimoidia",
+    "homeworldId": 18,
+    "peopleIds": [
+      33
+    ],
+    "filmIds": [
+      4
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "gungan",
+    "name": "Gungan",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeight": 190,
+    "averageLifespan": null,
+    "skinColors": [
+      "brown",
+      "green"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "orange"
+    ],
+    "language": "Gungan basic",
+    "homeworldId": 8,
+    "peopleIds": [
+      36,
+      37,
+      38
+    ],
+    "filmIds": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "toydarian",
+    "name": "Toydarian",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 120,
+    "averageLifespan": 91,
+    "skinColors": [
+      "blue",
+      "green",
+      "grey"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "yellow"
+    ],
+    "language": "Toydarian",
+    "homeworldId": 34,
+    "peopleIds": [
+      40
+    ],
+    "filmIds": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "dug",
+    "name": "Dug",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 100,
+    "averageLifespan": null,
+    "skinColors": [
+      "brown",
+      "purple",
+      "grey",
+      "red"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "yellow",
+      "blue"
+    ],
+    "language": "Dugese",
+    "homeworldId": 35,
+    "peopleIds": [
+      41
+    ],
+    "filmIds": [
+      4
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "twilek",
+    "name": "Twi'lek",
+    "classification": "mammals",
+    "designation": "sentient",
+    "averageHeight": 200,
+    "averageLifespan": null,
+    "skinColors": [
+      "orange",
+      "yellow",
+      "blue",
+      "green",
+      "pink",
+      "purple",
+      "tan"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "blue",
+      "brown",
+      "orange",
+      "pink"
+    ],
+    "language": "Twi'leki",
+    "homeworldId": 37,
+    "peopleIds": [
+      45,
+      46
+    ],
+    "filmIds": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "aleena",
+    "name": "Aleena",
+    "classification": "reptile",
+    "designation": "sentient",
+    "averageHeight": 80,
+    "averageLifespan": 79,
+    "skinColors": [
+      "blue",
+      "gray"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "unknown"
+    ],
+    "language": "Aleena",
+    "homeworldId": 38,
+    "peopleIds": [
+      47
+    ],
+    "filmIds": [
+      4
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "vulptereen",
+    "name": "Vulptereen",
+    "classification": "unknown",
+    "designation": "sentient",
+    "averageHeight": 100,
+    "averageLifespan": null,
+    "skinColors": [
+      "grey"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "yellow"
+    ],
+    "language": "vulpterish",
+    "homeworldId": 39,
+    "peopleIds": [
+      48
+    ],
+    "filmIds": [
+      4
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "xexto",
+    "name": "Xexto",
+    "classification": "unknown",
+    "designation": "sentient",
+    "averageHeight": 125,
+    "averageLifespan": null,
+    "skinColors": [
+      "grey",
+      "yellow",
+      "purple"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "black"
+    ],
+    "language": "Xextese",
+    "homeworldId": 40,
+    "peopleIds": [
+      49
+    ],
+    "filmIds": [
+      4
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "toong",
+    "name": "Toong",
+    "classification": "unknown",
+    "designation": "sentient",
+    "averageHeight": 200,
+    "averageLifespan": null,
+    "skinColors": [
+      "grey",
+      "green",
+      "yellow"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "orange"
+    ],
+    "language": "Tundan",
+    "homeworldId": 41,
+    "peopleIds": [
+      50
+    ],
+    "filmIds": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "cerean",
+    "name": "Cerean",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 200,
+    "averageLifespan": null,
+    "skinColors": [
+      "pale pink"
+    ],
+    "hairColors": [
+      "red",
+      "blond",
+      "black",
+      "white"
+    ],
+    "eyeColors": [
+      "hazel"
+    ],
+    "language": "Cerean",
+    "homeworldId": 43,
+    "peopleIds": [
+      52
+    ],
+    "filmIds": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "nautolan",
+    "name": "Nautolan",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeight": 180,
+    "averageLifespan": 70,
+    "skinColors": [
+      "green",
+      "blue",
+      "brown",
+      "red"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "black"
+    ],
+    "language": "Nautila",
+    "homeworldId": 44,
+    "peopleIds": [
+      53
+    ],
+    "filmIds": [
+      4
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "zabrak",
+    "name": "Zabrak",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 180,
+    "averageLifespan": null,
+    "skinColors": [
+      "pale",
+      "brown",
+      "red",
+      "orange",
+      "yellow"
+    ],
+    "hairColors": [
+      "black"
+    ],
+    "eyeColors": [
+      "brown",
+      "orange"
+    ],
+    "language": "Zabraki",
+    "homeworldId": 45,
+    "peopleIds": [
+      44,
+      54
+    ],
+    "filmIds": [
+      4
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "tholothian",
+    "name": "Tholothian",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": null,
+    "averageLifespan": null,
+    "skinColors": [
+      "dark"
+    ],
+    "hairColors": [
+      "unknown"
+    ],
+    "eyeColors": [
+      "blue",
+      "indigo"
+    ],
+    "language": "unknown",
+    "homeworldId": 46,
+    "peopleIds": [
+      55
+    ],
+    "filmIds": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "iktotchi",
+    "name": "Iktotchi",
+    "classification": "unknown",
+    "designation": "sentient",
+    "averageHeight": 180,
+    "averageLifespan": null,
+    "skinColors": [
+      "pink"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "orange"
+    ],
+    "language": "Iktotchese",
+    "homeworldId": 47,
+    "peopleIds": [
+      56
+    ],
+    "filmIds": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "quermian",
+    "name": "Quermian",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 240,
+    "averageLifespan": 86,
+    "skinColors": [
+      "white"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "yellow"
+    ],
+    "language": "Quermian",
+    "homeworldId": 48,
+    "peopleIds": [
+      57
+    ],
+    "filmIds": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "kel-dor",
+    "name": "Kel Dor",
+    "classification": "unknown",
+    "designation": "sentient",
+    "averageHeight": 180,
+    "averageLifespan": 70,
+    "skinColors": [
+      "peach",
+      "orange",
+      "red"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "black",
+      "silver"
+    ],
+    "language": "Kel Dor",
+    "homeworldId": 49,
+    "peopleIds": [
+      58
+    ],
+    "filmIds": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "chagrian",
+    "name": "Chagrian",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeight": 190,
+    "averageLifespan": null,
+    "skinColors": [
+      "blue"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "blue"
+    ],
+    "language": "Chagria",
+    "homeworldId": 50,
+    "peopleIds": [
+      59
+    ],
+    "filmIds": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "geonosian",
+    "name": "Geonosian",
+    "classification": "insectoid",
+    "designation": "sentient",
+    "averageHeight": 178,
+    "averageLifespan": null,
+    "skinColors": [
+      "green",
+      "brown"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "green",
+      "hazel"
+    ],
+    "language": "Geonosian",
+    "homeworldId": 11,
+    "peopleIds": [
+      63
+    ],
+    "filmIds": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "mirialan",
+    "name": "Mirialan",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 180,
+    "averageLifespan": null,
+    "skinColors": [
+      "yellow",
+      "green"
+    ],
+    "hairColors": [
+      "black",
+      "brown"
+    ],
+    "eyeColors": [
+      "blue",
+      "green",
+      "red",
+      "yellow",
+      "brown",
+      "orange"
+    ],
+    "language": "Mirialan",
+    "homeworldId": 51,
+    "peopleIds": [
+      64,
+      65
+    ],
+    "filmIds": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "clawdite",
+    "name": "Clawdite",
+    "classification": "reptilian",
+    "designation": "sentient",
+    "averageHeight": 180,
+    "averageLifespan": 70,
+    "skinColors": [
+      "green",
+      "yellow"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "yellow"
+    ],
+    "language": "Clawdite",
+    "homeworldId": 54,
+    "peopleIds": [
+      70
+    ],
+    "filmIds": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "besalisk",
+    "name": "Besalisk",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeight": 178,
+    "averageLifespan": 75,
+    "skinColors": [
+      "brown"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "yellow"
+    ],
+    "language": "besalisk",
+    "homeworldId": 55,
+    "peopleIds": [
+      71
+    ],
+    "filmIds": [
+      5
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "kaminoan",
+    "name": "Kaminoan",
+    "classification": "amphibian",
+    "designation": "sentient",
+    "averageHeight": 220,
+    "averageLifespan": 80,
+    "skinColors": [
+      "grey",
+      "blue"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "black"
+    ],
+    "language": "Kaminoan",
+    "homeworldId": 10,
+    "peopleIds": [
+      72,
+      73
+    ],
+    "filmIds": [
+      5
+    ]
+  },
+  {
+    "id": 33,
+    "slug": "skakoan",
+    "name": "Skakoan",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": null,
+    "averageLifespan": null,
+    "skinColors": [
+      "grey",
+      "green"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "unknown"
+    ],
+    "language": "Skakoan",
+    "homeworldId": 56,
+    "peopleIds": [
+      76
+    ],
+    "filmIds": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "muun",
+    "name": "Muun",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 190,
+    "averageLifespan": 100,
+    "skinColors": [
+      "grey",
+      "white"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "black"
+    ],
+    "language": "Muun",
+    "homeworldId": 57,
+    "peopleIds": [
+      77
+    ],
+    "filmIds": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": 35,
+    "slug": "togruta",
+    "name": "Togruta",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 180,
+    "averageLifespan": 94,
+    "skinColors": [
+      "red",
+      "white",
+      "orange",
+      "yellow",
+      "green",
+      "blue"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "red",
+      "orange",
+      "yellow",
+      "green",
+      "blue",
+      "black"
+    ],
+    "language": "Togruti",
+    "homeworldId": 58,
+    "peopleIds": [
+      78
+    ],
+    "filmIds": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "kaleesh",
+    "name": "Kaleesh",
+    "classification": "reptile",
+    "designation": "sentient",
+    "averageHeight": 170,
+    "averageLifespan": 80,
+    "skinColors": [
+      "brown",
+      "orange",
+      "tan"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "yellow"
+    ],
+    "language": "Kaleesh",
+    "homeworldId": 59,
+    "peopleIds": [
+      79
+    ],
+    "filmIds": [
+      6
+    ]
+  },
+  {
+    "id": 37,
+    "slug": "pauan",
+    "name": "Pau'an",
+    "classification": "mammal",
+    "designation": "sentient",
+    "averageHeight": 190,
+    "averageLifespan": 700,
+    "skinColors": [
+      "grey"
+    ],
+    "hairColors": [
+      "none"
+    ],
+    "eyeColors": [
+      "black"
+    ],
+    "language": "Utapese",
+    "homeworldId": 12,
+    "peopleIds": [
+      83
+    ],
+    "filmIds": [
+      6
+    ]
+  }
+]

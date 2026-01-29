@@ -1,6 +1,7 @@
+import type { EntityId } from "@/lib/types/ids";
 import type { PersonMeta } from "@/lib/types/people";
 
-export const PEOPLE_META: Record<number, Partial<PersonMeta>> = {
+export const PEOPLE_META: Record<EntityId, Partial<PersonMeta>> = {
   1: { isForceUser: true, isJedi: true, faction: "rebels" },
   4: { isForceUser: true, isSith: true, faction: "empire" },
   10: { isForceUser: true, isJedi: true, faction: "republic" },
