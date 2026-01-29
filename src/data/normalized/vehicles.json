@@ -14,10 +14,7 @@
     "consumables": "2 months",
     "vehicleClass": "wheeled",
     "pilotIds": [],
-    "filmIds": [
-      1,
-      5
-    ]
+    "filmIds": [1, 5]
   },
   {
     "entityId": 6,
@@ -34,9 +31,7 @@
     "consumables": "0",
     "vehicleClass": "repulsorcraft",
     "pilotIds": [],
-    "filmIds": [
-      1
-    ]
+    "filmIds": [1]
   },
   {
     "entityId": 7,
@@ -53,9 +48,7 @@
     "consumables": "unknown",
     "vehicleClass": "repulsorcraft",
     "pilotIds": [],
-    "filmIds": [
-      1
-    ]
+    "filmIds": [1]
   },
   {
     "entityId": 8,
@@ -72,11 +65,7 @@
     "consumables": "2 days",
     "vehicleClass": "starfighter",
     "pilotIds": [],
-    "filmIds": [
-      1,
-      2,
-      3
-    ]
+    "filmIds": [1, 2, 3]
   },
   {
     "entityId": 14,
@@ -92,13 +81,8 @@
     "cargoCapacity": 10,
     "consumables": "none",
     "vehicleClass": "airspeeder",
-    "pilotIds": [
-      1,
-      18
-    ],
-    "filmIds": [
-      2
-    ]
+    "pilotIds": [1, 18],
+    "filmIds": [2]
   },
   {
     "entityId": 16,
@@ -115,10 +99,7 @@
     "consumables": "2 days",
     "vehicleClass": "space/planetary bomber",
     "pilotIds": [],
-    "filmIds": [
-      2,
-      3
-    ]
+    "filmIds": [2, 3]
   },
   {
     "entityId": 18,
@@ -135,10 +116,7 @@
     "consumables": "unknown",
     "vehicleClass": "assault walker",
     "pilotIds": [],
-    "filmIds": [
-      2,
-      3
-    ]
+    "filmIds": [2, 3]
   },
   {
     "entityId": 19,
@@ -154,13 +132,8 @@
     "cargoCapacity": 200,
     "consumables": "none",
     "vehicleClass": "walker",
-    "pilotIds": [
-      13
-    ],
-    "filmIds": [
-      2,
-      3
-    ]
+    "pilotIds": [13],
+    "filmIds": [2, 3]
   },
   {
     "entityId": 20,
@@ -177,9 +150,7 @@
     "consumables": "1 day",
     "vehicleClass": "repulsorcraft",
     "pilotIds": [],
-    "filmIds": [
-      2
-    ]
+    "filmIds": [2]
   },
   {
     "entityId": 24,
@@ -196,9 +167,7 @@
     "consumables": "Live food tanks",
     "vehicleClass": "sail barge",
     "pilotIds": [],
-    "filmIds": [
-      3
-    ]
+    "filmIds": [3]
   },
   {
     "entityId": 25,
@@ -215,9 +184,7 @@
     "consumables": "1 day",
     "vehicleClass": "repulsorcraft cargo skiff",
     "pilotIds": [],
-    "filmIds": [
-      3
-    ]
+    "filmIds": [3]
   },
   {
     "entityId": 26,
@@ -234,9 +201,7 @@
     "consumables": "2 days",
     "vehicleClass": "starfighter",
     "pilotIds": [],
-    "filmIds": [
-      3
-    ]
+    "filmIds": [3]
   },
   {
     "entityId": 30,
@@ -252,13 +217,8 @@
     "cargoCapacity": 4,
     "consumables": "1 day",
     "vehicleClass": "speeder",
-    "pilotIds": [
-      1,
-      5
-    ],
-    "filmIds": [
-      3
-    ]
+    "pilotIds": [1, 5],
+    "filmIds": [3]
   },
   {
     "entityId": 33,
@@ -275,10 +235,7 @@
     "consumables": "none",
     "vehicleClass": "starfighter",
     "pilotIds": [],
-    "filmIds": [
-      4,
-      6
-    ]
+    "filmIds": [4, 6]
   },
   {
     "entityId": 34,
@@ -295,9 +252,7 @@
     "consumables": "unknown",
     "vehicleClass": "repulsorcraft",
     "pilotIds": [],
-    "filmIds": [
-      4
-    ]
+    "filmIds": [4]
   },
   {
     "entityId": 35,
@@ -314,9 +269,7 @@
     "consumables": "unknown",
     "vehicleClass": "repulsorcraft",
     "pilotIds": [],
-    "filmIds": [
-      4
-    ]
+    "filmIds": [4]
   },
   {
     "entityId": 36,
@@ -333,9 +286,7 @@
     "consumables": "none",
     "vehicleClass": "repulsorcraft",
     "pilotIds": [],
-    "filmIds": [
-      4
-    ]
+    "filmIds": [4]
   },
   {
     "entityId": 37,
@@ -352,9 +303,7 @@
     "consumables": "1 day",
     "vehicleClass": "landing craft",
     "pilotIds": [],
-    "filmIds": [
-      4
-    ]
+    "filmIds": [4]
   },
   {
     "entityId": 38,
@@ -370,13 +319,8 @@
     "cargoCapacity": 1600,
     "consumables": "unknown",
     "vehicleClass": "submarine",
-    "pilotIds": [
-      10,
-      32
-    ],
-    "filmIds": [
-      4
-    ]
+    "pilotIds": [10, 32],
+    "filmIds": [4]
   },
   {
     "entityId": 42,
@@ -392,12 +336,8 @@
     "cargoCapacity": 2,
     "consumables": "unknown",
     "vehicleClass": "speeder",
-    "pilotIds": [
-      44
-    ],
-    "filmIds": [
-      4
-    ]
+    "pilotIds": [44],
+    "filmIds": [4]
   },
   {
     "entityId": 44,
@@ -413,12 +353,8 @@
     "cargoCapacity": 200,
     "consumables": "none",
     "vehicleClass": "repulsorcraft",
-    "pilotIds": [
-      11
-    ],
-    "filmIds": [
-      5
-    ]
+    "pilotIds": [11],
+    "filmIds": [5]
   },
   {
     "entityId": 45,
@@ -434,12 +370,8 @@
     "cargoCapacity": 80,
     "consumables": "unknown",
     "vehicleClass": "airspeeder",
-    "pilotIds": [
-      70
-    ],
-    "filmIds": [
-      5
-    ]
+    "pilotIds": [70],
+    "filmIds": [5]
   },
   {
     "entityId": 46,
@@ -455,12 +387,8 @@
     "cargoCapacity": null,
     "consumables": "unknown",
     "vehicleClass": "airspeeder",
-    "pilotIds": [
-      11
-    ],
-    "filmIds": [
-      5
-    ]
+    "pilotIds": [11],
+    "filmIds": [5]
   },
   {
     "entityId": 50,
@@ -477,10 +405,7 @@
     "consumables": "unknown",
     "vehicleClass": "gunship",
     "pilotIds": [],
-    "filmIds": [
-      5,
-      6
-    ]
+    "filmIds": [5, 6]
   },
   {
     "entityId": 51,
@@ -497,9 +422,7 @@
     "consumables": "unknown",
     "vehicleClass": "gunship",
     "pilotIds": [],
-    "filmIds": [
-      5
-    ]
+    "filmIds": [5]
   },
   {
     "entityId": 53,
@@ -516,10 +439,7 @@
     "consumables": "21 days",
     "vehicleClass": "walker",
     "pilotIds": [],
-    "filmIds": [
-      5,
-      6
-    ]
+    "filmIds": [5, 6]
   },
   {
     "entityId": 54,
@@ -536,9 +456,7 @@
     "consumables": "7 days",
     "vehicleClass": "walker",
     "pilotIds": [],
-    "filmIds": [
-      5
-    ]
+    "filmIds": [5]
   },
   {
     "entityId": 55,
@@ -554,12 +472,8 @@
     "cargoCapacity": null,
     "consumables": "unknown",
     "vehicleClass": "speeder",
-    "pilotIds": [
-      67
-    ],
-    "filmIds": [
-      5
-    ]
+    "pilotIds": [67],
+    "filmIds": [5]
   },
   {
     "entityId": 56,
@@ -576,10 +490,7 @@
     "consumables": "7 days",
     "vehicleClass": "transport",
     "pilotIds": [],
-    "filmIds": [
-      5,
-      6
-    ]
+    "filmIds": [5, 6]
   },
   {
     "entityId": 57,
@@ -596,9 +507,7 @@
     "consumables": "unknown",
     "vehicleClass": "starfighter",
     "pilotIds": [],
-    "filmIds": [
-      5
-    ]
+    "filmIds": [5]
   },
   {
     "entityId": 60,
@@ -614,12 +523,8 @@
     "cargoCapacity": 10,
     "consumables": "none",
     "vehicleClass": "wheeled walker",
-    "pilotIds": [
-      79
-    ],
-    "filmIds": [
-      6
-    ]
+    "pilotIds": [79],
+    "filmIds": [6]
   },
   {
     "entityId": 62,
@@ -636,9 +541,7 @@
     "consumables": "unknown",
     "vehicleClass": "fire suppression ship",
     "pilotIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 67,
@@ -655,9 +558,7 @@
     "consumables": "none",
     "vehicleClass": "droid starfighter",
     "pilotIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 69,
@@ -674,9 +575,7 @@
     "consumables": "3 days",
     "vehicleClass": "airspeeder",
     "pilotIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 70,
@@ -693,9 +592,7 @@
     "consumables": "none",
     "vehicleClass": "air speeder",
     "pilotIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 71,
@@ -712,9 +609,7 @@
     "consumables": "20 days",
     "vehicleClass": "wheeled walker",
     "pilotIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 72,
@@ -731,9 +626,7 @@
     "consumables": "none",
     "vehicleClass": "droid tank",
     "pilotIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 73,
@@ -750,9 +643,7 @@
     "consumables": "none",
     "vehicleClass": "airspeeder",
     "pilotIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 76,
@@ -769,8 +660,6 @@
     "consumables": "1 day",
     "vehicleClass": "walker",
     "pilotIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   }
 ]

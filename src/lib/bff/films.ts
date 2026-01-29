@@ -1,53 +1,32 @@
-import {
-  filmsByEntityId,
-  filmsById,
-  peopleByEntityId,
-  planetsByEntityId,
-  speciesByEntityId,
-  starshipsByEntityId,
-  vehiclesByEntityId,
-} from "@/lib/data";
-import type { EntityId } from "@/lib/types/ids";
+import { resolveEntity } from "@/lib/resolver";
+import type { FilmFull } from "@/lib/types/bff";
 import { filterDefined } from "@/lib/utils/filterDefined";
 
-export function getFilm(entityId: EntityId) {
-  return filmsByEntityId.get(entityId) ?? null;
-}
-
-export function getFilmBySlug(slug: string) {
-  return filmsById.get(slug) ?? null;
-}
-
-export function getFilmFull(entityId: EntityId) {
-  const film = filmsByEntityId.get(entityId);
+export function getFilmFull(id: number | string): FilmFull | null {
+  const film = resolveEntity("film", id);
   if (!film) return null;
 
   return {
     ...film,
 
     characters: filterDefined(
-      film.characterIds.map((id) => peopleByEntityId.get(id)),
+      film.characterIds.map((id) => resolveEntity("person", id)),
     ),
 
     planets: filterDefined(
-      film.planetIds.map((id) => planetsByEntityId.get(id)),
+      film.planetIds.map((id) => resolveEntity("planet", id)),
     ),
 
     starships: filterDefined(
-      film.starshipIds.map((id) => starshipsByEntityId.get(id)),
+      film.starshipIds.map((id) => resolveEntity("starship", id)),
     ),
 
     vehicles: filterDefined(
-      film.vehicleIds.map((id) => vehiclesByEntityId.get(id)),
+      film.vehicleIds.map((id) => resolveEntity("vehicle", id)),
     ),
 
     species: filterDefined(
-      film.speciesIds.map((id) => speciesByEntityId.get(id)),
+      film.speciesIds.map((id) => resolveEntity("species", id)),
     ),
   };
-}
-
-export function getFilmFullBySlug(slug: string) {
-  const film = filmsById.get(slug);
-  return film ? getFilmFull(film.entityId) : null;
 }

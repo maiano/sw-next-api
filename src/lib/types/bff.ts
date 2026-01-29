@@ -5,6 +5,17 @@ import type { Species } from "@/lib/types/species";
 import type { Starship } from "@/lib/types/starships";
 import type { Vehicle } from "@/lib/types/vehicles";
 
+export type FilmFull = Omit<
+  Film,
+  "characterIds" | "planetIds" | "starshipIds" | "vehicleIds" | "speciesIds"
+> & {
+  characters: Person[];
+  planets: Planet[];
+  starships: Starship[];
+  vehicles: Vehicle[];
+  species: Species[];
+};
+
 export type PersonFull = Omit<
   Person,
   "homeworldId" | "filmIds" | "speciesIds" | "vehicleIds" | "starshipIds"
@@ -14,4 +25,27 @@ export type PersonFull = Omit<
   species: Species[];
   vehicles: Vehicle[];
   starships: Starship[];
+};
+
+export type PlanetFull = Omit<Planet, "residentIds" | "filmIds"> & {
+  residents: Person[];
+  films: Film[];
+};
+
+export type SpeciesFull = Omit<
+  Species,
+  "homeworldId" | "peopleIds" | "filmIds"
+> & {
+  homeworld: Planet | null;
+  people: Person[];
+  films: Film[];
+};
+
+export type StarshipFull = Omit<Starship, "filmIds"> & {
+  films: Film[];
+};
+
+export type VehicleFull = Omit<Vehicle, "pilotIds" | "filmIds"> & {
+  pilots: Person[];
+  films: Film[];
 };

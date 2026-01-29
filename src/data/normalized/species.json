@@ -7,42 +7,13 @@
     "designation": "sentient",
     "averageHeight": 180,
     "averageLifespan": 120,
-    "skinColors": [
-      "caucasian",
-      "black",
-      "asian",
-      "hispanic"
-    ],
-    "hairColors": [
-      "blonde",
-      "brown",
-      "black",
-      "red"
-    ],
-    "eyeColors": [
-      "brown",
-      "blue",
-      "green",
-      "hazel",
-      "grey",
-      "amber"
-    ],
+    "skinColors": ["caucasian", "black", "asian", "hispanic"],
+    "hairColors": ["blonde", "brown", "black", "red"],
+    "eyeColors": ["brown", "blue", "green", "hazel", "grey", "amber"],
     "language": "Galactic Basic",
     "homeworldId": 9,
-    "peopleIds": [
-      66,
-      67,
-      68,
-      74
-    ],
-    "filmIds": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ]
+    "peopleIds": [66, 67, 68, 74],
+    "filmIds": [1, 2, 3, 4, 5, 6]
   },
   {
     "entityId": 2,
@@ -52,31 +23,13 @@
     "designation": "sentient",
     "averageHeight": null,
     "averageLifespan": null,
-    "skinColors": [
-      "n/a"
-    ],
-    "hairColors": [
-      "n/a"
-    ],
-    "eyeColors": [
-      "n/a"
-    ],
+    "skinColors": ["n/a"],
+    "hairColors": ["n/a"],
+    "eyeColors": ["n/a"],
     "language": "n/a",
     "homeworldId": null,
-    "peopleIds": [
-      2,
-      3,
-      8,
-      23
-    ],
-    "filmIds": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ]
+    "peopleIds": [2, 3, 8, 23],
+    "filmIds": [1, 2, 3, 4, 5, 6]
   },
   {
     "entityId": 3,
@@ -86,33 +39,13 @@
     "designation": "sentient",
     "averageHeight": 210,
     "averageLifespan": 400,
-    "skinColors": [
-      "gray"
-    ],
-    "hairColors": [
-      "black",
-      "brown"
-    ],
-    "eyeColors": [
-      "blue",
-      "green",
-      "yellow",
-      "brown",
-      "golden",
-      "red"
-    ],
+    "skinColors": ["gray"],
+    "hairColors": ["black", "brown"],
+    "eyeColors": ["blue", "green", "yellow", "brown", "golden", "red"],
     "language": "Shyriiwook",
     "homeworldId": 14,
-    "peopleIds": [
-      13,
-      80
-    ],
-    "filmIds": [
-      1,
-      2,
-      3,
-      6
-    ]
+    "peopleIds": [13, 80],
+    "filmIds": [1, 2, 3, 6]
   },
   {
     "entityId": 4,
@@ -122,24 +55,13 @@
     "designation": "reptilian",
     "averageHeight": 170,
     "averageLifespan": null,
-    "skinColors": [
-      "green",
-      "blue"
-    ],
-    "hairColors": [
-      "n/a"
-    ],
-    "eyeColors": [
-      "black"
-    ],
+    "skinColors": ["green", "blue"],
+    "hairColors": ["n/a"],
+    "eyeColors": ["black"],
     "language": "Galatic Basic",
     "homeworldId": 23,
-    "peopleIds": [
-      15
-    ],
-    "filmIds": [
-      1
-    ]
+    "peopleIds": [15],
+    "filmIds": [1]
   },
   {
     "entityId": 5,
@@ -149,27 +71,13 @@
     "designation": "sentient",
     "averageHeight": 300,
     "averageLifespan": 1000,
-    "skinColors": [
-      "green",
-      "brown",
-      "tan"
-    ],
-    "hairColors": [
-      "n/a"
-    ],
-    "eyeColors": [
-      "yellow",
-      "red"
-    ],
+    "skinColors": ["green", "brown", "tan"],
+    "hairColors": ["n/a"],
+    "eyeColors": ["yellow", "red"],
     "language": "Huttese",
     "homeworldId": 24,
-    "peopleIds": [
-      16
-    ],
-    "filmIds": [
-      1,
-      3
-    ]
+    "peopleIds": [16],
+    "filmIds": [1, 3]
   },
   {
     "entityId": 6,
@@ -179,31 +87,13 @@
     "designation": "sentient",
     "averageHeight": 66,
     "averageLifespan": 900,
-    "skinColors": [
-      "green",
-      "yellow"
-    ],
-    "hairColors": [
-      "brown",
-      "white"
-    ],
-    "eyeColors": [
-      "brown",
-      "green",
-      "yellow"
-    ],
+    "skinColors": ["green", "yellow"],
+    "hairColors": ["brown", "white"],
+    "eyeColors": ["brown", "green", "yellow"],
     "language": "Galactic basic",
     "homeworldId": 28,
-    "peopleIds": [
-      20
-    ],
-    "filmIds": [
-      2,
-      3,
-      4,
-      5,
-      6
-    ]
+    "peopleIds": [20],
+    "filmIds": [2, 3, 4, 5, 6]
   },
   {
     "entityId": 7,
@@ -213,25 +103,13 @@
     "designation": "sentient",
     "averageHeight": 200,
     "averageLifespan": null,
-    "skinColors": [
-      "brown",
-      "green"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "yellow",
-      "orange"
-    ],
+    "skinColors": ["brown", "green"],
+    "hairColors": ["none"],
+    "eyeColors": ["yellow", "orange"],
     "language": "Dosh",
     "homeworldId": 29,
-    "peopleIds": [
-      24
-    ],
-    "filmIds": [
-      2
-    ]
+    "peopleIds": [24],
+    "filmIds": [2]
   },
   {
     "entityId": 8,
@@ -241,26 +119,13 @@
     "designation": "sentient",
     "averageHeight": 160,
     "averageLifespan": null,
-    "skinColors": [
-      "red",
-      "blue",
-      "brown",
-      "magenta"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "yellow"
-    ],
+    "skinColors": ["red", "blue", "brown", "magenta"],
+    "hairColors": ["none"],
+    "eyeColors": ["yellow"],
     "language": "Mon Calamarian",
     "homeworldId": 31,
-    "peopleIds": [
-      27
-    ],
-    "filmIds": [
-      3
-    ]
+    "peopleIds": [27],
+    "filmIds": [3]
   },
   {
     "entityId": 9,
@@ -270,26 +135,13 @@
     "designation": "sentient",
     "averageHeight": 100,
     "averageLifespan": null,
-    "skinColors": [
-      "brown"
-    ],
-    "hairColors": [
-      "white",
-      "brown",
-      "black"
-    ],
-    "eyeColors": [
-      "orange",
-      "brown"
-    ],
+    "skinColors": ["brown"],
+    "hairColors": ["white", "brown", "black"],
+    "eyeColors": ["orange", "brown"],
     "language": "Ewokese",
     "homeworldId": 7,
-    "peopleIds": [
-      30
-    ],
-    "filmIds": [
-      3
-    ]
+    "peopleIds": [30],
+    "filmIds": [3]
   },
   {
     "entityId": 10,
@@ -299,23 +151,13 @@
     "designation": "sentient",
     "averageHeight": 180,
     "averageLifespan": null,
-    "skinColors": [
-      "pale"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "black"
-    ],
+    "skinColors": ["pale"],
+    "hairColors": ["none"],
+    "eyeColors": ["black"],
     "language": "Sullutese",
     "homeworldId": 33,
-    "peopleIds": [
-      31
-    ],
-    "filmIds": [
-      3
-    ]
+    "peopleIds": [31],
+    "filmIds": [3]
   },
   {
     "entityId": 11,
@@ -325,25 +167,13 @@
     "designation": "sentient",
     "averageHeight": 180,
     "averageLifespan": null,
-    "skinColors": [
-      "grey",
-      "green"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "red",
-      "pink"
-    ],
+    "skinColors": ["grey", "green"],
+    "hairColors": ["none"],
+    "eyeColors": ["red", "pink"],
     "language": "Neimoidia",
     "homeworldId": 18,
-    "peopleIds": [
-      33
-    ],
-    "filmIds": [
-      4
-    ]
+    "peopleIds": [33],
+    "filmIds": [4]
   },
   {
     "entityId": 12,
@@ -353,27 +183,13 @@
     "designation": "sentient",
     "averageHeight": 190,
     "averageLifespan": null,
-    "skinColors": [
-      "brown",
-      "green"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "orange"
-    ],
+    "skinColors": ["brown", "green"],
+    "hairColors": ["none"],
+    "eyeColors": ["orange"],
     "language": "Gungan basic",
     "homeworldId": 8,
-    "peopleIds": [
-      36,
-      37,
-      38
-    ],
-    "filmIds": [
-      4,
-      5
-    ]
+    "peopleIds": [36, 37, 38],
+    "filmIds": [4, 5]
   },
   {
     "entityId": 13,
@@ -383,26 +199,13 @@
     "designation": "sentient",
     "averageHeight": 120,
     "averageLifespan": 91,
-    "skinColors": [
-      "blue",
-      "green",
-      "grey"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "yellow"
-    ],
+    "skinColors": ["blue", "green", "grey"],
+    "hairColors": ["none"],
+    "eyeColors": ["yellow"],
     "language": "Toydarian",
     "homeworldId": 34,
-    "peopleIds": [
-      40
-    ],
-    "filmIds": [
-      4,
-      5
-    ]
+    "peopleIds": [40],
+    "filmIds": [4, 5]
   },
   {
     "entityId": 14,
@@ -412,27 +215,13 @@
     "designation": "sentient",
     "averageHeight": 100,
     "averageLifespan": null,
-    "skinColors": [
-      "brown",
-      "purple",
-      "grey",
-      "red"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "yellow",
-      "blue"
-    ],
+    "skinColors": ["brown", "purple", "grey", "red"],
+    "hairColors": ["none"],
+    "eyeColors": ["yellow", "blue"],
     "language": "Dugese",
     "homeworldId": 35,
-    "peopleIds": [
-      41
-    ],
-    "filmIds": [
-      4
-    ]
+    "peopleIds": [41],
+    "filmIds": [4]
   },
   {
     "entityId": 15,
@@ -451,27 +240,12 @@
       "purple",
       "tan"
     ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "blue",
-      "brown",
-      "orange",
-      "pink"
-    ],
+    "hairColors": ["none"],
+    "eyeColors": ["blue", "brown", "orange", "pink"],
     "language": "Twi'leki",
     "homeworldId": 37,
-    "peopleIds": [
-      45,
-      46
-    ],
-    "filmIds": [
-      3,
-      4,
-      5,
-      6
-    ]
+    "peopleIds": [45, 46],
+    "filmIds": [3, 4, 5, 6]
   },
   {
     "entityId": 16,
@@ -481,24 +255,13 @@
     "designation": "sentient",
     "averageHeight": 80,
     "averageLifespan": 79,
-    "skinColors": [
-      "blue",
-      "gray"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "unknown"
-    ],
+    "skinColors": ["blue", "gray"],
+    "hairColors": ["none"],
+    "eyeColors": ["unknown"],
     "language": "Aleena",
     "homeworldId": 38,
-    "peopleIds": [
-      47
-    ],
-    "filmIds": [
-      4
-    ]
+    "peopleIds": [47],
+    "filmIds": [4]
   },
   {
     "entityId": 17,
@@ -508,23 +271,13 @@
     "designation": "sentient",
     "averageHeight": 100,
     "averageLifespan": null,
-    "skinColors": [
-      "grey"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "yellow"
-    ],
+    "skinColors": ["grey"],
+    "hairColors": ["none"],
+    "eyeColors": ["yellow"],
     "language": "vulpterish",
     "homeworldId": 39,
-    "peopleIds": [
-      48
-    ],
-    "filmIds": [
-      4
-    ]
+    "peopleIds": [48],
+    "filmIds": [4]
   },
   {
     "entityId": 18,
@@ -534,25 +287,13 @@
     "designation": "sentient",
     "averageHeight": 125,
     "averageLifespan": null,
-    "skinColors": [
-      "grey",
-      "yellow",
-      "purple"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "black"
-    ],
+    "skinColors": ["grey", "yellow", "purple"],
+    "hairColors": ["none"],
+    "eyeColors": ["black"],
     "language": "Xextese",
     "homeworldId": 40,
-    "peopleIds": [
-      49
-    ],
-    "filmIds": [
-      4
-    ]
+    "peopleIds": [49],
+    "filmIds": [4]
   },
   {
     "entityId": 19,
@@ -562,26 +303,13 @@
     "designation": "sentient",
     "averageHeight": 200,
     "averageLifespan": null,
-    "skinColors": [
-      "grey",
-      "green",
-      "yellow"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "orange"
-    ],
+    "skinColors": ["grey", "green", "yellow"],
+    "hairColors": ["none"],
+    "eyeColors": ["orange"],
     "language": "Tundan",
     "homeworldId": 41,
-    "peopleIds": [
-      50
-    ],
-    "filmIds": [
-      4,
-      6
-    ]
+    "peopleIds": [50],
+    "filmIds": [4, 6]
   },
   {
     "entityId": 20,
@@ -591,27 +319,13 @@
     "designation": "sentient",
     "averageHeight": 200,
     "averageLifespan": null,
-    "skinColors": [
-      "pale pink"
-    ],
-    "hairColors": [
-      "red",
-      "blond",
-      "black",
-      "white"
-    ],
-    "eyeColors": [
-      "hazel"
-    ],
+    "skinColors": ["pale pink"],
+    "hairColors": ["red", "blond", "black", "white"],
+    "eyeColors": ["hazel"],
     "language": "Cerean",
     "homeworldId": 43,
-    "peopleIds": [
-      52
-    ],
-    "filmIds": [
-      4,
-      6
-    ]
+    "peopleIds": [52],
+    "filmIds": [4, 6]
   },
   {
     "entityId": 21,
@@ -621,26 +335,13 @@
     "designation": "sentient",
     "averageHeight": 180,
     "averageLifespan": 70,
-    "skinColors": [
-      "green",
-      "blue",
-      "brown",
-      "red"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "black"
-    ],
+    "skinColors": ["green", "blue", "brown", "red"],
+    "hairColors": ["none"],
+    "eyeColors": ["black"],
     "language": "Nautila",
     "homeworldId": 44,
-    "peopleIds": [
-      53
-    ],
-    "filmIds": [
-      4
-    ]
+    "peopleIds": [53],
+    "filmIds": [4]
   },
   {
     "entityId": 22,
@@ -650,29 +351,13 @@
     "designation": "sentient",
     "averageHeight": 180,
     "averageLifespan": null,
-    "skinColors": [
-      "pale",
-      "brown",
-      "red",
-      "orange",
-      "yellow"
-    ],
-    "hairColors": [
-      "black"
-    ],
-    "eyeColors": [
-      "brown",
-      "orange"
-    ],
+    "skinColors": ["pale", "brown", "red", "orange", "yellow"],
+    "hairColors": ["black"],
+    "eyeColors": ["brown", "orange"],
     "language": "Zabraki",
     "homeworldId": 45,
-    "peopleIds": [
-      44,
-      54
-    ],
-    "filmIds": [
-      4
-    ]
+    "peopleIds": [44, 54],
+    "filmIds": [4]
   },
   {
     "entityId": 23,
@@ -682,25 +367,13 @@
     "designation": "sentient",
     "averageHeight": null,
     "averageLifespan": null,
-    "skinColors": [
-      "dark"
-    ],
-    "hairColors": [
-      "unknown"
-    ],
-    "eyeColors": [
-      "blue",
-      "indigo"
-    ],
+    "skinColors": ["dark"],
+    "hairColors": ["unknown"],
+    "eyeColors": ["blue", "indigo"],
     "language": "unknown",
     "homeworldId": 46,
-    "peopleIds": [
-      55
-    ],
-    "filmIds": [
-      4,
-      6
-    ]
+    "peopleIds": [55],
+    "filmIds": [4, 6]
   },
   {
     "entityId": 24,
@@ -710,24 +383,13 @@
     "designation": "sentient",
     "averageHeight": 180,
     "averageLifespan": null,
-    "skinColors": [
-      "pink"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "orange"
-    ],
+    "skinColors": ["pink"],
+    "hairColors": ["none"],
+    "eyeColors": ["orange"],
     "language": "Iktotchese",
     "homeworldId": 47,
-    "peopleIds": [
-      56
-    ],
-    "filmIds": [
-      4,
-      6
-    ]
+    "peopleIds": [56],
+    "filmIds": [4, 6]
   },
   {
     "entityId": 25,
@@ -737,24 +399,13 @@
     "designation": "sentient",
     "averageHeight": 240,
     "averageLifespan": 86,
-    "skinColors": [
-      "white"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "yellow"
-    ],
+    "skinColors": ["white"],
+    "hairColors": ["none"],
+    "eyeColors": ["yellow"],
     "language": "Quermian",
     "homeworldId": 48,
-    "peopleIds": [
-      57
-    ],
-    "filmIds": [
-      4,
-      6
-    ]
+    "peopleIds": [57],
+    "filmIds": [4, 6]
   },
   {
     "entityId": 26,
@@ -764,27 +415,13 @@
     "designation": "sentient",
     "averageHeight": 180,
     "averageLifespan": 70,
-    "skinColors": [
-      "peach",
-      "orange",
-      "red"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "black",
-      "silver"
-    ],
+    "skinColors": ["peach", "orange", "red"],
+    "hairColors": ["none"],
+    "eyeColors": ["black", "silver"],
     "language": "Kel Dor",
     "homeworldId": 49,
-    "peopleIds": [
-      58
-    ],
-    "filmIds": [
-      4,
-      6
-    ]
+    "peopleIds": [58],
+    "filmIds": [4, 6]
   },
   {
     "entityId": 27,
@@ -794,24 +431,13 @@
     "designation": "sentient",
     "averageHeight": 190,
     "averageLifespan": null,
-    "skinColors": [
-      "blue"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "blue"
-    ],
+    "skinColors": ["blue"],
+    "hairColors": ["none"],
+    "eyeColors": ["blue"],
     "language": "Chagria",
     "homeworldId": 50,
-    "peopleIds": [
-      59
-    ],
-    "filmIds": [
-      4,
-      6
-    ]
+    "peopleIds": [59],
+    "filmIds": [4, 6]
   },
   {
     "entityId": 28,
@@ -821,26 +447,13 @@
     "designation": "sentient",
     "averageHeight": 178,
     "averageLifespan": null,
-    "skinColors": [
-      "green",
-      "brown"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "green",
-      "hazel"
-    ],
+    "skinColors": ["green", "brown"],
+    "hairColors": ["none"],
+    "eyeColors": ["green", "hazel"],
     "language": "Geonosian",
     "homeworldId": 11,
-    "peopleIds": [
-      63
-    ],
-    "filmIds": [
-      5,
-      6
-    ]
+    "peopleIds": [63],
+    "filmIds": [5, 6]
   },
   {
     "entityId": 29,
@@ -850,32 +463,13 @@
     "designation": "sentient",
     "averageHeight": 180,
     "averageLifespan": null,
-    "skinColors": [
-      "yellow",
-      "green"
-    ],
-    "hairColors": [
-      "black",
-      "brown"
-    ],
-    "eyeColors": [
-      "blue",
-      "green",
-      "red",
-      "yellow",
-      "brown",
-      "orange"
-    ],
+    "skinColors": ["yellow", "green"],
+    "hairColors": ["black", "brown"],
+    "eyeColors": ["blue", "green", "red", "yellow", "brown", "orange"],
     "language": "Mirialan",
     "homeworldId": 51,
-    "peopleIds": [
-      64,
-      65
-    ],
-    "filmIds": [
-      5,
-      6
-    ]
+    "peopleIds": [64, 65],
+    "filmIds": [5, 6]
   },
   {
     "entityId": 30,
@@ -885,25 +479,13 @@
     "designation": "sentient",
     "averageHeight": 180,
     "averageLifespan": 70,
-    "skinColors": [
-      "green",
-      "yellow"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "yellow"
-    ],
+    "skinColors": ["green", "yellow"],
+    "hairColors": ["none"],
+    "eyeColors": ["yellow"],
     "language": "Clawdite",
     "homeworldId": 54,
-    "peopleIds": [
-      70
-    ],
-    "filmIds": [
-      5,
-      6
-    ]
+    "peopleIds": [70],
+    "filmIds": [5, 6]
   },
   {
     "entityId": 31,
@@ -913,23 +495,13 @@
     "designation": "sentient",
     "averageHeight": 178,
     "averageLifespan": 75,
-    "skinColors": [
-      "brown"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "yellow"
-    ],
+    "skinColors": ["brown"],
+    "hairColors": ["none"],
+    "eyeColors": ["yellow"],
     "language": "besalisk",
     "homeworldId": 55,
-    "peopleIds": [
-      71
-    ],
-    "filmIds": [
-      5
-    ]
+    "peopleIds": [71],
+    "filmIds": [5]
   },
   {
     "entityId": 32,
@@ -939,25 +511,13 @@
     "designation": "sentient",
     "averageHeight": 220,
     "averageLifespan": 80,
-    "skinColors": [
-      "grey",
-      "blue"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "black"
-    ],
+    "skinColors": ["grey", "blue"],
+    "hairColors": ["none"],
+    "eyeColors": ["black"],
     "language": "Kaminoan",
     "homeworldId": 10,
-    "peopleIds": [
-      72,
-      73
-    ],
-    "filmIds": [
-      5
-    ]
+    "peopleIds": [72, 73],
+    "filmIds": [5]
   },
   {
     "entityId": 33,
@@ -967,25 +527,13 @@
     "designation": "sentient",
     "averageHeight": null,
     "averageLifespan": null,
-    "skinColors": [
-      "grey",
-      "green"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "unknown"
-    ],
+    "skinColors": ["grey", "green"],
+    "hairColors": ["none"],
+    "eyeColors": ["unknown"],
     "language": "Skakoan",
     "homeworldId": 56,
-    "peopleIds": [
-      76
-    ],
-    "filmIds": [
-      5,
-      6
-    ]
+    "peopleIds": [76],
+    "filmIds": [5, 6]
   },
   {
     "entityId": 34,
@@ -995,25 +543,13 @@
     "designation": "sentient",
     "averageHeight": 190,
     "averageLifespan": 100,
-    "skinColors": [
-      "grey",
-      "white"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "black"
-    ],
+    "skinColors": ["grey", "white"],
+    "hairColors": ["none"],
+    "eyeColors": ["black"],
     "language": "Muun",
     "homeworldId": 57,
-    "peopleIds": [
-      77
-    ],
-    "filmIds": [
-      5,
-      6
-    ]
+    "peopleIds": [77],
+    "filmIds": [5, 6]
   },
   {
     "entityId": 35,
@@ -1023,34 +559,13 @@
     "designation": "sentient",
     "averageHeight": 180,
     "averageLifespan": 94,
-    "skinColors": [
-      "red",
-      "white",
-      "orange",
-      "yellow",
-      "green",
-      "blue"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "red",
-      "orange",
-      "yellow",
-      "green",
-      "blue",
-      "black"
-    ],
+    "skinColors": ["red", "white", "orange", "yellow", "green", "blue"],
+    "hairColors": ["none"],
+    "eyeColors": ["red", "orange", "yellow", "green", "blue", "black"],
     "language": "Togruti",
     "homeworldId": 58,
-    "peopleIds": [
-      78
-    ],
-    "filmIds": [
-      5,
-      6
-    ]
+    "peopleIds": [78],
+    "filmIds": [5, 6]
   },
   {
     "entityId": 36,
@@ -1060,25 +575,13 @@
     "designation": "sentient",
     "averageHeight": 170,
     "averageLifespan": 80,
-    "skinColors": [
-      "brown",
-      "orange",
-      "tan"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "yellow"
-    ],
+    "skinColors": ["brown", "orange", "tan"],
+    "hairColors": ["none"],
+    "eyeColors": ["yellow"],
     "language": "Kaleesh",
     "homeworldId": 59,
-    "peopleIds": [
-      79
-    ],
-    "filmIds": [
-      6
-    ]
+    "peopleIds": [79],
+    "filmIds": [6]
   },
   {
     "entityId": 37,
@@ -1088,22 +591,12 @@
     "designation": "sentient",
     "averageHeight": 190,
     "averageLifespan": 700,
-    "skinColors": [
-      "grey"
-    ],
-    "hairColors": [
-      "none"
-    ],
-    "eyeColors": [
-      "black"
-    ],
+    "skinColors": ["grey"],
+    "hairColors": ["none"],
+    "eyeColors": ["black"],
     "language": "Utapese",
     "homeworldId": 12,
-    "peopleIds": [
-      83
-    ],
-    "filmIds": [
-      6
-    ]
+    "peopleIds": [83],
+    "filmIds": [6]
   }
 ]

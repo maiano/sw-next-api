@@ -8,21 +8,10 @@
     "birthYearBBY": -19,
     "gender": "male",
     "homeworldId": 1,
-    "filmIds": [
-      1,
-      2,
-      3,
-      6
-    ],
+    "filmIds": [1, 2, 3, 6],
     "speciesIds": [],
-    "vehicleIds": [
-      14,
-      30
-    ],
-    "starshipIds": [
-      12,
-      22
-    ],
+    "vehicleIds": [14, 30],
+    "starshipIds": [12, 22],
     "meta": {
       "isForceUser": true,
       "isJedi": true,
@@ -39,17 +28,8 @@
     "birthYearBBY": -112,
     "gender": "n/a",
     "homeworldId": 1,
-    "filmIds": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "speciesIds": [
-      2
-    ],
+    "filmIds": [1, 2, 3, 4, 5, 6],
+    "speciesIds": [2],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -68,17 +48,8 @@
     "birthYearBBY": -33,
     "gender": "n/a",
     "homeworldId": 8,
-    "filmIds": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "speciesIds": [
-      2
-    ],
+    "filmIds": [1, 2, 3, 4, 5, 6],
+    "speciesIds": [2],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -97,17 +68,10 @@
     "birthYearBBY": -41.9,
     "gender": "male",
     "homeworldId": 1,
-    "filmIds": [
-      1,
-      2,
-      3,
-      6
-    ],
+    "filmIds": [1, 2, 3, 6],
     "speciesIds": [],
     "vehicleIds": [],
-    "starshipIds": [
-      13
-    ],
+    "starshipIds": [13],
     "meta": {
       "isForceUser": true,
       "isJedi": false,
@@ -124,16 +88,9 @@
     "birthYearBBY": -19,
     "gender": "female",
     "homeworldId": 2,
-    "filmIds": [
-      1,
-      2,
-      3,
-      6
-    ],
+    "filmIds": [1, 2, 3, 6],
     "speciesIds": [],
-    "vehicleIds": [
-      30
-    ],
+    "vehicleIds": [30],
     "starshipIds": [],
     "meta": {
       "isForceUser": false,
@@ -151,11 +108,7 @@
     "birthYearBBY": -52,
     "gender": "male",
     "homeworldId": 1,
-    "filmIds": [
-      1,
-      5,
-      6
-    ],
+    "filmIds": [1, 5, 6],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -175,11 +128,7 @@
     "birthYearBBY": -47,
     "gender": "female",
     "homeworldId": 1,
-    "filmIds": [
-      1,
-      5,
-      6
-    ],
+    "filmIds": [1, 5, 6],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -199,12 +148,8 @@
     "birthYearBBY": null,
     "gender": "n/a",
     "homeworldId": 1,
-    "filmIds": [
-      1
-    ],
-    "speciesIds": [
-      2
-    ],
+    "filmIds": [1],
+    "speciesIds": [2],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -223,14 +168,10 @@
     "birthYearBBY": -24,
     "gender": "male",
     "homeworldId": 1,
-    "filmIds": [
-      1
-    ],
+    "filmIds": [1],
     "speciesIds": [],
     "vehicleIds": [],
-    "starshipIds": [
-      12
-    ],
+    "starshipIds": [12],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -247,25 +188,10 @@
     "birthYearBBY": -57,
     "gender": "male",
     "homeworldId": 20,
-    "filmIds": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
+    "filmIds": [1, 2, 3, 4, 5, 6],
     "speciesIds": [],
-    "vehicleIds": [
-      38
-    ],
-    "starshipIds": [
-      48,
-      59,
-      64,
-      65,
-      74
-    ],
+    "vehicleIds": [38],
+    "starshipIds": [48, 59, 64, 65, 74],
     "meta": {
       "isForceUser": true,
       "isJedi": true,
@@ -282,21 +208,10 @@
     "birthYearBBY": -41.9,
     "gender": "male",
     "homeworldId": 1,
-    "filmIds": [
-      4,
-      5,
-      6
-    ],
+    "filmIds": [4, 5, 6],
     "speciesIds": [],
-    "vehicleIds": [
-      44,
-      46
-    ],
-    "starshipIds": [
-      39,
-      59,
-      65
-    ],
+    "vehicleIds": [44, 46],
+    "starshipIds": [39, 59, 65],
     "meta": {
       "isForceUser": true,
       "isJedi": true,
@@ -313,10 +228,7 @@
     "birthYearBBY": -64,
     "gender": "male",
     "homeworldId": 21,
-    "filmIds": [
-      1,
-      6
-    ],
+    "filmIds": [1, 6],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -336,22 +248,10 @@
     "birthYearBBY": -200,
     "gender": "male",
     "homeworldId": 14,
-    "filmIds": [
-      1,
-      2,
-      3,
-      6
-    ],
-    "speciesIds": [
-      3
-    ],
-    "vehicleIds": [
-      19
-    ],
-    "starshipIds": [
-      10,
-      22
-    ],
+    "filmIds": [1, 2, 3, 6],
+    "speciesIds": [3],
+    "vehicleIds": [19],
+    "starshipIds": [10, 22],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -368,17 +268,10 @@
     "birthYearBBY": -29,
     "gender": "male",
     "homeworldId": 22,
-    "filmIds": [
-      1,
-      2,
-      3
-    ],
+    "filmIds": [1, 2, 3],
     "speciesIds": [],
     "vehicleIds": [],
-    "starshipIds": [
-      10,
-      22
-    ],
+    "starshipIds": [10, 22],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -395,12 +288,8 @@
     "birthYearBBY": -44,
     "gender": "male",
     "homeworldId": 23,
-    "filmIds": [
-      1
-    ],
-    "speciesIds": [
-      4
-    ],
+    "filmIds": [1],
+    "speciesIds": [4],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -419,14 +308,8 @@
     "birthYearBBY": -600,
     "gender": "hermaphrodite",
     "homeworldId": 24,
-    "filmIds": [
-      1,
-      3,
-      4
-    ],
-    "speciesIds": [
-      5
-    ],
+    "filmIds": [1, 3, 4],
+    "speciesIds": [5],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -445,18 +328,10 @@
     "birthYearBBY": -21,
     "gender": "male",
     "homeworldId": 22,
-    "filmIds": [
-      1,
-      2,
-      3
-    ],
+    "filmIds": [1, 2, 3],
     "speciesIds": [],
-    "vehicleIds": [
-      14
-    ],
-    "starshipIds": [
-      12
-    ],
+    "vehicleIds": [14],
+    "starshipIds": [12],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -473,14 +348,10 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 26,
-    "filmIds": [
-      1
-    ],
+    "filmIds": [1],
     "speciesIds": [],
     "vehicleIds": [],
-    "starshipIds": [
-      12
-    ],
+    "starshipIds": [12],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -497,16 +368,8 @@
     "birthYearBBY": -896,
     "gender": "male",
     "homeworldId": 28,
-    "filmIds": [
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
-    "speciesIds": [
-      6
-    ],
+    "filmIds": [2, 3, 4, 5, 6],
+    "speciesIds": [6],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -525,13 +388,7 @@
     "birthYearBBY": -82,
     "gender": "male",
     "homeworldId": 8,
-    "filmIds": [
-      2,
-      3,
-      4,
-      5,
-      6
-    ],
+    "filmIds": [2, 3, 4, 5, 6],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -551,16 +408,10 @@
     "birthYearBBY": -31.5,
     "gender": "male",
     "homeworldId": 10,
-    "filmIds": [
-      2,
-      3,
-      5
-    ],
+    "filmIds": [2, 3, 5],
     "speciesIds": [],
     "vehicleIds": [],
-    "starshipIds": [
-      21
-    ],
+    "starshipIds": [21],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -577,12 +428,8 @@
     "birthYearBBY": -15,
     "gender": "none",
     "homeworldId": 28,
-    "filmIds": [
-      2
-    ],
-    "speciesIds": [
-      2
-    ],
+    "filmIds": [2],
+    "speciesIds": [2],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -601,12 +448,8 @@
     "birthYearBBY": -53,
     "gender": "male",
     "homeworldId": 29,
-    "filmIds": [
-      2
-    ],
-    "speciesIds": [
-      7
-    ],
+    "filmIds": [2],
+    "speciesIds": [7],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -625,15 +468,10 @@
     "birthYearBBY": -31,
     "gender": "male",
     "homeworldId": 30,
-    "filmIds": [
-      2,
-      3
-    ],
+    "filmIds": [2, 3],
     "speciesIds": [],
     "vehicleIds": [],
-    "starshipIds": [
-      10
-    ],
+    "starshipIds": [10],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -650,9 +488,7 @@
     "birthYearBBY": -37,
     "gender": "male",
     "homeworldId": 6,
-    "filmIds": [
-      2
-    ],
+    "filmIds": [2],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -672,12 +508,8 @@
     "birthYearBBY": -41,
     "gender": "male",
     "homeworldId": 31,
-    "filmIds": [
-      3
-    ],
-    "speciesIds": [
-      8
-    ],
+    "filmIds": [3],
+    "speciesIds": [8],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -696,9 +528,7 @@
     "birthYearBBY": -48,
     "gender": "female",
     "homeworldId": 32,
-    "filmIds": [
-      3
-    ],
+    "filmIds": [3],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -718,14 +548,10 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 28,
-    "filmIds": [
-      3
-    ],
+    "filmIds": [3],
     "speciesIds": [],
     "vehicleIds": [],
-    "starshipIds": [
-      28
-    ],
+    "starshipIds": [28],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -742,12 +568,8 @@
     "birthYearBBY": -8,
     "gender": "male",
     "homeworldId": 7,
-    "filmIds": [
-      3
-    ],
-    "speciesIds": [
-      9
-    ],
+    "filmIds": [3],
+    "speciesIds": [9],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -766,16 +588,10 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 33,
-    "filmIds": [
-      3
-    ],
-    "speciesIds": [
-      10
-    ],
+    "filmIds": [3],
+    "speciesIds": [10],
     "vehicleIds": [],
-    "starshipIds": [
-      10
-    ],
+    "starshipIds": [10],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -792,13 +608,9 @@
     "birthYearBBY": -92,
     "gender": "male",
     "homeworldId": 28,
-    "filmIds": [
-      4
-    ],
+    "filmIds": [4],
     "speciesIds": [],
-    "vehicleIds": [
-      38
-    ],
+    "vehicleIds": [38],
     "starshipIds": [],
     "meta": {
       "isForceUser": false,
@@ -816,14 +628,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 18,
-    "filmIds": [
-      4,
-      5,
-      6
-    ],
-    "speciesIds": [
-      11
-    ],
+    "filmIds": [4, 5, 6],
+    "speciesIds": [11],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -842,9 +648,7 @@
     "birthYearBBY": -91,
     "gender": "male",
     "homeworldId": 9,
-    "filmIds": [
-      4
-    ],
+    "filmIds": [4],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -864,18 +668,10 @@
     "birthYearBBY": -46,
     "gender": "female",
     "homeworldId": 8,
-    "filmIds": [
-      4,
-      5,
-      6
-    ],
+    "filmIds": [4, 5, 6],
     "speciesIds": [],
     "vehicleIds": [],
-    "starshipIds": [
-      39,
-      49,
-      64
-    ],
+    "starshipIds": [39, 49, 64],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -892,13 +688,8 @@
     "birthYearBBY": -52,
     "gender": "male",
     "homeworldId": 8,
-    "filmIds": [
-      4,
-      5
-    ],
-    "speciesIds": [
-      12
-    ],
+    "filmIds": [4, 5],
+    "speciesIds": [12],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -917,12 +708,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 8,
-    "filmIds": [
-      4
-    ],
-    "speciesIds": [
-      12
-    ],
+    "filmIds": [4],
+    "speciesIds": [12],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -941,12 +728,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 8,
-    "filmIds": [
-      4
-    ],
-    "speciesIds": [
-      12
-    ],
+    "filmIds": [4],
+    "speciesIds": [12],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -965,14 +748,10 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 8,
-    "filmIds": [
-      4
-    ],
+    "filmIds": [4],
     "speciesIds": [],
     "vehicleIds": [],
-    "starshipIds": [
-      40
-    ],
+    "starshipIds": [40],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -989,13 +768,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 34,
-    "filmIds": [
-      4,
-      5
-    ],
-    "speciesIds": [
-      13
-    ],
+    "filmIds": [4, 5],
+    "speciesIds": [13],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1014,12 +788,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 35,
-    "filmIds": [
-      4
-    ],
-    "speciesIds": [
-      14
-    ],
+    "filmIds": [4],
+    "speciesIds": [14],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1038,9 +808,7 @@
     "birthYearBBY": -62,
     "gender": "male",
     "homeworldId": 8,
-    "filmIds": [
-      4
-    ],
+    "filmIds": [4],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -1060,10 +828,7 @@
     "birthYearBBY": -72,
     "gender": "female",
     "homeworldId": 1,
-    "filmIds": [
-      4,
-      5
-    ],
+    "filmIds": [4, 5],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -1083,18 +848,10 @@
     "birthYearBBY": -54,
     "gender": "male",
     "homeworldId": 36,
-    "filmIds": [
-      4
-    ],
-    "speciesIds": [
-      22
-    ],
-    "vehicleIds": [
-      42
-    ],
-    "starshipIds": [
-      41
-    ],
+    "filmIds": [4],
+    "speciesIds": [22],
+    "vehicleIds": [42],
+    "starshipIds": [41],
     "meta": {
       "isForceUser": true,
       "isJedi": false,
@@ -1111,12 +868,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 37,
-    "filmIds": [
-      3
-    ],
-    "speciesIds": [
-      15
-    ],
+    "filmIds": [3],
+    "speciesIds": [15],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1135,14 +888,8 @@
     "birthYearBBY": -48,
     "gender": "female",
     "homeworldId": 37,
-    "filmIds": [
-      4,
-      5,
-      6
-    ],
-    "speciesIds": [
-      15
-    ],
+    "filmIds": [4, 5, 6],
+    "speciesIds": [15],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1161,12 +908,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 38,
-    "filmIds": [
-      4
-    ],
-    "speciesIds": [
-      16
-    ],
+    "filmIds": [4],
+    "speciesIds": [16],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1185,12 +928,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 39,
-    "filmIds": [
-      4
-    ],
-    "speciesIds": [
-      17
-    ],
+    "filmIds": [4],
+    "speciesIds": [17],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1209,12 +948,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 40,
-    "filmIds": [
-      4
-    ],
-    "speciesIds": [
-      18
-    ],
+    "filmIds": [4],
+    "speciesIds": [18],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1233,12 +968,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 41,
-    "filmIds": [
-      4
-    ],
-    "speciesIds": [
-      19
-    ],
+    "filmIds": [4],
+    "speciesIds": [19],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1257,11 +988,7 @@
     "birthYearBBY": -72,
     "gender": "male",
     "homeworldId": 42,
-    "filmIds": [
-      4,
-      5,
-      6
-    ],
+    "filmIds": [4, 5, 6],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -1281,14 +1008,8 @@
     "birthYearBBY": -92,
     "gender": "male",
     "homeworldId": 43,
-    "filmIds": [
-      4,
-      5,
-      6
-    ],
-    "speciesIds": [
-      20
-    ],
+    "filmIds": [4, 5, 6],
+    "speciesIds": [20],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1307,14 +1028,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 44,
-    "filmIds": [
-      4,
-      5,
-      6
-    ],
-    "speciesIds": [
-      21
-    ],
+    "filmIds": [4, 5, 6],
+    "speciesIds": [21],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1333,13 +1048,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 45,
-    "filmIds": [
-      4,
-      6
-    ],
-    "speciesIds": [
-      22
-    ],
+    "filmIds": [4, 6],
+    "speciesIds": [22],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1358,13 +1068,8 @@
     "birthYearBBY": null,
     "gender": "female",
     "homeworldId": 9,
-    "filmIds": [
-      4,
-      6
-    ],
-    "speciesIds": [
-      23
-    ],
+    "filmIds": [4, 6],
+    "speciesIds": [23],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1383,13 +1088,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 47,
-    "filmIds": [
-      4,
-      6
-    ],
-    "speciesIds": [
-      24
-    ],
+    "filmIds": [4, 6],
+    "speciesIds": [24],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1408,12 +1108,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 48,
-    "filmIds": [
-      4
-    ],
-    "speciesIds": [
-      25
-    ],
+    "filmIds": [4],
+    "speciesIds": [25],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1432,18 +1128,10 @@
     "birthYearBBY": -22,
     "gender": "male",
     "homeworldId": 49,
-    "filmIds": [
-      4,
-      5,
-      6
-    ],
-    "speciesIds": [
-      26
-    ],
+    "filmIds": [4, 5, 6],
+    "speciesIds": [26],
     "vehicleIds": [],
-    "starshipIds": [
-      48
-    ],
+    "starshipIds": [48],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -1460,13 +1148,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 50,
-    "filmIds": [
-      4,
-      5
-    ],
-    "speciesIds": [
-      27
-    ],
+    "filmIds": [4, 5],
+    "speciesIds": [27],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1485,14 +1168,10 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 8,
-    "filmIds": [
-      5
-    ],
+    "filmIds": [5],
     "speciesIds": [],
     "vehicleIds": [],
-    "starshipIds": [
-      39
-    ],
+    "starshipIds": [39],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -1509,9 +1188,7 @@
     "birthYearBBY": null,
     "gender": "female",
     "homeworldId": 8,
-    "filmIds": [
-      5
-    ],
+    "filmIds": [5],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -1531,9 +1208,7 @@
     "birthYearBBY": -82,
     "gender": "male",
     "homeworldId": 1,
-    "filmIds": [
-      5
-    ],
+    "filmIds": [5],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -1553,13 +1228,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 11,
-    "filmIds": [
-      5,
-      6
-    ],
-    "speciesIds": [
-      28
-    ],
+    "filmIds": [5, 6],
+    "speciesIds": [28],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1578,13 +1248,8 @@
     "birthYearBBY": -58,
     "gender": "female",
     "homeworldId": 51,
-    "filmIds": [
-      5,
-      6
-    ],
-    "speciesIds": [
-      29
-    ],
+    "filmIds": [5, 6],
+    "speciesIds": [29],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1603,12 +1268,8 @@
     "birthYearBBY": -40,
     "gender": "female",
     "homeworldId": 51,
-    "filmIds": [
-      5
-    ],
-    "speciesIds": [
-      29
-    ],
+    "filmIds": [5],
+    "speciesIds": [29],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1627,12 +1288,8 @@
     "birthYearBBY": null,
     "gender": "female",
     "homeworldId": 8,
-    "filmIds": [
-      5
-    ],
-    "speciesIds": [
-      1
-    ],
+    "filmIds": [5],
+    "speciesIds": [1],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1651,16 +1308,9 @@
     "birthYearBBY": -102,
     "gender": "male",
     "homeworldId": 52,
-    "filmIds": [
-      5,
-      6
-    ],
-    "speciesIds": [
-      1
-    ],
-    "vehicleIds": [
-      55
-    ],
+    "filmIds": [5, 6],
+    "speciesIds": [1],
+    "vehicleIds": [55],
     "starshipIds": [],
     "meta": {
       "isForceUser": false,
@@ -1678,13 +1328,8 @@
     "birthYearBBY": -67,
     "gender": "male",
     "homeworldId": 2,
-    "filmIds": [
-      5,
-      6
-    ],
-    "speciesIds": [
-      1
-    ],
+    "filmIds": [5, 6],
+    "speciesIds": [1],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1703,9 +1348,7 @@
     "birthYearBBY": -66,
     "gender": "male",
     "homeworldId": 53,
-    "filmIds": [
-      5
-    ],
+    "filmIds": [5],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -1725,15 +1368,9 @@
     "birthYearBBY": null,
     "gender": "female",
     "homeworldId": 54,
-    "filmIds": [
-      5
-    ],
-    "speciesIds": [
-      30
-    ],
-    "vehicleIds": [
-      45
-    ],
+    "filmIds": [5],
+    "speciesIds": [30],
+    "vehicleIds": [45],
     "starshipIds": [],
     "meta": {
       "isForceUser": false,
@@ -1751,12 +1388,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 55,
-    "filmIds": [
-      5
-    ],
-    "speciesIds": [
-      31
-    ],
+    "filmIds": [5],
+    "speciesIds": [31],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1775,12 +1408,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 10,
-    "filmIds": [
-      5
-    ],
-    "speciesIds": [
-      32
-    ],
+    "filmIds": [5],
+    "speciesIds": [32],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1799,12 +1428,8 @@
     "birthYearBBY": null,
     "gender": "female",
     "homeworldId": 10,
-    "filmIds": [
-      5
-    ],
-    "speciesIds": [
-      32
-    ],
+    "filmIds": [5],
+    "speciesIds": [32],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1823,12 +1448,8 @@
     "birthYearBBY": null,
     "gender": "female",
     "homeworldId": 9,
-    "filmIds": [
-      5
-    ],
-    "speciesIds": [
-      1
-    ],
+    "filmIds": [5],
+    "speciesIds": [1],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1847,10 +1468,7 @@
     "birthYearBBY": null,
     "gender": "female",
     "homeworldId": 28,
-    "filmIds": [
-      5,
-      6
-    ],
+    "filmIds": [5, 6],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -1870,12 +1488,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 56,
-    "filmIds": [
-      5
-    ],
-    "speciesIds": [
-      33
-    ],
+    "filmIds": [5],
+    "speciesIds": [33],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1894,12 +1508,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 57,
-    "filmIds": [
-      5
-    ],
-    "speciesIds": [
-      34
-    ],
+    "filmIds": [5],
+    "speciesIds": [34],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1918,13 +1528,8 @@
     "birthYearBBY": null,
     "gender": "female",
     "homeworldId": 58,
-    "filmIds": [
-      5,
-      6
-    ],
-    "speciesIds": [
-      35
-    ],
+    "filmIds": [5, 6],
+    "speciesIds": [35],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1943,18 +1548,10 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 59,
-    "filmIds": [
-      6
-    ],
-    "speciesIds": [
-      36
-    ],
-    "vehicleIds": [
-      60
-    ],
-    "starshipIds": [
-      74
-    ],
+    "filmIds": [6],
+    "speciesIds": [36],
+    "vehicleIds": [60],
+    "starshipIds": [74],
     "meta": {
       "isForceUser": false,
       "isJedi": false,
@@ -1971,12 +1568,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 14,
-    "filmIds": [
-      6
-    ],
-    "speciesIds": [
-      3
-    ],
+    "filmIds": [6],
+    "speciesIds": [3],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
@@ -1995,10 +1588,7 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 2,
-    "filmIds": [
-      1,
-      6
-    ],
+    "filmIds": [1, 6],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -2018,10 +1608,7 @@
     "birthYearBBY": null,
     "gender": "female",
     "homeworldId": 60,
-    "filmIds": [
-      5,
-      6
-    ],
+    "filmIds": [5, 6],
     "speciesIds": [],
     "vehicleIds": [],
     "starshipIds": [],
@@ -2041,12 +1628,8 @@
     "birthYearBBY": null,
     "gender": "male",
     "homeworldId": 12,
-    "filmIds": [
-      6
-    ],
-    "speciesIds": [
-      37
-    ],
+    "filmIds": [6],
+    "speciesIds": [37],
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {

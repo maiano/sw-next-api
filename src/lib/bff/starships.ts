@@ -1,30 +1,15 @@
-import {
-  filmsByEntityId,
-  starshipsByEntityId,
-  starshipsById,
-} from "@/lib/data";
-import type { EntityId } from "@/lib/types/ids";
+import type { StarshipFull } from "@/lib/types/bff";
+import { resolveEntity } from "@/lib/resolver";
 import { filterDefined } from "@/lib/utils/filterDefined";
 
-export function getStarship(entityId: EntityId) {
-  return starshipsByEntityId.get(entityId) ?? null;
-}
-
-export function getStarshipBySlug(slug: string) {
-  return starshipsById.get(slug) ?? null;
-}
-
-export function getStarshipFull(entityId: EntityId) {
-  const starship = starshipsByEntityId.get(entityId);
+export function getStarshipFull(id: number | string): StarshipFull | null {
+  const starship = resolveEntity("starship", id);
   if (!starship) return null;
 
   return {
     ...starship,
-    films: filterDefined(starship.filmIds.map((id) => filmsByEntityId.get(id))),
+    films: filterDefined(
+      starship.filmIds.map((id) => resolveEntity("film", id)),
+    ),
   };
-}
-
-export function getStarshipFullBySlug(slug: string) {
-  const starship = starshipsById.get(slug);
-  return starship ? getStarshipFull(starship.entityId) : null;
 }

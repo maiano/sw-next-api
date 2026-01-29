@@ -1,4 +1,4 @@
-import { getPersonFull } from "@/lib/bff/people";
+import { getStarshipFull } from "@/lib/bff/starships";
 
 export async function GET(
   _: Request,
@@ -6,7 +6,7 @@ export async function GET(
 ) {
   const { id } = await params;
 
-  const data = getPersonFull(id);
+  const data = getStarshipFull(id);
 
   if (!data) {
     return Response.json({ error: "Not found" }, { status: 404 });

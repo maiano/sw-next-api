@@ -4,9 +4,7 @@
     "id": "cr90-corvette",
     "name": "CR90 corvette",
     "model": "CR90 corvette",
-    "manufacturer": [
-      "Corellian Engineering Corporation"
-    ],
+    "manufacturer": ["Corellian Engineering Corporation"],
     "class": "corvette",
     "cost_credits": 3500000,
     "length_m": 150,
@@ -19,11 +17,7 @@
     "consumables_days": 365,
     "hyperdrive_rating": 2,
     "mglt": 60,
-    "filmIds": [
-      1,
-      3,
-      6
-    ],
+    "filmIds": [1, 3, 6],
     "meta": {
       "is_military": true,
       "faction": "rebels"
@@ -34,9 +28,7 @@
     "id": "star-destroyer",
     "name": "Star Destroyer",
     "model": "Imperial I-class Star Destroyer",
-    "manufacturer": [
-      "Kuat Drive Yards"
-    ],
+    "manufacturer": ["Kuat Drive Yards"],
     "class": "Star Destroyer",
     "cost_credits": 150000000,
     "length_m": 1600,
@@ -49,11 +41,7 @@
     "consumables_days": 730,
     "hyperdrive_rating": 2,
     "mglt": 60,
-    "filmIds": [
-      1,
-      2,
-      3
-    ],
+    "filmIds": [1, 2, 3],
     "meta": {
       "is_military": true,
       "faction": "empire"
@@ -64,10 +52,7 @@
     "id": "sentinel-class-landing-craft",
     "name": "Sentinel-class landing craft",
     "model": "Sentinel-class landing craft",
-    "manufacturer": [
-      "Sienar Fleet Systems",
-      "Cygnus Spaceworks"
-    ],
+    "manufacturer": ["Sienar Fleet Systems", "Cygnus Spaceworks"],
     "class": "landing craft",
     "cost_credits": 240000,
     "length_m": 38,
@@ -80,9 +65,7 @@
     "consumables_days": 30,
     "hyperdrive_rating": 1,
     "mglt": 70,
-    "filmIds": [
-      1
-    ],
+    "filmIds": [1],
     "meta": {
       "is_military": true,
       "faction": "empire"
@@ -109,9 +92,7 @@
     "consumables_days": 1095,
     "hyperdrive_rating": 4,
     "mglt": 10,
-    "filmIds": [
-      1
-    ],
+    "filmIds": [1],
     "meta": {
       "is_military": true,
       "faction": "empire"
@@ -122,9 +103,7 @@
     "id": "millennium-falcon",
     "name": "Millennium Falcon",
     "model": "YT-1300 light freighter",
-    "manufacturer": [
-      "Corellian Engineering Corporation"
-    ],
+    "manufacturer": ["Corellian Engineering Corporation"],
     "class": "Light freighter",
     "cost_credits": 100000,
     "length_m": 34.37,
@@ -137,11 +116,7 @@
     "consumables_days": 60,
     "hyperdrive_rating": 0.5,
     "mglt": 75,
-    "filmIds": [
-      1,
-      2,
-      3
-    ],
+    "filmIds": [1, 2, 3],
     "meta": {
       "is_military": false,
       "faction": "civilian"
@@ -152,9 +127,7 @@
     "id": "y-wing",
     "name": "Y-wing",
     "model": "BTL Y-wing",
-    "manufacturer": [
-      "Koensayr Manufacturing"
-    ],
+    "manufacturer": ["Koensayr Manufacturing"],
     "class": "assault starfighter",
     "cost_credits": 134999,
     "length_m": 14,
@@ -167,11 +140,7 @@
     "consumables_days": null,
     "hyperdrive_rating": 1,
     "mglt": 80,
-    "filmIds": [
-      1,
-      2,
-      3
-    ],
+    "filmIds": [1, 2, 3],
     "meta": {
       "is_military": true,
       "faction": "rebels"
@@ -182,9 +151,7 @@
     "id": "x-wing",
     "name": "X-wing",
     "model": "T-65 X-wing",
-    "manufacturer": [
-      "Incom Corporation"
-    ],
+    "manufacturer": ["Incom Corporation"],
     "class": "Starfighter",
     "cost_credits": 149999,
     "length_m": 12.5,
@@ -197,11 +164,7 @@
     "consumables_days": null,
     "hyperdrive_rating": 1,
     "mglt": 100,
-    "filmIds": [
-      1,
-      2,
-      3
-    ],
+    "filmIds": [1, 2, 3],
     "meta": {
       "is_military": true,
       "faction": "rebels"
@@ -212,9 +175,7 @@
     "id": "tie-advanced-x1",
     "name": "TIE Advanced x1",
     "model": "Twin Ion Engine Advanced x1",
-    "manufacturer": [
-      "Sienar Fleet Systems"
-    ],
+    "manufacturer": ["Sienar Fleet Systems"],
     "class": "Starfighter",
     "cost_credits": null,
     "length_m": 9.2,
@@ -227,9 +188,7 @@
     "consumables_days": 5,
     "hyperdrive_rating": 1,
     "mglt": 105,
-    "filmIds": [
-      1
-    ],
+    "filmIds": [1],
     "meta": {
       "is_military": true,
       "faction": "empire"
@@ -240,10 +199,7 @@
     "id": "executor",
     "name": "Executor",
     "model": "Executor-class star dreadnought",
-    "manufacturer": [
-      "Kuat Drive Yards",
-      "Fondor Shipyards"
-    ],
+    "manufacturer": ["Kuat Drive Yards", "Fondor Shipyards"],
     "class": "Star dreadnought",
     "cost_credits": 1143350000,
     "length_m": 19000,
@@ -256,10 +212,7 @@
     "consumables_days": 2190,
     "hyperdrive_rating": 2,
     "mglt": 40,
-    "filmIds": [
-      2,
-      3
-    ],
+    "filmIds": [2, 3],
     "meta": {
       "is_military": true,
       "faction": "empire"
@@ -270,10 +223,7 @@
     "id": "rebel-transport",
     "name": "Rebel transport",
     "model": "GR-75 medium transport",
-    "manufacturer": [
-      "Gallofree Yards",
-      "Inc."
-    ],
+    "manufacturer": ["Gallofree Yards", "Inc."],
     "class": "Medium transport",
     "cost_credits": null,
     "length_m": 90,
@@ -286,10 +236,7 @@
     "consumables_days": 180,
     "hyperdrive_rating": 4,
     "mglt": 20,
-    "filmIds": [
-      2,
-      3
-    ],
+    "filmIds": [2, 3],
     "meta": {
       "is_military": false,
       "faction": "rebels"
@@ -300,9 +247,7 @@
     "id": "slave-1",
     "name": "Slave 1",
     "model": "Firespray-31-class patrol and attack",
-    "manufacturer": [
-      "Kuat Systems Engineering"
-    ],
+    "manufacturer": ["Kuat Systems Engineering"],
     "class": "Patrol craft",
     "cost_credits": null,
     "length_m": 21.5,
@@ -315,10 +260,7 @@
     "consumables_days": 30,
     "hyperdrive_rating": 3,
     "mglt": 70,
-    "filmIds": [
-      2,
-      5
-    ],
+    "filmIds": [2, 5],
     "meta": {
       "is_military": true,
       "faction": "civilian"
@@ -329,9 +271,7 @@
     "id": "imperial-shuttle",
     "name": "Imperial shuttle",
     "model": "Lambda-class T-4a shuttle",
-    "manufacturer": [
-      "Sienar Fleet Systems"
-    ],
+    "manufacturer": ["Sienar Fleet Systems"],
     "class": "Armed government transport",
     "cost_credits": 240000,
     "length_m": 20,
@@ -344,10 +284,7 @@
     "consumables_days": 60,
     "hyperdrive_rating": 1,
     "mglt": 50,
-    "filmIds": [
-      2,
-      3
-    ],
+    "filmIds": [2, 3],
     "meta": {
       "is_military": false,
       "faction": "empire"
@@ -358,9 +295,7 @@
     "id": "ef76-nebulon-b-escort-frigate",
     "name": "EF76 Nebulon-B escort frigate",
     "model": "EF76 Nebulon-B escort frigate",
-    "manufacturer": [
-      "Kuat Drive Yards"
-    ],
+    "manufacturer": ["Kuat Drive Yards"],
     "class": "Escort ship",
     "cost_credits": 8500000,
     "length_m": 300,
@@ -373,10 +308,7 @@
     "consumables_days": 730,
     "hyperdrive_rating": 2,
     "mglt": 40,
-    "filmIds": [
-      2,
-      3
-    ],
+    "filmIds": [2, 3],
     "meta": {
       "is_military": true,
       "faction": "rebels"
@@ -387,9 +319,7 @@
     "id": "calamari-cruiser",
     "name": "Calamari Cruiser",
     "model": "MC80 Liberty type Star Cruiser",
-    "manufacturer": [
-      "Mon Calamari shipyards"
-    ],
+    "manufacturer": ["Mon Calamari shipyards"],
     "class": "Star Cruiser",
     "cost_credits": 104000000,
     "length_m": 1200,
@@ -402,9 +332,7 @@
     "consumables_days": 730,
     "hyperdrive_rating": 1,
     "mglt": 60,
-    "filmIds": [
-      3
-    ],
+    "filmIds": [3],
     "meta": {
       "is_military": true,
       "faction": "rebels"
@@ -415,10 +343,7 @@
     "id": "a-wing",
     "name": "A-wing",
     "model": "RZ-1 A-wing Interceptor",
-    "manufacturer": [
-      "Alliance Underground Engineering",
-      "Incom Corporation"
-    ],
+    "manufacturer": ["Alliance Underground Engineering", "Incom Corporation"],
     "class": "Starfighter",
     "cost_credits": 175000,
     "length_m": 9.6,
@@ -431,9 +356,7 @@
     "consumables_days": null,
     "hyperdrive_rating": 1,
     "mglt": 120,
-    "filmIds": [
-      3
-    ],
+    "filmIds": [3],
     "meta": {
       "is_military": true,
       "faction": "rebels"
@@ -444,9 +367,7 @@
     "id": "b-wing",
     "name": "B-wing",
     "model": "A/SF-01 B-wing starfighter",
-    "manufacturer": [
-      "Slayn & Korpil"
-    ],
+    "manufacturer": ["Slayn & Korpil"],
     "class": "Assault Starfighter",
     "cost_credits": 220000,
     "length_m": 16.9,
@@ -459,9 +380,7 @@
     "consumables_days": null,
     "hyperdrive_rating": 2,
     "mglt": 91,
-    "filmIds": [
-      3
-    ],
+    "filmIds": [3],
     "meta": {
       "is_military": true,
       "faction": "rebels"
@@ -472,9 +391,7 @@
     "id": "republic-cruiser",
     "name": "Republic Cruiser",
     "model": "Consular-class cruiser",
-    "manufacturer": [
-      "Corellian Engineering Corporation"
-    ],
+    "manufacturer": ["Corellian Engineering Corporation"],
     "class": "Space cruiser",
     "cost_credits": null,
     "length_m": 115,
@@ -487,9 +404,7 @@
     "consumables_days": null,
     "hyperdrive_rating": 2,
     "mglt": null,
-    "filmIds": [
-      4
-    ],
+    "filmIds": [4],
     "meta": {
       "is_military": true,
       "faction": "republic"
@@ -500,10 +415,7 @@
     "id": "droid-control-ship",
     "name": "Droid control ship",
     "model": "Lucrehulk-class Droid Control Ship",
-    "manufacturer": [
-      "Hoersch-Kessel Drive",
-      "Inc."
-    ],
+    "manufacturer": ["Hoersch-Kessel Drive", "Inc."],
     "class": "Droid control ship",
     "cost_credits": null,
     "length_m": 3170,
@@ -516,11 +428,7 @@
     "consumables_days": 500,
     "hyperdrive_rating": 2,
     "mglt": null,
-    "filmIds": [
-      4,
-      5,
-      6
-    ],
+    "filmIds": [4, 5, 6],
     "meta": {
       "is_military": true,
       "faction": "separatists"
@@ -531,9 +439,7 @@
     "id": "naboo-fighter",
     "name": "Naboo fighter",
     "model": "N-1 starfighter",
-    "manufacturer": [
-      "Theed Palace Space Vessel Engineering Corps"
-    ],
+    "manufacturer": ["Theed Palace Space Vessel Engineering Corps"],
     "class": "Starfighter",
     "cost_credits": 200000,
     "length_m": 11,
@@ -546,10 +452,7 @@
     "consumables_days": 7,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "filmIds": [
-      4,
-      5
-    ],
+    "filmIds": [4, 5],
     "meta": {
       "is_military": true,
       "faction": "republic"
@@ -576,9 +479,7 @@
     "consumables_days": null,
     "hyperdrive_rating": 1.8,
     "mglt": null,
-    "filmIds": [
-      4
-    ],
+    "filmIds": [4],
     "meta": {
       "is_military": false,
       "faction": "civilian"
@@ -589,9 +490,7 @@
     "id": "scimitar",
     "name": "Scimitar",
     "model": "Star Courier",
-    "manufacturer": [
-      "Republic Sienar Systems"
-    ],
+    "manufacturer": ["Republic Sienar Systems"],
     "class": "Space Transport",
     "cost_credits": 55000000,
     "length_m": 26.5,
@@ -604,9 +503,7 @@
     "consumables_days": 30,
     "hyperdrive_rating": 1.5,
     "mglt": null,
-    "filmIds": [
-      4
-    ],
+    "filmIds": [4],
     "meta": {
       "is_military": true,
       "faction": "civilian"
@@ -633,9 +530,7 @@
     "consumables_days": 365,
     "hyperdrive_rating": 0.7,
     "mglt": null,
-    "filmIds": [
-      5
-    ],
+    "filmIds": [5],
     "meta": {
       "is_military": false,
       "faction": "civilian"
@@ -646,9 +541,7 @@
     "id": "aa-9-coruscant-freighter",
     "name": "AA-9 Coruscant freighter",
     "model": "Botajef AA-9 Freighter-Liner",
-    "manufacturer": [
-      "Botajef Shipyards"
-    ],
+    "manufacturer": ["Botajef Shipyards"],
     "class": "freighter",
     "cost_credits": null,
     "length_m": 390,
@@ -658,9 +551,7 @@
     "consumables_days": null,
     "hyperdrive_rating": null,
     "mglt": null,
-    "filmIds": [
-      5
-    ],
+    "filmIds": [5],
     "meta": {
       "is_military": false,
       "faction": "civilian"
@@ -671,9 +562,7 @@
     "id": "jedi-starfighter",
     "name": "Jedi starfighter",
     "model": "Delta-7 Aethersprite-class interceptor",
-    "manufacturer": [
-      "Kuat Systems Engineering"
-    ],
+    "manufacturer": ["Kuat Systems Engineering"],
     "class": "Starfighter",
     "cost_credits": 180000,
     "length_m": 8,
@@ -686,10 +575,7 @@
     "consumables_days": 7,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "filmIds": [
-      5,
-      6
-    ],
+    "filmIds": [5, 6],
     "meta": {
       "is_military": true,
       "faction": "republic"
@@ -700,9 +586,7 @@
     "id": "h-type-nubian-yacht",
     "name": "H-type Nubian yacht",
     "model": "H-type Nubian yacht",
-    "manufacturer": [
-      "Theed Palace Space Vessel Engineering Corps"
-    ],
+    "manufacturer": ["Theed Palace Space Vessel Engineering Corps"],
     "class": "yacht",
     "cost_credits": null,
     "length_m": 47.9,
@@ -715,9 +599,7 @@
     "consumables_days": null,
     "hyperdrive_rating": 0.9,
     "mglt": null,
-    "filmIds": [
-      5
-    ],
+    "filmIds": [5],
     "meta": {
       "is_military": false,
       "faction": "civilian"
@@ -728,9 +610,7 @@
     "id": "republic-assault-ship",
     "name": "Republic Assault ship",
     "model": "Acclamator I-class assault ship",
-    "manufacturer": [
-      "Rothana Heavy Engineering"
-    ],
+    "manufacturer": ["Rothana Heavy Engineering"],
     "class": "assault ship",
     "cost_credits": null,
     "length_m": 752,
@@ -743,9 +623,7 @@
     "consumables_days": 730,
     "hyperdrive_rating": 0.6,
     "mglt": null,
-    "filmIds": [
-      5
-    ],
+    "filmIds": [5],
     "meta": {
       "is_military": true,
       "faction": "republic"
@@ -756,9 +634,7 @@
     "id": "solar-sailer",
     "name": "Solar Sailer",
     "model": "Punworcca 116-class interstellar sloop",
-    "manufacturer": [
-      "Huppla Pasa Tisc Shipwrights Collective"
-    ],
+    "manufacturer": ["Huppla Pasa Tisc Shipwrights Collective"],
     "class": "yacht",
     "cost_credits": 35700,
     "length_m": 15.2,
@@ -771,9 +647,7 @@
     "consumables_days": 7,
     "hyperdrive_rating": 1.5,
     "mglt": null,
-    "filmIds": [
-      5
-    ],
+    "filmIds": [5],
     "meta": {
       "is_military": false,
       "faction": "civilian"
@@ -800,9 +674,7 @@
     "consumables_days": 1460,
     "hyperdrive_rating": 1.5,
     "mglt": null,
-    "filmIds": [
-      6
-    ],
+    "filmIds": [6],
     "meta": {
       "is_military": true,
       "faction": "separatists"
@@ -813,9 +685,7 @@
     "id": "theta-class-t-2c-shuttle",
     "name": "Theta-class T-2c shuttle",
     "model": "Theta-class T-2c shuttle",
-    "manufacturer": [
-      "Cygnus Spaceworks"
-    ],
+    "manufacturer": ["Cygnus Spaceworks"],
     "class": "transport",
     "cost_credits": 1000000,
     "length_m": 18.5,
@@ -828,9 +698,7 @@
     "consumables_days": 56,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "filmIds": [
-      6
-    ],
+    "filmIds": [6],
     "meta": {
       "is_military": false,
       "faction": "republic"
@@ -841,10 +709,7 @@
     "id": "republic-attack-cruiser",
     "name": "Republic attack cruiser",
     "model": "Senator-class Star Destroyer",
-    "manufacturer": [
-      "Kuat Drive Yards",
-      "Allanteen Six shipyards"
-    ],
+    "manufacturer": ["Kuat Drive Yards", "Allanteen Six shipyards"],
     "class": "star destroyer",
     "cost_credits": 59000000,
     "length_m": 1137,
@@ -857,9 +722,7 @@
     "consumables_days": 730,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "filmIds": [
-      6
-    ],
+    "filmIds": [6],
     "meta": {
       "is_military": true,
       "faction": "republic"
@@ -886,9 +749,7 @@
     "consumables_days": null,
     "hyperdrive_rating": 0.5,
     "mglt": null,
-    "filmIds": [
-      6
-    ],
+    "filmIds": [6],
     "meta": {
       "is_military": false,
       "faction": "civilian"
@@ -899,9 +760,7 @@
     "id": "jedi-interceptor",
     "name": "Jedi Interceptor",
     "model": "Eta-2 Actis-class light interceptor",
-    "manufacturer": [
-      "Kuat Systems Engineering"
-    ],
+    "manufacturer": ["Kuat Systems Engineering"],
     "class": "starfighter",
     "cost_credits": 320000,
     "length_m": 5.47,
@@ -914,9 +773,7 @@
     "consumables_days": 2,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "filmIds": [
-      6
-    ],
+    "filmIds": [6],
     "meta": {
       "is_military": true,
       "faction": "republic"
@@ -927,10 +784,7 @@
     "id": "arc-170",
     "name": "arc-170",
     "model": "Aggressive Reconnaissance-170 starfighte",
-    "manufacturer": [
-      "Incom Corporation",
-      "Subpro Corporation"
-    ],
+    "manufacturer": ["Incom Corporation", "Subpro Corporation"],
     "class": "starfighter",
     "cost_credits": 155000,
     "length_m": 14.5,
@@ -943,9 +797,7 @@
     "consumables_days": 5,
     "hyperdrive_rating": 1,
     "mglt": 100,
-    "filmIds": [
-      6
-    ],
+    "filmIds": [6],
     "meta": {
       "is_military": true,
       "faction": "republic"
@@ -973,9 +825,7 @@
     "consumables_days": 730,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "filmIds": [
-      6
-    ],
+    "filmIds": [6],
     "meta": {
       "is_military": false,
       "faction": "unknown"
@@ -986,9 +836,7 @@
     "id": "belbullab-22-starfighter",
     "name": "Belbullab-22 starfighter",
     "model": "Belbullab-22 starfighter",
-    "manufacturer": [
-      "Feethan Ottraw Scalable Assemblies"
-    ],
+    "manufacturer": ["Feethan Ottraw Scalable Assemblies"],
     "class": "starfighter",
     "cost_credits": 168000,
     "length_m": 6.71,
@@ -1001,9 +849,7 @@
     "consumables_days": 7,
     "hyperdrive_rating": 6,
     "mglt": null,
-    "filmIds": [
-      6
-    ],
+    "filmIds": [6],
     "meta": {
       "is_military": true,
       "faction": "separatists"
@@ -1014,9 +860,7 @@
     "id": "v-wing",
     "name": "V-wing",
     "model": "Alpha-3 Nimbus-class V-wing starfighter",
-    "manufacturer": [
-      "Kuat Systems Engineering"
-    ],
+    "manufacturer": ["Kuat Systems Engineering"],
     "class": "starfighter",
     "cost_credits": 102500,
     "length_m": 7.9,
@@ -1029,9 +873,7 @@
     "consumables_days": null,
     "hyperdrive_rating": 1,
     "mglt": null,
-    "filmIds": [
-      6
-    ],
+    "filmIds": [6],
     "meta": {
       "is_military": true,
       "faction": "republic"

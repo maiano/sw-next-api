@@ -11,7 +11,9 @@ const RAW_DIR = path.join(process.cwd(), "src/data/raw");
 const OUT_DIR = path.join(process.cwd(), "src/data/normalized");
 
 export function normalizePlanets() {
-  const planets = readJson<SwapiPlanetRaw[]>(path.join(RAW_DIR, "planets.json"));
+  const planets = readJson<SwapiPlanetRaw[]>(
+    path.join(RAW_DIR, "planets.json"),
+  );
 
   const normalized = planets.map((planet): Planet => {
     const entityId = extractId(planet.url);

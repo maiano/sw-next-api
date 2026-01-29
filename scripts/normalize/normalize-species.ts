@@ -11,7 +11,9 @@ const RAW_DIR = path.join(process.cwd(), "src/data/raw");
 const OUT_DIR = path.join(process.cwd(), "src/data/normalized");
 
 export function normalizeSpecies() {
-  const species = readJson<SwapiSpeciesRaw[]>(path.join(RAW_DIR, "species.json"));
+  const species = readJson<SwapiSpeciesRaw[]>(
+    path.join(RAW_DIR, "species.json"),
+  );
 
   const normalized = species.map((s): Species => {
     const entityId = extractId(s.url);

@@ -11,7 +11,9 @@ const RAW_DIR = path.join(process.cwd(), "src/data/raw");
 const OUT_DIR = path.join(process.cwd(), "src/data/normalized");
 
 export function normalizeVehicles() {
-  const vehicles = readJson<SwapiVehicleRaw[]>(path.join(RAW_DIR, "vehicles.json"));
+  const vehicles = readJson<SwapiVehicleRaw[]>(
+    path.join(RAW_DIR, "vehicles.json"),
+  );
 
   const normalized = vehicles.map((vehicle): Vehicle => {
     const entityId = extractId(vehicle.url);

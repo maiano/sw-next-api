@@ -11,25 +11,8 @@
     "terrain": "desert",
     "surfaceWater": 1,
     "population": 200000,
-    "residentIds": [
-      1,
-      2,
-      4,
-      6,
-      7,
-      8,
-      9,
-      11,
-      43,
-      62
-    ],
-    "filmIds": [
-      1,
-      3,
-      4,
-      5,
-      6
-    ]
+    "residentIds": [1, 2, 4, 6, 7, 8, 9, 11, 43, 62],
+    "filmIds": [1, 3, 4, 5, 6]
   },
   {
     "entityId": 2,
@@ -43,15 +26,8 @@
     "terrain": "grasslands, mountains",
     "surfaceWater": 40,
     "population": 2000000000,
-    "residentIds": [
-      5,
-      68,
-      81
-    ],
-    "filmIds": [
-      1,
-      6
-    ]
+    "residentIds": [5, 68, 81],
+    "filmIds": [1, 6]
   },
   {
     "entityId": 3,
@@ -66,9 +42,7 @@
     "surfaceWater": 8,
     "population": 1000,
     "residentIds": [],
-    "filmIds": [
-      1
-    ]
+    "filmIds": [1]
   },
   {
     "entityId": 4,
@@ -83,9 +57,7 @@
     "surfaceWater": 100,
     "population": null,
     "residentIds": [],
-    "filmIds": [
-      2
-    ]
+    "filmIds": [2]
   },
   {
     "entityId": 5,
@@ -100,11 +72,7 @@
     "surfaceWater": 8,
     "population": null,
     "residentIds": [],
-    "filmIds": [
-      2,
-      3,
-      6
-    ]
+    "filmIds": [2, 3, 6]
   },
   {
     "entityId": 6,
@@ -118,12 +86,8 @@
     "terrain": "gas giant",
     "surfaceWater": 0,
     "population": 6000000,
-    "residentIds": [
-      26
-    ],
-    "filmIds": [
-      2
-    ]
+    "residentIds": [26],
+    "filmIds": [2]
   },
   {
     "entityId": 7,
@@ -137,12 +101,8 @@
     "terrain": "forests, mountains, lakes",
     "surfaceWater": 8,
     "population": 30000000,
-    "residentIds": [
-      30
-    ],
-    "filmIds": [
-      3
-    ]
+    "residentIds": [30],
+    "filmIds": [3]
   },
   {
     "entityId": 8,
@@ -156,25 +116,8 @@
     "terrain": "grassy hills, swamps, forests, mountains",
     "surfaceWater": 12,
     "population": 4500000000,
-    "residentIds": [
-      3,
-      21,
-      35,
-      36,
-      37,
-      38,
-      39,
-      42,
-      60,
-      61,
-      66
-    ],
-    "filmIds": [
-      3,
-      4,
-      5,
-      6
-    ]
+    "residentIds": [3, 21, 35, 36, 37, 38, 39, 42, 60, 61, 66],
+    "filmIds": [3, 4, 5, 6]
   },
   {
     "entityId": 9,
@@ -188,17 +131,8 @@
     "terrain": "cityscape, mountains",
     "surfaceWater": null,
     "population": 1000000000000,
-    "residentIds": [
-      34,
-      55,
-      74
-    ],
-    "filmIds": [
-      3,
-      4,
-      5,
-      6
-    ]
+    "residentIds": [34, 55, 74],
+    "filmIds": [3, 4, 5, 6]
   },
   {
     "entityId": 10,
@@ -212,14 +146,8 @@
     "terrain": "ocean",
     "surfaceWater": 100,
     "population": 1000000000,
-    "residentIds": [
-      22,
-      72,
-      73
-    ],
-    "filmIds": [
-      5
-    ]
+    "residentIds": [22, 72, 73],
+    "filmIds": [5]
   },
   {
     "entityId": 11,
@@ -233,12 +161,8 @@
     "terrain": "rock, desert, mountain, barren",
     "surfaceWater": 5,
     "population": 100000000000,
-    "residentIds": [
-      63
-    ],
-    "filmIds": [
-      5
-    ]
+    "residentIds": [63],
+    "filmIds": [5]
   },
   {
     "entityId": 12,
@@ -252,12 +176,8 @@
     "terrain": "scrublands, savanna, canyons, sinkholes",
     "surfaceWater": 0.9,
     "population": 95000000,
-    "residentIds": [
-      83
-    ],
-    "filmIds": [
-      6
-    ]
+    "residentIds": [83],
+    "filmIds": [6]
   },
   {
     "entityId": 13,
@@ -272,9 +192,7 @@
     "surfaceWater": 0,
     "population": 20000,
     "residentIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 14,
@@ -288,13 +206,8 @@
     "terrain": "jungle, forests, lakes, rivers",
     "surfaceWater": 60,
     "population": 45000000,
-    "residentIds": [
-      13,
-      80
-    ],
-    "filmIds": [
-      6
-    ]
+    "residentIds": [13, 80],
+    "filmIds": [6]
   },
   {
     "entityId": 15,
@@ -309,9 +222,7 @@
     "surfaceWater": 0,
     "population": 1000000,
     "residentIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 16,
@@ -326,9 +237,7 @@
     "surfaceWater": null,
     "population": 19000000,
     "residentIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 17,
@@ -343,9 +252,7 @@
     "surfaceWater": null,
     "population": 8500000,
     "residentIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 18,
@@ -359,12 +266,8 @@
     "terrain": "mountains, fields, forests, rock arches",
     "surfaceWater": null,
     "population": 10000000,
-    "residentIds": [
-      33
-    ],
-    "filmIds": [
-      6
-    ]
+    "residentIds": [33],
+    "filmIds": [6]
   },
   {
     "entityId": 19,
@@ -379,9 +282,7 @@
     "surfaceWater": null,
     "population": 1400000000,
     "residentIds": [],
-    "filmIds": [
-      6
-    ]
+    "filmIds": [6]
   },
   {
     "entityId": 20,
@@ -395,9 +296,7 @@
     "terrain": "grass",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      10
-    ],
+    "residentIds": [10],
     "filmIds": []
   },
   {
@@ -412,9 +311,7 @@
     "terrain": "cityscape",
     "surfaceWater": null,
     "population": 22000000000,
-    "residentIds": [
-      12
-    ],
+    "residentIds": [12],
     "filmIds": []
   },
   {
@@ -429,10 +326,7 @@
     "terrain": "plains, urban, hills, forests",
     "surfaceWater": 70,
     "population": 3000000000,
-    "residentIds": [
-      14,
-      18
-    ],
+    "residentIds": [14, 18],
     "filmIds": []
   },
   {
@@ -447,9 +341,7 @@
     "terrain": "jungles, oceans, urban, swamps",
     "surfaceWater": 60,
     "population": 1300000000,
-    "residentIds": [
-      15
-    ],
+    "residentIds": [15],
     "filmIds": []
   },
   {
@@ -464,9 +356,7 @@
     "terrain": "urban, oceans, swamps, bogs",
     "surfaceWater": null,
     "population": 7000000000,
-    "residentIds": [
-      16
-    ],
+    "residentIds": [16],
     "filmIds": []
   },
   {
@@ -496,9 +386,7 @@
     "terrain": "rocky islands, oceans",
     "surfaceWater": 98,
     "population": 62000000,
-    "residentIds": [
-      19
-    ],
+    "residentIds": [19],
     "filmIds": []
   },
   {
@@ -514,9 +402,7 @@
     "surfaceWater": 10,
     "population": 4000000000,
     "residentIds": [],
-    "filmIds": [
-      2
-    ]
+    "filmIds": [2]
   },
   {
     "entityId": 28,
@@ -530,13 +416,7 @@
     "terrain": "unknown",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      20,
-      23,
-      29,
-      32,
-      75
-    ],
+    "residentIds": [20, 23, 29, 32, 75],
     "filmIds": []
   },
   {
@@ -551,9 +431,7 @@
     "terrain": "mountains, seas, grasslands, deserts",
     "surfaceWater": null,
     "population": 42000000,
-    "residentIds": [
-      24
-    ],
+    "residentIds": [24],
     "filmIds": []
   },
   {
@@ -568,9 +446,7 @@
     "terrain": "deserts, mountains",
     "surfaceWater": null,
     "population": 300000000,
-    "residentIds": [
-      25
-    ],
+    "residentIds": [25],
     "filmIds": []
   },
   {
@@ -585,9 +461,7 @@
     "terrain": "oceans, reefs, islands",
     "surfaceWater": 100,
     "population": 27000000000,
-    "residentIds": [
-      27
-    ],
+    "residentIds": [27],
     "filmIds": []
   },
   {
@@ -602,9 +476,7 @@
     "terrain": "plains, forests",
     "surfaceWater": 40,
     "population": 1200000000,
-    "residentIds": [
-      28
-    ],
+    "residentIds": [28],
     "filmIds": []
   },
   {
@@ -619,9 +491,7 @@
     "terrain": "mountains, volcanoes, rocky deserts",
     "surfaceWater": 5,
     "population": 18500000000,
-    "residentIds": [
-      31
-    ],
+    "residentIds": [31],
     "filmIds": []
   },
   {
@@ -636,9 +506,7 @@
     "terrain": "swamps, lakes",
     "surfaceWater": null,
     "population": 11000000,
-    "residentIds": [
-      40
-    ],
+    "residentIds": [40],
     "filmIds": []
   },
   {
@@ -653,9 +521,7 @@
     "terrain": "swamps, deserts, jungles, mountains",
     "surfaceWater": null,
     "population": 2000000000,
-    "residentIds": [
-      41
-    ],
+    "residentIds": [41],
     "filmIds": []
   },
   {
@@ -670,9 +536,7 @@
     "terrain": "forests, deserts, savannas",
     "surfaceWater": null,
     "population": 5200,
-    "residentIds": [
-      44
-    ],
+    "residentIds": [44],
     "filmIds": []
   },
   {
@@ -687,10 +551,7 @@
     "terrain": "mountains, valleys, deserts, tundra",
     "surfaceWater": 5,
     "population": 1500000000,
-    "residentIds": [
-      45,
-      46
-    ],
+    "residentIds": [45, 46],
     "filmIds": []
   },
   {
@@ -705,9 +566,7 @@
     "terrain": "unknown",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      47
-    ],
+    "residentIds": [47],
     "filmIds": []
   },
   {
@@ -722,9 +581,7 @@
     "terrain": "urban, barren",
     "surfaceWater": null,
     "population": 421000000,
-    "residentIds": [
-      48
-    ],
+    "residentIds": [48],
     "filmIds": []
   },
   {
@@ -739,9 +596,7 @@
     "terrain": "desert, tundra, rainforests, mountains",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      49
-    ],
+    "residentIds": [49],
     "filmIds": []
   },
   {
@@ -756,9 +611,7 @@
     "terrain": "barren, ash",
     "surfaceWater": null,
     "population": 0,
-    "residentIds": [
-      50
-    ],
+    "residentIds": [50],
     "filmIds": []
   },
   {
@@ -773,9 +626,7 @@
     "terrain": "toxic cloudsea, plateaus, volcanoes",
     "surfaceWater": null,
     "population": 705300,
-    "residentIds": [
-      51
-    ],
+    "residentIds": [51],
     "filmIds": []
   },
   {
@@ -790,9 +641,7 @@
     "terrain": "verdant",
     "surfaceWater": 20,
     "population": 450000000,
-    "residentIds": [
-      52
-    ],
+    "residentIds": [52],
     "filmIds": []
   },
   {
@@ -807,9 +656,7 @@
     "terrain": "lakes, islands, swamps, seas",
     "surfaceWater": 80,
     "population": 500000000,
-    "residentIds": [
-      53
-    ],
+    "residentIds": [53],
     "filmIds": []
   },
   {
@@ -824,9 +671,7 @@
     "terrain": "rocky canyons, acid pools",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      54
-    ],
+    "residentIds": [54],
     "filmIds": []
   },
   {
@@ -856,9 +701,7 @@
     "terrain": "rocky",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      56
-    ],
+    "residentIds": [56],
     "filmIds": []
   },
   {
@@ -873,9 +716,7 @@
     "terrain": "unknown",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      57
-    ],
+    "residentIds": [57],
     "filmIds": []
   },
   {
@@ -890,9 +731,7 @@
     "terrain": "unknown",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      58
-    ],
+    "residentIds": [58],
     "filmIds": []
   },
   {
@@ -907,9 +746,7 @@
     "terrain": "oceans, rainforests, plateaus",
     "surfaceWater": null,
     "population": 3500000000,
-    "residentIds": [
-      59
-    ],
+    "residentIds": [59],
     "filmIds": []
   },
   {
@@ -924,10 +761,7 @@
     "terrain": "deserts",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      64,
-      65
-    ],
+    "residentIds": [64, 65],
     "filmIds": []
   },
   {
@@ -942,9 +776,7 @@
     "terrain": "rainforests, rivers, mountains",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      67
-    ],
+    "residentIds": [67],
     "filmIds": []
   },
   {
@@ -959,9 +791,7 @@
     "terrain": "jungles, forests, deserts",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      69
-    ],
+    "residentIds": [69],
     "filmIds": []
   },
   {
@@ -976,9 +806,7 @@
     "terrain": "unknown",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      70
-    ],
+    "residentIds": [70],
     "filmIds": []
   },
   {
@@ -993,9 +821,7 @@
     "terrain": "oceans, glaciers",
     "surfaceWater": 100,
     "population": 500000000,
-    "residentIds": [
-      71
-    ],
+    "residentIds": [71],
     "filmIds": []
   },
   {
@@ -1010,9 +836,7 @@
     "terrain": "urban, vines",
     "surfaceWater": null,
     "population": 500000000000,
-    "residentIds": [
-      76
-    ],
+    "residentIds": [76],
     "filmIds": []
   },
   {
@@ -1027,9 +851,7 @@
     "terrain": "plains, forests, hills, mountains",
     "surfaceWater": 25,
     "population": 5000000000,
-    "residentIds": [
-      77
-    ],
+    "residentIds": [77],
     "filmIds": []
   },
   {
@@ -1044,9 +866,7 @@
     "terrain": "cities, savannahs, seas, plains",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      78
-    ],
+    "residentIds": [78],
     "filmIds": []
   },
   {
@@ -1061,9 +881,7 @@
     "terrain": "rainforests, cliffs, canyons, seas",
     "surfaceWater": null,
     "population": 4000000000,
-    "residentIds": [
-      79
-    ],
+    "residentIds": [79],
     "filmIds": []
   },
   {
@@ -1078,9 +896,7 @@
     "terrain": "unknown",
     "surfaceWater": null,
     "population": null,
-    "residentIds": [
-      82
-    ],
+    "residentIds": [82],
     "filmIds": []
   }
 ]
