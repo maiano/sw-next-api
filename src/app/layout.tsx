@@ -28,12 +28,32 @@ export const metadata: Metadata = {
 
   authors: [{ name: "maiano" }],
 
+  metadataBase: new URL("https://sw-next-api.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+
   openGraph: {
     title: "Star Wars API",
     description: "Educational Star Wars API for frontend developers",
-    url: "https://your-domain.vercel.app",
+    url: "https://sw-next-api.vercel.app",
     siteName: "Star Wars API",
     type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Star Wars API",
+    description: "Educational Star Wars API for frontend developers",
   },
 };
 
