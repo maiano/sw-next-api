@@ -4,7 +4,7 @@ export type FilterFieldConfig = {
   values?: readonly string[];
 };
 
-export type FilterConfig<T> = {
+export type FilterConfig = {
   [param: string]: FilterFieldConfig;
 };
 

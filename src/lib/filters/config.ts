@@ -1,12 +1,6 @@
-import type { Film } from "@/lib/types/films";
-import type { Person } from "@/lib/types/people";
-import type { Planet } from "@/lib/types/planets";
-import type { Species } from "@/lib/types/species";
-import type { Starship } from "@/lib/types/starships";
-import type { Vehicle } from "@/lib/types/vehicles";
 import type { FilterConfig } from "./types";
 
-export const personFilters: FilterConfig<Person> = {
+export const personFilters: FilterConfig = {
   gender: {
     field: "gender",
     type: "enum",
@@ -14,14 +8,14 @@ export const personFilters: FilterConfig<Person> = {
   },
 };
 
-export const filmFilters: FilterConfig<Film> = {
+export const filmFilters: FilterConfig = {
   episode: {
     field: "episode",
     type: "number",
   },
 };
 
-export const planetFilters: FilterConfig<Planet> = {
+export const planetFilters: FilterConfig = {
   climate: {
     field: "climate",
     type: "string",
@@ -32,7 +26,7 @@ export const planetFilters: FilterConfig<Planet> = {
   },
 };
 
-export const speciesFilters: FilterConfig<Species> = {
+export const speciesFilters: FilterConfig = {
   classification: {
     field: "classification",
     type: "string",
@@ -43,14 +37,14 @@ export const speciesFilters: FilterConfig<Species> = {
   },
 };
 
-export const starshipFilters: FilterConfig<Starship> = {
+export const starshipFilters: FilterConfig = {
   class: {
     field: "class",
     type: "string",
   },
 };
 
-export const vehicleFilters: FilterConfig<Vehicle> = {
+export const vehicleFilters: FilterConfig = {
   vehicleClass: {
     field: "vehicleClass",
     type: "string",

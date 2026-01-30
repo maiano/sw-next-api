@@ -3,7 +3,7 @@ import type { FilterConfig } from "./types";
 export function applyFilters<T>(
   items: T[],
   searchParams: URLSearchParams,
-  config: FilterConfig<T>,
+  config: FilterConfig,
 ): T[] {
   let result = items;
 
