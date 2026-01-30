@@ -247,6 +247,62 @@ GET /api/v1/people?sort=-name`}
           </div>
         </section>
 
+        {/* Normalized Data */}
+        <section className="mb-16">
+          <Card>
+            <CardHeader>
+              <CardTitle>Normalized & Type-Safe Responses</CardTitle>
+              <CardDescription>
+                Unlike SWAPI, this API returns normalized, camelCase data with
+                TypeScript-ready structure
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-3">
+              <div className="grid gap-4 md:grid-cols-2">
+                <div>
+                  <p className="mb-2 text-sm font-semibold text-zinc-950 dark:text-zinc-50">
+                    Minimal Projections (default)
+                  </p>
+                  <p className="text-sm text-zinc-600 dark:text-zinc-400">
+                    Related entities return as minimal objects with{" "}
+                    <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs dark:bg-zinc-900">
+                      entityId
+                    </code>
+                    ,{" "}
+                    <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs dark:bg-zinc-900">
+                      id
+                    </code>{" "}
+                    (slug), and{" "}
+                    <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs dark:bg-zinc-900">
+                      name
+                    </code>
+                    /
+                    <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs dark:bg-zinc-900">
+                      title
+                    </code>
+                  </p>
+                </div>
+                <div>
+                  <p className="mb-2 text-sm font-semibold text-zinc-950 dark:text-zinc-50">
+                    camelCase naming
+                  </p>
+                  <p className="text-sm text-zinc-600 dark:text-zinc-400">
+                    All fields use camelCase (
+                    <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs dark:bg-zinc-900">
+                      heightCm
+                    </code>
+                    ,{" "}
+                    <code className="rounded bg-zinc-100 px-1 py-0.5 text-xs dark:bg-zinc-900">
+                      birthYearBBY
+                    </code>
+                    ) with proper types (numbers, not strings)
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
         {/* Examples */}
         <section className="mb-24">
           <h2 className="mb-8 text-center text-3xl font-bold text-zinc-950 dark:text-zinc-50">
@@ -267,7 +323,8 @@ GET /api/v1/people?sort=-name`}
                   Basic Request
                 </h3>
                 <p className="text-zinc-600 dark:text-zinc-400">
-                  Minimal projection without expansion
+                  Returns normalized data with minimal projections for related
+                  entities
                 </p>
                 <CodeBlock
                   title="Request"
@@ -279,19 +336,38 @@ GET /api/v1/people?sort=-name`}
                   language="json"
                   code={`{
   "entityId": 1,
+  "id": "luke-skywalker",
   "name": "Luke Skywalker",
-  "height": "172",
-  "mass": "77",
-  "hair_color": "blond",
-  "skin_color": "fair",
-  "eye_color": "blue",
-  "birth_year": "19BBY",
+  "heightCm": 172,
+  "massKg": 77,
+  "birthYearBBY": -19,
   "gender": "male",
-  "homeworld": 1,
-  "films": [1, 2, 3, 6],
+  "homeworld": {
+    "entityId": 1,
+    "id": "tatooine",
+    "name": "Tatooine"
+  },
+  "films": [
+    { "entityId": 1, "id": "a-new-hope", "title": "A New Hope", "episode": 4 },
+    { "entityId": 2, "id": "the-empire-strikes-back", "title": "The Empire Strikes Back", "episode": 5 },
+    { "entityId": 3, "id": "return-of-the-jedi", "title": "Return of the Jedi", "episode": 6 },
+    { "entityId": 6, "id": "revenge-of-the-sith", "title": "Revenge of the Sith", "episode": 3 }
+  ],
   "species": [],
-  "vehicles": [14, 30],
-  "starships": [12, 22]
+  "vehicles": [
+    { "entityId": 14, "id": "snowspeeder", "name": "Snowspeeder" },
+    { "entityId": 30, "id": "imperial-speeder-bike", "name": "Imperial Speeder Bike" }
+  ],
+  "starships": [
+    { "entityId": 12, "id": "x-wing", "name": "X-wing" },
+    { "entityId": 22, "id": "imperial-shuttle", "name": "Imperial shuttle" }
+  ],
+  "meta": {
+    "isForceUser": true,
+    "isJedi": true,
+    "isSith": false,
+    "faction": "rebels"
+  }
 }`}
                 />
               </div>
@@ -303,7 +379,8 @@ GET /api/v1/people?sort=-name`}
                   Request with Expand
                 </h3>
                 <p className="text-zinc-600 dark:text-zinc-400">
-                  Expand homeworld to get full planet data
+                  Expand homeworld to get full planet data (other relations
+                  remain minimal)
                 </p>
                 <CodeBlock
                   title="Request"
@@ -315,20 +392,35 @@ GET /api/v1/people?sort=-name`}
                   language="json"
                   code={`{
   "entityId": 1,
+  "id": "luke-skywalker",
   "name": "Luke Skywalker",
+  "heightCm": 172,
+  "massKg": 77,
+  "birthYearBBY": -19,
+  "gender": "male",
   "homeworld": {
     "entityId": 1,
+    "id": "tatooine",
     "name": "Tatooine",
-    "rotation_period": "23",
-    "orbital_period": "304",
-    "diameter": "10465",
+    "rotationPeriod": 23,
+    "orbitalPeriod": 304,
+    "diameter": 10465,
     "climate": "arid",
     "gravity": "1 standard",
     "terrain": "desert",
-    "surface_water": "1",
-    "population": "200000"
+    "surfaceWater": 1,
+    "population": 200000,
+    "residents": [
+      { "entityId": 1, "id": "luke-skywalker", "name": "Luke Skywalker" },
+      { "entityId": 2, "id": "c-3po", "name": "C-3PO" }
+    ],
+    "films": [
+      { "entityId": 1, "id": "a-new-hope", "title": "A New Hope", "episode": 4 }
+    ]
   },
-  "films": [1, 2, 3, 6]
+  "films": [
+    { "entityId": 1, "id": "a-new-hope", "title": "A New Hope", "episode": 4 }
+  ]
 }`}
                 />
               </div>
@@ -340,7 +432,8 @@ GET /api/v1/people?sort=-name`}
                   Deep Expansion
                 </h3>
                 <p className="text-zinc-600 dark:text-zinc-400">
-                  Expand multiple levels (max depth: 2)
+                  Expand multiple levels (max depth: 2) - films expanded with
+                  their characters
                 </p>
                 <CodeBlock
                   title="Request"
@@ -352,17 +445,37 @@ GET /api/v1/people?sort=-name`}
                   language="json"
                   code={`{
   "entityId": 1,
+  "id": "luke-skywalker",
   "name": "Luke Skywalker",
+  "homeworld": {
+    "entityId": 1,
+    "id": "tatooine",
+    "name": "Tatooine"
+  },
   "films": [
     {
       "entityId": 1,
+      "id": "a-new-hope",
       "title": "A New Hope",
       "episode": 4,
+      "opening_crawl": "It is a period of civil war...",
+      "director": "George Lucas",
+      "producers": ["Gary Kurtz", "Rick McCallum"],
+      "release_date": "1977-05-25",
+      "release_year": 1977,
       "characters": [
-        { "entityId": 1, "name": "Luke Skywalker" },
-        { "entityId": 2, "name": "C-3PO" },
-        { "entityId": 3, "name": "R2-D2" }
-      ]
+        { "entityId": 1, "id": "luke-skywalker", "name": "Luke Skywalker" },
+        { "entityId": 2, "id": "c-3po", "name": "C-3PO" },
+        { "entityId": 3, "id": "r2-d2", "name": "R2-D2" }
+      ],
+      "planets": [
+        { "entityId": 1, "id": "tatooine", "name": "Tatooine" }
+      ],
+      "starships": [
+        { "entityId": 2, "id": "cr90-corvette", "name": "CR90 corvette" }
+      ],
+      "vehicles": [],
+      "species": []
     }
   ]
 }`}
