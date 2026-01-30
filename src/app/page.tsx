@@ -14,7 +14,7 @@ export default function Home() {
     <div className="min-h-screen bg-white dark:bg-black">
       {/* Sticky Header */}
       <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur-sm dark:border-zinc-800 dark:bg-black/80">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4">
           <div className="flex items-center gap-3">
             <h1 className="text-xl font-bold text-zinc-950 dark:text-zinc-50">
               Star Wars API
@@ -44,16 +44,16 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="mx-auto max-w-6xl px-6 py-16">
+      <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-16">
         {/* Hero Section */}
-        <section className="mb-24 text-center">
-          <h2 className="mb-4 text-5xl font-bold tracking-tight text-zinc-950 dark:text-zinc-50">
+        <section className="mb-12 text-center sm:mb-24">
+          <h2 className="mb-4 text-3xl font-bold tracking-tight text-zinc-950 dark:text-zinc-50 sm:text-5xl">
             Star Wars API
           </h2>
-          <p className="mb-2 text-xl text-zinc-600 dark:text-zinc-400">
+          <p className="mb-2 text-lg text-zinc-600 dark:text-zinc-400 sm:text-xl">
             Backend for Frontend Edition
           </p>
-          <p className="mx-auto mb-4 max-w-2xl text-lg text-zinc-500 dark:text-zinc-500">
+          <p className="mx-auto mb-4 max-w-2xl text-base text-zinc-500 dark:text-zinc-500 sm:text-lg">
             A modern, frontend-friendly Star Wars API with aggregation, expand,
             filtering and pagination. Educational backend for frontend
             developers.
@@ -73,8 +73,8 @@ export default function Home() {
         </section>
 
         {/* Problem/Solution */}
-        <section className="mb-24">
-          <h2 className="mb-8 text-center text-3xl font-bold text-zinc-950 dark:text-zinc-50">
+        <section className="mb-12 sm:mb-24">
+          <h2 className="mb-6 text-center text-2xl font-bold text-zinc-950 dark:text-zinc-50 sm:mb-8 sm:text-3xl">
             Why This API Exists
           </h2>
           <p className="mb-12 text-center text-lg text-zinc-600 dark:text-zinc-400">
@@ -138,12 +138,12 @@ GET /films/3            # Return of the Jedi
         </section>
 
         {/* Core Features */}
-        <section className="mb-24">
-          <h2 className="mb-8 text-center text-3xl font-bold text-zinc-950 dark:text-zinc-50">
+        <section className="mb-12 sm:mb-24">
+          <h2 className="mb-6 text-center text-2xl font-bold text-zinc-950 dark:text-zinc-50 sm:mb-8 sm:text-3xl">
             Core Features
           </h2>
 
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 lg:grid-cols-3">
             {/* Controlled Expansion */}
             <Card>
               <CardHeader>
@@ -220,8 +220,8 @@ GET https://sw-next-api.vercel.app/api/v1/people?sort=-name`}
         </section>
 
         {/* API Endpoints */}
-        <section className="mb-24">
-          <h2 className="mb-8 text-center text-3xl font-bold text-zinc-950 dark:text-zinc-50">
+        <section className="mb-12 sm:mb-24">
+          <h2 className="mb-6 text-center text-2xl font-bold text-zinc-950 dark:text-zinc-50 sm:mb-8 sm:text-3xl">
             API Endpoints
           </h2>
 
@@ -331,13 +331,13 @@ GET https://sw-next-api.vercel.app/api/v1/people?sort=-name`}
                   <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-300">
                     <div>
                       <span className="font-medium">Local development:</span>{" "}
-                      <code className="rounded bg-white px-2 py-1 font-mono dark:bg-zinc-900">
+                      <code className="rounded bg-white px-2 py-1 font-mono text-xs dark:bg-zinc-900 sm:text-sm">
                         http://localhost:3000
                       </code>
                     </div>
                     <div>
                       <span className="font-medium">Production:</span>{" "}
-                      <code className="rounded bg-white px-2 py-1 font-mono dark:bg-zinc-900">
+                      <code className="rounded bg-white px-2 py-1 font-mono text-xs dark:bg-zinc-900 sm:text-sm">
                         https://sw-next-api.vercel.app
                       </code>
                     </div>
@@ -355,13 +355,13 @@ GET https://sw-next-api.vercel.app/api/v1/people?sort=-name`}
         </section>
 
         {/* Examples */}
-        <section className="mb-24">
-          <h2 className="mb-8 text-center text-3xl font-bold text-zinc-950 dark:text-zinc-50">
+        <section className="mb-12 sm:mb-24">
+          <h2 className="mb-6 text-center text-2xl font-bold text-zinc-950 dark:text-zinc-50 sm:mb-8 sm:text-3xl">
             Examples
           </h2>
 
           <Tabs defaultValue="basic">
-            <TabsList className="mb-6">
+            <TabsList className="mb-4 w-full overflow-x-auto sm:mb-6 sm:w-auto">
               <TabsTrigger value="basic">Basic</TabsTrigger>
               <TabsTrigger value="expand">With Expand</TabsTrigger>
               <TabsTrigger value="deep">Deep Expand</TabsTrigger>
@@ -574,8 +574,8 @@ console.log(data.results[0].name); // "Anakin Skywalker"`}
         </section>
 
         {/* Extended Data */}
-        <section className="mb-24">
-          <h2 className="mb-8 text-center text-3xl font-bold text-zinc-950 dark:text-zinc-50">
+        <section className="mb-12 sm:mb-24">
+          <h2 className="mb-6 text-center text-2xl font-bold text-zinc-950 dark:text-zinc-50 sm:mb-8 sm:text-3xl">
             Extended Metadata
           </h2>
           <p className="mb-8 text-center text-lg text-zinc-600 dark:text-zinc-400">
