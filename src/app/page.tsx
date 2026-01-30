@@ -125,7 +125,7 @@ GET /films/3            # Return of the Jedi
               <CardContent>
                 <CodeBlock
                   language="bash"
-                  code={`GET /api/v1/people/1?expand=homeworld,films
+                  code={`GET https://sw-next-api.vercel.app/api/v1/people/1?expand=homeworld,films
 
 # 1 request, all data included
 # - Character details
@@ -156,13 +156,13 @@ GET /films/3            # Return of the Jedi
                 <CodeBlock
                   language="bash"
                   code={`# Just basic data
-GET /api/v1/people/1
+GET https://sw-next-api.vercel.app/api/v1/people/1
 
 # Include homeworld
-GET /api/v1/people/1?expand=homeworld
+GET https://sw-next-api.vercel.app/api/v1/people/1?expand=homeworld
 
 # Multiple levels (depth limited to 2)
-GET /api/v1/people/1?expand=films.characters`}
+GET https://sw-next-api.vercel.app/api/v1/people/1?expand=films.characters`}
                 />
               </CardContent>
             </Card>
@@ -178,7 +178,7 @@ GET /api/v1/people/1?expand=films.characters`}
               <CardContent>
                 <CodeBlock
                   language="bash"
-                  code={`GET /api/v1/people?page=2&limit=10`}
+                  code={`GET https://sw-next-api.vercel.app/api/v1/people?page=2&limit=10`}
                 />
                 <CodeBlock
                   className="mt-2"
@@ -206,13 +206,13 @@ GET /api/v1/people/1?expand=films.characters`}
                 <CodeBlock
                   language="bash"
                   code={`# Search by name
-GET /api/v1/people?search=luke
+GET https://sw-next-api.vercel.app/api/v1/people?search=luke
 
 # Filter by attributes
-GET /api/v1/people?gender=female
+GET https://sw-next-api.vercel.app/api/v1/people?gender=female
 
 # Sort results
-GET /api/v1/people?sort=-name`}
+GET https://sw-next-api.vercel.app/api/v1/people?sort=-name`}
                 />
               </CardContent>
             </Card>
@@ -303,6 +303,57 @@ GET /api/v1/people?sort=-name`}
           </Card>
         </section>
 
+        {/* Base URL Info */}
+        <section className="mb-8">
+          <Card className="border-blue-200 bg-blue-50/50 dark:border-blue-900 dark:bg-blue-950/20">
+            <CardContent className="pt-6">
+              <div className="flex items-start gap-3">
+                <div className="rounded-lg bg-blue-100 p-2 dark:bg-blue-900/50">
+                  <svg
+                    className="h-5 w-5 text-blue-600 dark:text-blue-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <h3 className="mb-2 font-semibold text-zinc-950 dark:text-zinc-50">
+                    Base URL
+                  </h3>
+                  <div className="space-y-2 text-sm text-zinc-700 dark:text-zinc-300">
+                    <div>
+                      <span className="font-medium">Local development:</span>{" "}
+                      <code className="rounded bg-white px-2 py-1 font-mono dark:bg-zinc-900">
+                        http://localhost:3000
+                      </code>
+                    </div>
+                    <div>
+                      <span className="font-medium">Production:</span>{" "}
+                      <code className="rounded bg-white px-2 py-1 font-mono dark:bg-zinc-900">
+                        https://sw-next-api.vercel.app
+                      </code>
+                    </div>
+                    <p className="pt-1 text-zinc-600 dark:text-zinc-400">
+                      Add base URL to all requests:{" "}
+                      <code className="rounded bg-white px-1 py-0.5 dark:bg-zinc-900">
+                        https://sw-next-api.vercel.app/api/v1/people/1
+                      </code>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
         {/* Examples */}
         <section className="mb-24">
           <h2 className="mb-8 text-center text-3xl font-bold text-zinc-950 dark:text-zinc-50">
@@ -329,7 +380,7 @@ GET /api/v1/people?sort=-name`}
                 <CodeBlock
                   title="Request"
                   language="bash"
-                  code="GET /api/v1/people/1"
+                  code="GET https://sw-next-api.vercel.app/api/v1/people/1"
                 />
                 <CodeBlock
                   title="Response"
@@ -385,7 +436,7 @@ GET /api/v1/people?sort=-name`}
                 <CodeBlock
                   title="Request"
                   language="bash"
-                  code="GET /api/v1/people/1?expand=homeworld"
+                  code="GET https://sw-next-api.vercel.app/api/v1/people/1?expand=homeworld"
                 />
                 <CodeBlock
                   title="Response (partial)"
@@ -438,7 +489,7 @@ GET /api/v1/people?sort=-name`}
                 <CodeBlock
                   title="Request"
                   language="bash"
-                  code="GET /api/v1/people/1?expand=films.characters"
+                  code="GET https://sw-next-api.vercel.app/api/v1/people/1?expand=films.characters"
                 />
                 <CodeBlock
                   title="Response (partial)"
@@ -494,7 +545,7 @@ GET /api/v1/people?sort=-name`}
                 <CodeBlock
                   title="Request"
                   language="bash"
-                  code="GET /api/v1/people?search=skywalker&gender=male&sort=name&page=1&limit=5&expand=homeworld"
+                  code="GET https://sw-next-api.vercel.app/api/v1/people?search=skywalker&gender=male&sort=name&page=1&limit=5&expand=homeworld"
                 />
                 <CodeBlock
                   title="TypeScript Example"
@@ -509,7 +560,7 @@ GET /api/v1/people?sort=-name`}
 });
 
 const response = await fetch(
-  \`/api/v1/people?\${params}\`
+  \`https://sw-next-api.vercel.app/api/v1/people?\${params}\`
 );
 const data = await response.json();
 
@@ -573,10 +624,10 @@ console.log(data.results[0].name); // "Anakin Skywalker"`}
                 <CodeBlock
                   language="bash"
                   code={`# Find all Jedi
-GET /api/v1/people?isJedi=true
+GET https://sw-next-api.vercel.app/api/v1/people?isJedi=true
 
 # Find Rebel forces
-GET /api/v1/people?faction=rebels`}
+GET https://sw-next-api.vercel.app/api/v1/people?faction=rebels`}
                 />
               </CardContent>
             </Card>
