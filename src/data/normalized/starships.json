@@ -119,7 +119,7 @@
     "filmIds": [1, 2, 3],
     "meta": {
       "is_military": false,
-      "faction": "civilian"
+      "faction": "rebels"
     }
   },
   {
@@ -286,7 +286,7 @@
     "mglt": 50,
     "filmIds": [2, 3],
     "meta": {
-      "is_military": false,
+      "is_military": true,
       "faction": "empire"
     }
   },
@@ -406,7 +406,7 @@
     "mglt": null,
     "filmIds": [4],
     "meta": {
-      "is_military": true,
+      "is_military": false,
       "faction": "republic"
     }
   },
@@ -482,7 +482,7 @@
     "filmIds": [4],
     "meta": {
       "is_military": false,
-      "faction": "civilian"
+      "faction": "republic"
     }
   },
   {
@@ -506,7 +506,7 @@
     "filmIds": [4],
     "meta": {
       "is_military": true,
-      "faction": "civilian"
+      "faction": "separatists"
     }
   },
   {
@@ -533,7 +533,7 @@
     "filmIds": [5],
     "meta": {
       "is_military": false,
-      "faction": "civilian"
+      "faction": "republic"
     }
   },
   {
@@ -602,7 +602,7 @@
     "filmIds": [5],
     "meta": {
       "is_military": false,
-      "faction": "civilian"
+      "faction": "republic"
     }
   },
   {
@@ -650,7 +650,7 @@
     "filmIds": [5],
     "meta": {
       "is_military": false,
-      "faction": "civilian"
+      "faction": "separatists"
     }
   },
   {
@@ -700,7 +700,7 @@
     "mglt": null,
     "filmIds": [6],
     "meta": {
-      "is_military": false,
+      "is_military": true,
       "faction": "republic"
     }
   },
@@ -752,7 +752,7 @@
     "filmIds": [6],
     "meta": {
       "is_military": false,
-      "faction": "civilian"
+      "faction": "republic"
     }
   },
   {

@@ -29,7 +29,7 @@ export const STARSHIP_META: Record<
 
   "millennium-falcon": {
     is_military: false,
-    faction: "civilian",
+    faction: "rebels",
   },
 
   "y-wing": {
@@ -63,7 +63,7 @@ export const STARSHIP_META: Record<
   },
 
   "imperial-shuttle": {
-    is_military: false,
+    is_military: true,
     faction: "empire",
   },
 
@@ -88,13 +88,8 @@ export const STARSHIP_META: Record<
   },
 
   "republic-cruiser": {
-    is_military: true,
+    is_military: false,
     faction: "republic",
-  },
-
-  "trade-federation-cruiser": {
-    is_military: true,
-    faction: "separatists",
   },
 
   "droid-control-ship": {
@@ -109,17 +104,17 @@ export const STARSHIP_META: Record<
 
   "naboo-royal-starship": {
     is_military: false,
-    faction: "civilian",
+    faction: "republic",
   },
 
   scimitar: {
     is_military: true,
-    faction: "civilian",
+    faction: "separatists",
   },
 
   "j-type-diplomatic-barge": {
     is_military: false,
-    faction: "civilian",
+    faction: "republic",
   },
 
   "aa-9-coruscant-freighter": {
@@ -134,7 +129,7 @@ export const STARSHIP_META: Record<
 
   "h-type-nubian-yacht": {
     is_military: false,
-    faction: "civilian",
+    faction: "republic",
   },
 
   "republic-assault-ship": {
@@ -144,11 +139,16 @@ export const STARSHIP_META: Record<
 
   "solar-sailer": {
     is_military: false,
-    faction: "civilian",
+    faction: "separatists",
+  },
+
+  "trade-federation-cruiser": {
+    is_military: true,
+    faction: "separatists",
   },
 
   "theta-class-t-2c-shuttle": {
-    is_military: false,
+    is_military: true,
     faction: "republic",
   },
 
@@ -159,7 +159,7 @@ export const STARSHIP_META: Record<
 
   "naboo-star-skiff": {
     is_military: false,
-    faction: "civilian",
+    faction: "republic",
   },
 
   "jedi-interceptor": {

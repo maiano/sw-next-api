@@ -93,10 +93,10 @@
     "vehicleIds": [30],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
+      "isForceUser": true,
       "isJedi": false,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "rebels"
     }
   },
   {
@@ -216,7 +216,7 @@
       "isForceUser": true,
       "isJedi": true,
       "isSith": true,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -613,10 +613,10 @@
     "vehicleIds": [38],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -893,10 +893,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -993,10 +993,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1013,10 +1013,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1033,10 +1033,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1053,10 +1053,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1073,10 +1073,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1093,10 +1093,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1113,10 +1113,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1133,10 +1133,10 @@
     "vehicleIds": [],
     "starshipIds": [48],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1253,10 +1253,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1273,10 +1273,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1313,10 +1313,10 @@
     "vehicleIds": [55],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
+      "isForceUser": true,
       "isJedi": false,
-      "isSith": false,
-      "faction": "unknown"
+      "isSith": true,
+      "faction": "separatists"
     }
   },
   {
@@ -1453,10 +1453,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
@@ -1533,10 +1533,10 @@
     "vehicleIds": [],
     "starshipIds": [],
     "meta": {
-      "isForceUser": false,
-      "isJedi": false,
+      "isForceUser": true,
+      "isJedi": true,
       "isSith": false,
-      "faction": "unknown"
+      "faction": "republic"
     }
   },
   {
