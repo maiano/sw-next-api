@@ -1,5 +1,15 @@
 import type { FilterConfig } from "./types";
 
+// Helper to get nested field value using dot notation
+function getNestedValue<T>(obj: T, path: string): unknown {
+  return path.split(".").reduce((current: unknown, key) => {
+    if (current && typeof current === "object") {
+      return (current as Record<string, unknown>)[key];
+    }
+    return undefined;
+  }, obj as unknown);
+}
+
 export function applyFilters<T>(
   items: T[],
   searchParams: URLSearchParams,
@@ -18,7 +28,15 @@ export function applyFilters<T>(
     }
 
     result = result.filter((item) => {
-      const itemValue = item[field as keyof T];
+      // Support nested fields (e.g., "meta.isJedi")
+      const itemValue = field.includes(".")
+        ? getNestedValue(item, field)
+        : item[field as keyof T];
+
+      if (type === "boolean") {
+        const boolValue = value === "true";
+        return itemValue === boolValue;
+      }
 
       if (type === "number") {
         const numValue = Number(value);

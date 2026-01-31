@@ -1,6 +1,6 @@
 export type FilterFieldConfig = {
   field: string;
-  type: "string" | "number" | "enum";
+  type: "string" | "number" | "enum" | "boolean";
   values?: readonly string[];
 };
 
