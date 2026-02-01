@@ -1,0 +1,136 @@
+# Films
+
+<div className="mb-12 sm:mb-16">
+  <div className="text-lg text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
+    Access all Star Wars films with complete information about characters, planets, species, vehicles, and starships featured in each movie.
+  </div>
+</div>
+
+## Endpoints
+
+<div className="grid gap-6 md:grid-cols-2 mb-12 sm:mb-24">
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Get All Films</CardTitle>
+      <CardDescription>Retrieve all Star Wars films</CardDescription>
+    </CardHeader>
+    <CardContent>
+      ```bash
+      GET https://sw-next-api.vercel.app/api/v1/films
+      ```
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Get Single Film</CardTitle>
+      <CardDescription>Get film by ID or slug</CardDescription>
+    </CardHeader>
+    <CardContent>
+      ```bash
+      GET https://sw-next-api.vercel.app/api/v1/films/1
+      GET https://sw-next-api.vercel.app/api/v1/films/a-new-hope
+      ```
+    </CardContent>
+  </Card>
+</div>
+
+## Response Example
+
+```json
+{
+  "entityId": 1,
+  "id": "a-new-hope",
+  "title": "A New Hope",
+  "episode": 4,
+  "opening_crawl": "It is a period of civil war...",
+  "director": "George Lucas",
+  "producers": ["Gary Kurtz", "Rick McCallum"],
+  "release_date": "1977-05-25",
+  "release_year": 1977,
+  "characters": [
+    {
+      "entityId": 1,
+      "id": "luke-skywalker",
+      "name": "Luke Skywalker"
+    }
+  ],
+  "planets": [...],
+  "species": [...],
+  "starships": [...],
+  "vehicles": [...]
+}
+```
+
+## Common Queries
+
+<Tabs defaultValue="sort" className="mb-12 sm:mb-24">
+  <TabsList>
+    <TabsTrigger value="sort">By Episode</TabsTrigger>
+    <TabsTrigger value="release">By Release</TabsTrigger>
+    <TabsTrigger value="expand">With Characters</TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="sort">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Get films in episode order
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/films?sort=episode
+    ```
+  </TabsContent>
+
+  <TabsContent value="release">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Get films in release order
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/films?sort=release_year
+    ```
+  </TabsContent>
+
+  <TabsContent value="expand">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Get film with full character data
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/films/1?expand=characters
+    ```
+  </TabsContent>
+</Tabs>
+
+## Available Features
+
+<div className="grid gap-4 mb-12 sm:mb-16">
+  <Card className="border-green-200 bg-green-50/50 dark:border-green-900 dark:bg-green-950/20">
+    <CardContent className="pt-6">
+      <div className="flex gap-3">
+        <Badge variant="success">Expansion</Badge>
+        <div className="flex-1">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">
+            Expand: <code>characters</code>, <code>planets</code>, <code>species</code>, <code>starships</code>, <code>vehicles</code>
+          </div>
+          <a href="/docs/core-concepts#expansion" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card className="border-blue-200 bg-blue-50/50 dark:border-blue-900 dark:bg-blue-950/20">
+    <CardContent className="pt-6">
+      <div className="flex gap-3">
+        <Badge variant="info">Sorting</Badge>
+        <div className="flex-1">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">
+            Sort by: <code>episode</code>, <code>release_year</code>, <code>title</code>
+          </div>
+          <a href="/docs/core-concepts#sorting" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>

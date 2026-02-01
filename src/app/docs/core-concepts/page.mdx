@@ -94,19 +94,13 @@ Control how many results you get per page and navigate through large datasets ef
 
 ### Basic Usage
 
-Get the first page with default limit (10 items):
+Default (first page, 10 items):
 
 ```bash
 GET https://sw-next-api.vercel.app/api/v1/people
 ```
 
-Get 20 items per page:
-
-```bash
-GET https://sw-next-api.vercel.app/api/v1/people?limit=20
-```
-
-Navigate to page 2:
+Navigate pages with custom limit:
 
 ```bash
 GET https://sw-next-api.vercel.app/api/v1/people?page=2&limit=20
@@ -118,26 +112,15 @@ Every paginated response includes metadata:
 
 ```json
 {
-  "page": 2,
-  "limit": 20,
-  "total": 82,
-  "pages": 5,
-  "results": [...]
+  "page": 2,           // Current page number
+  "limit": 20,         // Items per page
+  "total": 82,         // Total items across all pages
+  "pages": 5,          // Total number of pages
+  "results": [...]     // Array of items for current page
 }
 ```
 
-<Card className="mb-12 sm:mb-24">
-  <CardHeader>
-    <CardTitle className="text-lg">Response Fields</CardTitle>
-  </CardHeader>
-  <CardContent className="space-y-2 text-sm">
-    <div><code>page</code> - Current page number</div>
-    <div><code>limit</code> - Items per page</div>
-    <div><code>total</code> - Total items across all pages</div>
-    <div><code>pages</code> - Total number of pages</div>
-    <div><code>results</code> - Array of items for current page</div>
-  </CardContent>
-</Card>
+<div className="mb-12 sm:mb-24"></div>
 
 ---
 

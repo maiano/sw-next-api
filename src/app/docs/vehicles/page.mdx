@@ -1,0 +1,131 @@
+# Vehicles
+
+<div className="mb-12 sm:mb-16">
+  <div className="text-lg text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
+    Browse ground and atmospheric vehicles from the Star Wars universe with detailed specifications.
+  </div>
+</div>
+
+## Endpoints
+
+<div className="grid gap-6 md:grid-cols-2 mb-12 sm:mb-24">
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Get All Vehicles</CardTitle>
+      <CardDescription>Retrieve all vehicles</CardDescription>
+    </CardHeader>
+    <CardContent>
+      ```bash
+      GET https://sw-next-api.vercel.app/api/v1/vehicles
+      ```
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Get Single Vehicle</CardTitle>
+      <CardDescription>Get vehicle by ID or slug</CardDescription>
+    </CardHeader>
+    <CardContent>
+      ```bash
+      GET https://sw-next-api.vercel.app/api/v1/vehicles/14
+      GET https://sw-next-api.vercel.app/api/v1/vehicles/snowspeeder
+      ```
+    </CardContent>
+  </Card>
+</div>
+
+## Response Example
+
+```json
+{
+  "entityId": 14,
+  "id": "snowspeeder",
+  "name": "Snowspeeder",
+  "model": "t-47 airspeeder",
+  "manufacturer": "Incom corporation",
+  "costInCredits": null,
+  "length": 4.5,                     // Meters
+  "maxAtmospheringSpeed": 650,       // km/h
+  "crew": 2,
+  "passengers": 0,
+  "cargoCapacity": 10,               // Kilograms
+  "consumables": "none",
+  "vehicleClass": "airspeeder",
+  "pilots": [...],                   // Characters who piloted this
+  "films": [...]                     // Films featuring this vehicle
+}
+```
+
+## Common Queries
+
+<Tabs defaultValue="search" className="mb-12 sm:mb-24">
+  <TabsList>
+    <TabsTrigger value="search">Search</TabsTrigger>
+    <TabsTrigger value="class">By Class</TabsTrigger>
+    <TabsTrigger value="sort">Sort by Speed</TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="search">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Find vehicles by name
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/vehicles?search=speeder
+    ```
+  </TabsContent>
+
+  <TabsContent value="class">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Filter by vehicle class
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/vehicles?vehicleClass=airspeeder
+    ```
+  </TabsContent>
+
+  <TabsContent value="sort">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Sort by maximum speed
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/vehicles?sort=-maxAtmospheringSpeed
+    ```
+  </TabsContent>
+</Tabs>
+
+## Available Features
+
+<div className="grid gap-4 mb-12 sm:mb-16">
+  <Card className="border-green-200 bg-green-50/50 dark:border-green-900 dark:bg-green-950/20">
+    <CardContent className="pt-6">
+      <div className="flex gap-3">
+        <Badge variant="success">Expansion</Badge>
+        <div className="flex-1">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">
+            Expand: <code>pilots</code>, <code>films</code>
+          </div>
+          <a href="/docs/core-concepts#expansion" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card className="border-blue-200 bg-blue-50/50 dark:border-blue-900 dark:bg-blue-950/20">
+    <CardContent className="pt-6">
+      <div className="flex gap-3">
+        <Badge variant="info">Filtering</Badge>
+        <div className="flex-1">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">
+            Filter by: <code>vehicleClass</code>, <code>manufacturer</code>
+          </div>
+          <a href="/docs/core-concepts#filtering" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>

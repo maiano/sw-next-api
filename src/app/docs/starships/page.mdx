@@ -1,0 +1,134 @@
+# Starships
+
+<div className="mb-12 sm:mb-16">
+  <div className="text-lg text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
+    Explore starships and space vessels with detailed specifications and extended metadata about faction ownership and military classification.
+  </div>
+</div>
+
+## Endpoints
+
+<div className="grid gap-6 md:grid-cols-2 mb-12 sm:mb-24">
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Get All Starships</CardTitle>
+      <CardDescription>Retrieve all starships</CardDescription>
+    </CardHeader>
+    <CardContent>
+      ```bash
+      GET https://sw-next-api.vercel.app/api/v1/starships
+      ```
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Get Single Starship</CardTitle>
+      <CardDescription>Get starship by ID or slug</CardDescription>
+    </CardHeader>
+    <CardContent>
+      ```bash
+      GET https://sw-next-api.vercel.app/api/v1/starships/12
+      GET https://sw-next-api.vercel.app/api/v1/starships/x-wing
+      ```
+    </CardContent>
+  </Card>
+</div>
+
+## Response Example
+
+```json
+{
+  "entityId": 12,
+  "id": "x-wing",
+  "name": "X-wing",
+  "model": "T-65 X-wing",
+  "manufacturer": "Incom Corporation",
+  "costInCredits": 149999,
+  "length": 12.5,                    // Meters
+  "maxAtmospheringSpeed": 1050,      // km/h
+  "crew": 1,
+  "passengers": 0,
+  "cargoCapacity": 110,              // Kilograms
+  "consumables": "1 week",
+  "hyperdriveRating": 1.0,
+  "MGLT": 100,
+  "starshipClass": "Starfighter",
+  "pilots": [...],                   // Characters who piloted this
+  "films": [...],                    // Films featuring this starship
+  "meta": {
+    "is_military": true,             // Military classification
+    "faction": "rebels"              // Faction ownership
+  }
+}
+```
+
+## Common Queries
+
+<Tabs defaultValue="faction" className="mb-12 sm:mb-24">
+  <TabsList>
+    <TabsTrigger value="faction">By Faction</TabsTrigger>
+    <TabsTrigger value="military">Military Only</TabsTrigger>
+    <TabsTrigger value="class">By Class</TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="faction">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Find Imperial starships
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/starships?faction=empire
+    ```
+  </TabsContent>
+
+  <TabsContent value="military">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Get only military vessels
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/starships?is_military=true
+    ```
+  </TabsContent>
+
+  <TabsContent value="class">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Filter by starship class
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/starships?starshipClass=Starfighter
+    ```
+  </TabsContent>
+</Tabs>
+
+## Available Features
+
+<div className="grid gap-4 mb-12 sm:mb-16">
+  <Card className="border-green-200 bg-green-50/50 dark:border-green-900 dark:bg-green-950/20">
+    <CardContent className="pt-6">
+      <div className="flex gap-3">
+        <Badge variant="success">Expansion</Badge>
+        <div className="flex-1">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">
+            Expand: <code>pilots</code>, <code>films</code>
+          </div>
+          <a href="/docs/core-concepts#expansion" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card className="border-yellow-200 bg-yellow-50/50 dark:border-yellow-900 dark:bg-yellow-950/20">
+    <CardContent className="pt-6">
+      <div className="flex gap-3">
+        <Badge variant="warning">Extended Metadata</Badge>
+        <div className="flex-1">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">
+            Filter by: <code>is_military</code>, <code>faction</code> (empire, rebels, etc.)
+          </div>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>

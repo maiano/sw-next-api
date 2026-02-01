@@ -1,0 +1,129 @@
+# Planets
+
+<div className="mb-12 sm:mb-16">
+  <div className="text-lg text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
+    Explore planets and locations across the Star Wars galaxy with detailed environmental data and resident information.
+  </div>
+</div>
+
+## Endpoints
+
+<div className="grid gap-6 md:grid-cols-2 mb-12 sm:mb-24">
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Get All Planets</CardTitle>
+      <CardDescription>Retrieve all planets</CardDescription>
+    </CardHeader>
+    <CardContent>
+      ```bash
+      GET https://sw-next-api.vercel.app/api/v1/planets
+      ```
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Get Single Planet</CardTitle>
+      <CardDescription>Get planet by ID or slug</CardDescription>
+    </CardHeader>
+    <CardContent>
+      ```bash
+      GET https://sw-next-api.vercel.app/api/v1/planets/1
+      GET https://sw-next-api.vercel.app/api/v1/planets/tatooine
+      ```
+    </CardContent>
+  </Card>
+</div>
+
+## Response Example
+
+```json
+{
+  "entityId": 1,
+  "id": "tatooine",
+  "name": "Tatooine",
+  "rotationPeriod": 23,       // Hours per day
+  "orbitalPeriod": 304,       // Days per year
+  "diameter": 10465,          // Kilometers
+  "climate": "arid",
+  "gravity": "1 standard",
+  "terrain": "desert",
+  "surfaceWater": 1,          // Percentage
+  "population": 200000,
+  "residents": [...],         // People living here
+  "films": [...]              // Films featuring this planet
+}
+```
+
+## Common Queries
+
+<Tabs defaultValue="search" className="mb-12 sm:mb-24">
+  <TabsList>
+    <TabsTrigger value="search">Search</TabsTrigger>
+    <TabsTrigger value="sort">Sort</TabsTrigger>
+    <TabsTrigger value="expand">With Residents</TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="search">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Find planets by name
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/planets?search=tatooine
+    ```
+  </TabsContent>
+
+  <TabsContent value="sort">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Sort by population
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/planets?sort=-population
+    ```
+  </TabsContent>
+
+  <TabsContent value="expand">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Get planet with full resident data
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/planets/1?expand=residents
+    ```
+  </TabsContent>
+</Tabs>
+
+## Available Features
+
+<div className="grid gap-4 mb-12 sm:mb-16">
+  <Card className="border-green-200 bg-green-50/50 dark:border-green-900 dark:bg-green-950/20">
+    <CardContent className="pt-6">
+      <div className="flex gap-3">
+        <Badge variant="success">Expansion</Badge>
+        <div className="flex-1">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">
+            Expand: <code>residents</code>, <code>films</code>
+          </div>
+          <a href="/docs/core-concepts#expansion" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card className="border-blue-200 bg-blue-50/50 dark:border-blue-900 dark:bg-blue-950/20">
+    <CardContent className="pt-6">
+      <div className="flex gap-3">
+        <Badge variant="info">Filtering</Badge>
+        <div className="flex-1">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">
+            Filter by: <code>climate</code>, <code>terrain</code>, or search by <code>name</code>
+          </div>
+          <a href="/docs/core-concepts#filtering" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>

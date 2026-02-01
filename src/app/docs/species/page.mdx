@@ -1,0 +1,130 @@
+# Species
+
+<div className="mb-12 sm:mb-16">
+  <div className="text-lg text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
+    Discover the diverse species and alien races of the Star Wars universe with their characteristics and origins.
+  </div>
+</div>
+
+## Endpoints
+
+<div className="grid gap-6 md:grid-cols-2 mb-12 sm:mb-24">
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Get All Species</CardTitle>
+      <CardDescription>Retrieve all species</CardDescription>
+    </CardHeader>
+    <CardContent>
+      ```bash
+      GET https://sw-next-api.vercel.app/api/v1/species
+      ```
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Get Single Species</CardTitle>
+      <CardDescription>Get species by ID or slug</CardDescription>
+    </CardHeader>
+    <CardContent>
+      ```bash
+      GET https://sw-next-api.vercel.app/api/v1/species/1
+      GET https://sw-next-api.vercel.app/api/v1/species/human
+      ```
+    </CardContent>
+  </Card>
+</div>
+
+## Response Example
+
+```json
+{
+  "entityId": 1,
+  "id": "human",
+  "name": "Human",
+  "classification": "mammal",
+  "designation": "sentient",
+  "averageHeight": 180,       // Centimeters
+  "skinColors": "caucasian, black, asian, hispanic",
+  "hairColors": "blonde, brown, black, red",
+  "eyeColors": "brown, blue, green, hazel, grey, amber",
+  "averageLifespan": 120,     // Years
+  "language": "Galactic Basic",
+  "homeworld": {...},         // Origin planet (if known)
+  "people": [...],            // Members of this species
+  "films": [...]              // Films featuring this species
+}
+```
+
+## Common Queries
+
+<Tabs defaultValue="search" className="mb-12 sm:mb-24">
+  <TabsList>
+    <TabsTrigger value="search">Search</TabsTrigger>
+    <TabsTrigger value="filter">Filter</TabsTrigger>
+    <TabsTrigger value="expand">With People</TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="search">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Find species by name
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/species?search=wookiee
+    ```
+  </TabsContent>
+
+  <TabsContent value="filter">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Filter by classification
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/species?classification=mammal
+    ```
+  </TabsContent>
+
+  <TabsContent value="expand">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Get species with all members
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/species/1?expand=people
+    ```
+  </TabsContent>
+</Tabs>
+
+## Available Features
+
+<div className="grid gap-4 mb-12 sm:mb-16">
+  <Card className="border-green-200 bg-green-50/50 dark:border-green-900 dark:bg-green-950/20">
+    <CardContent className="pt-6">
+      <div className="flex gap-3">
+        <Badge variant="success">Expansion</Badge>
+        <div className="flex-1">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">
+            Expand: <code>homeworld</code>, <code>people</code>, <code>films</code>
+          </div>
+          <a href="/docs/core-concepts#expansion" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card className="border-blue-200 bg-blue-50/50 dark:border-blue-900 dark:bg-blue-950/20">
+    <CardContent className="pt-6">
+      <div className="flex gap-3">
+        <Badge variant="info">Filtering</Badge>
+        <div className="flex-1">
+          <div className="text-sm text-zinc-700 dark:text-zinc-300">
+            Filter by: <code>classification</code>, <code>designation</code>
+          </div>
+          <a href="/docs/core-concepts#filtering" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>
