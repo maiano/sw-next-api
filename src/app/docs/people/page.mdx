@@ -1,0 +1,238 @@
+# People
+
+The People resource represents characters from the Star Wars universe. This endpoint provides detailed information about individuals, including their physical characteristics, homeworld, species, and extended metadata about their Force abilities and faction allegiances.
+
+## Base URL
+
+```
+https://sw-next-api.vercel.app
+```
+
+## Endpoints
+
+### Get All People
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people
+```
+
+Returns a paginated list of all people.
+
+**Response:**
+
+```json
+{
+  "page": 1,
+  "limit": 10,
+  "total": 82,
+  "pages": 9,
+  "results": [
+    {
+      "entityId": 1,
+      "id": "luke-skywalker",
+      "name": "Luke Skywalker",
+      "heightCm": 172,
+      "massKg": 77,
+      "birthYearBBY": -19,
+      "gender": "male",
+      "homeworld": {
+        "entityId": 1,
+        "id": "tatooine",
+        "name": "Tatooine"
+      },
+      "films": [
+        {
+          "entityId": 1,
+          "id": "a-new-hope",
+          "title": "A New Hope",
+          "episode": 4
+        }
+      ],
+      "species": [],
+      "vehicles": [
+        {
+          "entityId": 14,
+          "id": "snowspeeder",
+          "name": "Snowspeeder"
+        }
+      ],
+      "starships": [
+        {
+          "entityId": 12,
+          "id": "x-wing",
+          "name": "X-wing"
+        }
+      ],
+      "meta": {
+        "isForceUser": true,
+        "isJedi": true,
+        "isSith": false,
+        "faction": "rebels"
+      }
+    }
+  ]
+}
+```
+
+### Get Single Person
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people/luke-skywalker
+```
+
+Returns a single person by ID.
+
+### Expand Relations
+
+Fetch related data in a single request:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people/luke-skywalker?expand=homeworld,films,species
+```
+
+This will include full data for homeworld, films, and species instead of just minimal projections.
+
+## TypeScript Types
+
+### PersonResponse
+
+```typescript
+type PersonResponse = {
+  entityId: number;              // Numeric entity identifier
+  id: string;                    // Unique slug identifier
+  name: string;                  // Character name
+
+  heightCm: number | null;       // Height in centimeters
+  massKg: number | null;         // Weight in kilograms
+  birthYearBBY: number | null;   // Birth year (negative = BBY, positive = ABY)
+  gender: string;                // "male" | "female" | "hermaphroditic" | "none" | "n/a"
+
+  homeworld: PlanetMinimal | null;  // Reference to home planet
+  films: FilmMinimal[];             // Films the character appeared in
+  species: SpeciesMinimal[];        // Species the character belongs to
+  vehicles: VehicleMinimal[];       // Vehicles piloted
+  starships: StarshipMinimal[];     // Starships piloted
+
+  meta: PersonMeta;              // Extended metadata
+};
+```
+
+### PersonMeta
+
+```typescript
+type PersonMeta = {
+  isForceUser: boolean;  // Can use the Force
+  isJedi: boolean;       // Member of the Jedi Order
+  isSith: boolean;       // Member of the Sith
+  faction: Faction;      // Political allegiance
+};
+
+type Faction =
+  | "rebels"
+  | "empire"
+  | "republic"
+  | "separatists"
+  | "civilian"
+  | "unknown";
+```
+
+### Minimal Projections
+
+```typescript
+type PlanetMinimal = {
+  entityId: number;
+  id: string;
+  name: string;
+};
+
+type FilmMinimal = {
+  entityId: number;
+  id: string;
+  title: string;
+  episode: number;
+};
+
+type VehicleMinimal = {
+  entityId: number;
+  id: string;
+  name: string;
+};
+
+type StarshipMinimal = {
+  entityId: number;
+  id: string;
+  name: string;
+};
+
+type SpeciesMinimal = {
+  entityId: number;
+  id: string;
+  name: string;
+};
+```
+
+## Filtering
+
+Filter people by various criteria:
+
+### By Gender
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?gender=female
+```
+
+### By Force Abilities
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?isForceUser=true
+GET https://sw-next-api.vercel.app/api/v1/people?isJedi=true
+GET https://sw-next-api.vercel.app/api/v1/people?isSith=true
+```
+
+### By Faction
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?faction=rebels
+GET https://sw-next-api.vercel.app/api/v1/people?faction=empire
+```
+
+### Combined Filters
+
+You can combine multiple filters:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?isJedi=true&faction=rebels&expand=homeworld
+```
+
+This returns all Rebel Jedi with their homeworld data expanded.
+
+## Sorting
+
+Sort people by any field:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?sort=name
+GET https://sw-next-api.vercel.app/api/v1/people?sort=-heightCm
+```
+
+Use `-` prefix for descending order.
+
+## Pagination
+
+Control pagination with `page` and `limit`:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?page=1&limit=20
+```
+
+Default limit is 10. Maximum is 100.
+
+## Example: Finding All Jedi
+
+Here's a complete example combining filtering, expansion, and sorting:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?isJedi=true&expand=homeworld,species&sort=name&limit=10
+```
+
+This returns all Jedi, sorted alphabetically, with their homeworld and species data fully expanded, 10 results per page.

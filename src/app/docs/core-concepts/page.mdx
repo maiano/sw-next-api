@@ -1,0 +1,372 @@
+# Core Concepts
+
+<div className="mb-12 sm:mb-16">
+  <div className="text-lg text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
+    Master the essential features that make this API flexible and powerful. All concepts work together and can be combined in a single request.
+  </div>
+</div>
+
+## Quick Navigation
+
+<div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 mb-12 sm:mb-24">
+  <Card>
+    <CardContent className="pt-6">
+      <a href="#pagination" className="block">
+        <div className="text-sm font-medium text-zinc-950 dark:text-zinc-50 mb-1">
+          Pagination
+        </div>
+        <div className="text-sm text-zinc-600 dark:text-zinc-400">
+          Navigate through large datasets
+        </div>
+      </a>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="pt-6">
+      <a href="#expansion" className="block">
+        <div className="text-sm font-medium text-zinc-950 dark:text-zinc-50 mb-1">
+          Expansion
+        </div>
+        <div className="text-sm text-zinc-600 dark:text-zinc-400">
+          Include related data in one request
+        </div>
+      </a>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="pt-6">
+      <a href="#filtering" className="block">
+        <div className="text-sm font-medium text-zinc-950 dark:text-zinc-50 mb-1">
+          Filtering
+        </div>
+        <div className="text-sm text-zinc-600 dark:text-zinc-400">
+          Find exactly what you need
+        </div>
+      </a>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="pt-6">
+      <a href="#sorting" className="block">
+        <div className="text-sm font-medium text-zinc-950 dark:text-zinc-50 mb-1">
+          Sorting
+        </div>
+        <div className="text-sm text-zinc-600 dark:text-zinc-400">
+          Order results your way
+        </div>
+      </a>
+    </CardContent>
+  </Card>
+</div>
+
+---
+
+<div id="pagination"></div>
+
+## Pagination
+
+Control how many results you get per page and navigate through large datasets efficiently.
+
+### Parameters
+
+<div className="grid gap-4 md:grid-cols-2 mb-8">
+  <Card>
+    <CardContent className="pt-6">
+      <code className="text-sm font-medium text-zinc-950 dark:text-zinc-50">page</code>
+      <div className="text-sm text-zinc-600 dark:text-zinc-400 mt-2">
+        Current page number (default: 1, min: 1)
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="pt-6">
+      <code className="text-sm font-medium text-zinc-950 dark:text-zinc-50">limit</code>
+      <div className="text-sm text-zinc-600 dark:text-zinc-400 mt-2">
+        Items per page (default: 10, min: 1, max: 100)
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+### Basic Usage
+
+Get the first page with default limit (10 items):
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people
+```
+
+Get 20 items per page:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?limit=20
+```
+
+Navigate to page 2:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?page=2&limit=20
+```
+
+### Response Format
+
+Every paginated response includes metadata:
+
+```json
+{
+  "page": 2,
+  "limit": 20,
+  "total": 82,
+  "pages": 5,
+  "results": [...]
+}
+```
+
+<Card className="mb-12 sm:mb-24">
+  <CardHeader>
+    <CardTitle className="text-lg">Response Fields</CardTitle>
+  </CardHeader>
+  <CardContent className="space-y-2 text-sm">
+    <div><code>page</code> - Current page number</div>
+    <div><code>limit</code> - Items per page</div>
+    <div><code>total</code> - Total items across all pages</div>
+    <div><code>pages</code> - Total number of pages</div>
+    <div><code>results</code> - Array of items for current page</div>
+  </CardContent>
+</Card>
+
+---
+
+<div id="expansion"></div>
+
+## Expansion
+
+Include related data in a single request instead of making multiple requests. Maximum depth: 2 levels.
+
+### Basic Expansion
+
+Expand one relation:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people/1?expand=homeworld
+```
+
+Expand multiple relations:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people/1?expand=homeworld,films
+```
+
+### Nested Expansion
+
+Expand relations of relations (up to 2 levels deep):
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people/1?expand=films.characters
+```
+
+This expands films, and within each film, expands the characters array.
+
+### Available Expansions by Resource
+
+<div className="grid gap-6 md:grid-cols-2 mb-12 sm:mb-24">
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">People</CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-2 text-sm">
+      <div><code>homeworld</code> - Home planet</div>
+      <div><code>films</code> - Films appeared in</div>
+      <div><code>species</code> - Species</div>
+      <div><code>vehicles</code> - Vehicles piloted</div>
+      <div><code>starships</code> - Starships piloted</div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Films</CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-2 text-sm">
+      <div><code>characters</code> - Characters in film</div>
+      <div><code>planets</code> - Planets featured</div>
+      <div><code>species</code> - Species featured</div>
+      <div><code>vehicles</code> - Vehicles featured</div>
+      <div><code>starships</code> - Starships featured</div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Planets</CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-2 text-sm">
+      <div><code>residents</code> - Planet residents</div>
+      <div><code>films</code> - Films featured in</div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Species</CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-2 text-sm">
+      <div><code>homeworld</code> - Homeworld planet</div>
+      <div><code>people</code> - Members of species</div>
+      <div><code>films</code> - Films featured in</div>
+    </CardContent>
+  </Card>
+</div>
+
+---
+
+<div id="filtering"></div>
+
+## Filtering
+
+Filter results by any field to find exactly what you need.
+
+### Search by Name
+
+Search across name/title fields:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?search=skywalker
+```
+
+### Filter by Standard Fields
+
+Filter by any field in the response:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?gender=female
+```
+
+### Filter by Metadata
+
+Use custom metadata fields for advanced filtering:
+
+**People metadata:**
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?isJedi=true
+GET https://sw-next-api.vercel.app/api/v1/people?isForceUser=true
+GET https://sw-next-api.vercel.app/api/v1/people?faction=rebels
+```
+
+**Starships metadata:**
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/starships?is_military=true
+GET https://sw-next-api.vercel.app/api/v1/starships?faction=empire
+```
+
+### Combine Multiple Filters
+
+All filters work together:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?gender=female&faction=rebels&isForceUser=true
+```
+
+<Card className="mb-12 sm:mb-24 border-blue-200 bg-blue-50/50 dark:border-blue-900 dark:bg-blue-950/20">
+  <CardContent className="pt-6">
+    <div className="flex gap-3">
+      <Badge variant="info">Tip</Badge>
+      <div className="flex-1">
+        <div className="text-sm text-zinc-700 dark:text-zinc-300">
+          Filters are case-insensitive and work with partial matches for text fields. Boolean filters (isJedi, isForceUser) accept "true" or "false".
+        </div>
+      </div>
+    </div>
+  </CardContent>
+</Card>
+
+---
+
+<div id="sorting"></div>
+
+## Sorting
+
+Sort results by any field in ascending or descending order.
+
+### Ascending Order
+
+Sort alphabetically or numerically:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?sort=name
+GET https://sw-next-api.vercel.app/api/v1/people?sort=heightCm
+```
+
+### Descending Order
+
+Use `-` prefix for reverse order:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?sort=-name
+GET https://sw-next-api.vercel.app/api/v1/people?sort=-heightCm
+```
+
+### Common Sort Examples
+
+<div className="grid gap-6 md:grid-cols-2 mb-12 sm:mb-24">
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">People</CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-2 text-sm">
+      <div><code>sort=name</code> - Alphabetical A-Z</div>
+      <div><code>sort=-name</code> - Alphabetical Z-A</div>
+      <div><code>sort=heightCm</code> - Shortest first</div>
+      <div><code>sort=-heightCm</code> - Tallest first</div>
+      <div><code>sort=birthYearBBY</code> - Oldest first</div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Films</CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-2 text-sm">
+      <div><code>sort=episode</code> - Episode order</div>
+      <div><code>sort=-episode</code> - Reverse episode</div>
+      <div><code>sort=release_year</code> - Release order</div>
+      <div><code>sort=title</code> - Alphabetical</div>
+    </CardContent>
+  </Card>
+</div>
+
+---
+
+## Combining Everything
+
+The real power comes from combining all these features in a single request:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?search=skywalker&isJedi=true&sort=name&page=1&limit=5&expand=homeworld,films
+```
+
+This request:
+- 🔍 Searches for "skywalker"
+- ✅ Filters for Jedi only
+- ⬆️ Sorts alphabetically by name
+- 📄 Returns 5 results on page 1
+- 🚀 Expands homeworld and films data
+
+<Card className="mb-12 sm:mb-16 border-green-200 bg-green-50/50 dark:border-green-900 dark:bg-green-950/20">
+  <CardContent className="pt-6">
+    <div className="flex gap-3">
+      <Badge variant="success">Best Practice</Badge>
+      <div className="flex-1">
+        <div className="text-sm text-zinc-700 dark:text-zinc-300">
+          Start simple and add complexity as needed. Begin with basic pagination, then add filtering, sorting, and expansion only when your UI requires it.
+        </div>
+      </div>
+    </div>
+  </CardContent>
+</Card>

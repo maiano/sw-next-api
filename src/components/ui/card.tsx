@@ -40,9 +40,9 @@ export function CardTitle({
 export function CardDescription({
   className,
   ...props
-}: HTMLAttributes<HTMLParagraphElement>) {
+}: HTMLAttributes<HTMLDivElement>) {
   return (
-    <p
+    <div
       className={cn("text-sm text-zinc-500 dark:text-zinc-400", className)}
       {...props}
     />

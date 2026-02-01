@@ -1,0 +1,205 @@
+# Introduction
+
+<div className="mb-12 sm:mb-16">
+  <div className="text-lg text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
+    Welcome to the Star Wars API documentation! This API demonstrates the **Backend for Frontend (BFF)** pattern, making it easy to build Star Wars-themed applications without multiple waterfall requests.
+  </div>
+</div>
+
+## Documentation Structure
+
+<div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 mb-12 sm:mb-24">
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Getting Started</CardTitle>
+      <CardDescription>Essential concepts to begin using the API</CardDescription>
+    </CardHeader>
+    <CardContent className="space-y-2">
+      <a href="/docs/base-url" className="block text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400">
+        → Base URL
+      </a>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Resources</CardTitle>
+      <CardDescription>Available data entities</CardDescription>
+    </CardHeader>
+    <CardContent className="space-y-2 text-sm">
+      <a href="/docs/people" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ People</a>
+      <a href="/docs/films" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ Films</a>
+      <a href="/docs/planets" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ Planets</a>
+      <a href="/docs/species" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ Species</a>
+      <a href="/docs/starships" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ Starships</a>
+      <a href="/docs/vehicles" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ Vehicles</a>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Core Concepts</CardTitle>
+      <CardDescription>Master API features</CardDescription>
+    </CardHeader>
+    <CardContent className="space-y-2 text-sm">
+      <a href="/docs/core-concepts" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ Overview</a>
+      <a href="/docs/core-concepts#pagination" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ Pagination</a>
+      <a href="/docs/core-concepts#expansion" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ Expansion</a>
+      <a href="/docs/core-concepts#filtering" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ Filtering</a>
+      <a href="/docs/core-concepts#sorting" className="block text-blue-600 hover:text-blue-700 dark:text-blue-400">→ Sorting</a>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">Advanced</CardTitle>
+      <CardDescription>Deep dive into technical details</CardDescription>
+    </CardHeader>
+    <CardContent className="space-y-2 text-sm text-zinc-400">
+      <span className="block">TypeScript Types (coming soon)</span>
+      <span className="block">Zod Validation (coming soon)</span>
+    </CardContent>
+  </Card>
+</div>
+
+## Quick Example
+
+Get all Jedi with their homeworlds in a single request:
+
+```bash
+GET https://sw-next-api.vercel.app/api/v1/people?isJedi=true&expand=homeworld
+```
+
+<Card className="mb-12 sm:mb-24">
+  <CardHeader>
+    <CardTitle className="text-lg">Response Structure</CardTitle>
+    <CardDescription>All list endpoints return paginated responses</CardDescription>
+  </CardHeader>
+  <CardContent>
+    ```json
+    {
+      "page": 1,
+      "limit": 10,
+      "total": 15,
+      "pages": 2,
+      "results": [
+        {
+          "entityId": 1,
+          "id": "luke-skywalker",
+          "name": "Luke Skywalker",
+          "homeworld": {
+            "entityId": 1,
+            "id": "tatooine",
+            "name": "Tatooine",
+            "climate": "arid",
+            "terrain": "desert"
+          },
+          "meta": {
+            "isJedi": true,
+            "faction": "rebels"
+          }
+        }
+      ]
+    }
+    ```
+  </CardContent>
+</Card>
+
+## Key Features
+
+<div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mb-12 sm:mb-24">
+  <Card>
+    <CardContent className="pt-6">
+      <div className="flex items-start gap-3">
+        <Badge variant="success">Expand</Badge>
+        <div className="flex-1">
+          <div className="text-sm font-medium text-zinc-950 dark:text-zinc-50 mb-1">
+            Controlled Expansion
+          </div>
+          <div className="text-sm text-zinc-600 dark:text-zinc-400">
+            Request related data in a single call. Supports nested expansion up to 2 levels deep.
+          </div>
+          <a href="/docs/core-concepts#expansion" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="pt-6">
+      <div className="flex items-start gap-3">
+        <Badge variant="info">Filter</Badge>
+        <div className="flex-1">
+          <div className="text-sm font-medium text-zinc-950 dark:text-zinc-50 mb-1">
+            Advanced Filtering
+          </div>
+          <div className="text-sm text-zinc-600 dark:text-zinc-400">
+            Filter by any field including custom metadata like Force abilities and faction allegiance.
+          </div>
+          <a href="/docs/core-concepts#filtering" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardContent className="pt-6">
+      <div className="flex items-start gap-3">
+        <Badge variant="warning">Sort</Badge>
+        <div className="flex-1">
+          <div className="text-sm font-medium text-zinc-950 dark:text-zinc-50 mb-1">
+            Flexible Sorting
+          </div>
+          <div className="text-sm text-zinc-600 dark:text-zinc-400">
+            Sort results by any field in ascending or descending order.
+          </div>
+          <a href="/docs/core-concepts#sorting" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 mt-2 inline-block">
+            Learn more →
+          </a>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+## Common Use Cases
+
+<Tabs defaultValue="jedi" className="mb-12 sm:mb-16">
+  <TabsList>
+    <TabsTrigger value="jedi">Find Jedi</TabsTrigger>
+    <TabsTrigger value="ships">Imperial Ships</TabsTrigger>
+    <TabsTrigger value="planet">Planet Residents</TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="jedi">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Get all Jedi characters sorted alphabetically with their homeworld data
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/people?isJedi=true&sort=name&expand=homeworld
+    ```
+  </TabsContent>
+
+  <TabsContent value="ships">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Find all Imperial military starships
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/starships?faction=empire&is_military=true
+    ```
+  </TabsContent>
+
+  <TabsContent value="planet">
+    <div className="text-sm text-zinc-600 dark:text-zinc-400 mb-4">
+      Get a planet with all its residents expanded
+    </div>
+    ```bash
+    GET https://sw-next-api.vercel.app/api/v1/planets/1?expand=residents
+    ```
+  </TabsContent>
+</Tabs>
+

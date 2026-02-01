@@ -46,10 +46,10 @@ export function CodeBlock({
         className,
       )}
     >
-      {title && (
+      {(title || (showCopyButtons && isHttpRequest)) && (
         <div className="flex items-center justify-between border-b border-zinc-200 bg-zinc-50 px-3 py-2 dark:border-zinc-800 dark:bg-zinc-900">
           <span className="text-xs font-medium text-zinc-700 dark:text-zinc-300 sm:text-sm">
-            {title}
+            {title || "Request"}
           </span>
           {showCopyButtons && isHttpRequest && (
             <div className="flex gap-2">
