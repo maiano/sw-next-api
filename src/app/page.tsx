@@ -22,7 +22,7 @@ export default function Home() {
             <Badge variant="info">BFF Edition</Badge>
           </div>
           <a
-            href="https://github.com/maiano/sw-api"
+            href="https://github.com/maiano/sw-next-api"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-900"
