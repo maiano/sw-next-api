@@ -216,13 +216,16 @@ GET /films/3            # Return of the Jedi
               <CardContent>
                 <CodeBlock
                   language="bash"
-                  code={`GET https://sw-next-api.vercel.app/api/v1/people/1?expand=homeworld,films
-
-# 1 request, all data included
-# - Character details
-# - Homeworld data
-# - All films with full info`}
+                  code="GET https://sw-next-api.vercel.app/api/v1/people/1?expand=homeworld,films"
                 />
+                <div className="mt-3 rounded-lg bg-green-50 p-3 text-sm text-zinc-700 dark:bg-green-950/20 dark:text-zinc-300">
+                  <p className="mb-1 font-medium">1 request includes:</p>
+                  <ul className="list-inside list-disc space-y-0.5 text-xs sm:text-sm">
+                    <li>Character details</li>
+                    <li>Homeworld data</li>
+                    <li>All films with full info</li>
+                  </ul>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -753,9 +756,11 @@ GET https://sw-next-api.vercel.app/api/v1/people?faction=rebels`}
                 </div>
                 <CodeBlock
                   language="bash"
-                  code={`# Find Imperial military ships
-GET /api/v1/starships?faction=empire&is_military=true`}
+                  code="GET https://sw-next-api.vercel.app/api/v1/starships?faction=empire&is_military=true"
                 />
+                <div className="mt-3 rounded-lg bg-yellow-50 p-3 text-sm text-zinc-700 dark:bg-yellow-950/20 dark:text-zinc-300">
+                  <p className="font-medium">Find Imperial military ships</p>
+                </div>
               </CardContent>
             </Card>
           </div>
